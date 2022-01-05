@@ -1,6 +1,6 @@
     <mat-card>
       <mat-card-header style="background-color: #26c6da;">
-        <mat-card-title>Question?</mat-card-title>
+        <mat-card-title>{{deviceName}} - Question {{question?.step}}?</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <p>
@@ -10,7 +10,8 @@
       <img mat-card-image  *ngIf="isNull(question?.image)" src="assets/images/device/{{ question.image }}.jpg">
       <mat-card-actions align="end" style="padding-bottom: 10px;padding-right: 10px;">
         <button mat-raised-button *ngIf="question?.step !== 1" style="background-color: #26c6da;"(click)="backClicked()">BACK</button>
-        <button mat-raised-button style="background-color: #26c6da;" (click)="yesClicked()">YES</button>
-        <button mat-raised-button style="background-color: #26c6da;"(click)="noClicked()">NO</button>
+        <button mat-raised-button *ngIf="visibleSubmit" style="background-color: #26c6da;"(click)="post()">SUBMIT</button>
+        <button mat-raised-button  *ngIf="!visibleSubmit" style="background-color: #26c6da;" (click)="yesClicked()">YES</button>
+        <button mat-raised-button  *ngIf="!visibleSubmit" style="background-color: #26c6da;"(click)="noClicked()">NO</button>
       </mat-card-actions>
     </mat-card>

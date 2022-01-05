@@ -1,5 +1,5 @@
 export interface DeviceInterrogation {
-    device: string;
+    deviceName: string;
     questions: Question[];
 }
 
@@ -24,5 +24,6 @@ export interface Question {
     image:string;
     yes: Yes;
     no: No;
+    submitIsVisible:boolean
 }
 

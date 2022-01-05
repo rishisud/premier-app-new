@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 import { FullComponent } from '../layouts/full/full.component';
 import { DashboardComponent } from './dashboard.component';
 import { DeviceInterrogationComponent } from './device-interrogation/device-interrogation.component';
@@ -8,10 +9,9 @@ import { ScannerComponent } from './scanner/scanner.component';
 import { VideoCallComponent } from './video-call/video-call.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: FullComponent,
-    children: [
+
+      { path: '', component: LoginComponent },
+      { path: 'login', component: LoginComponent },
       {
         path: 'dashboard',
         component: DashboardComponent
@@ -31,7 +31,6 @@ const routes: Routes = [
       {
         path: 'device-interrogation/:device',
         component: DeviceInterrogationComponent
-      }]
   }];
 
 @NgModule({

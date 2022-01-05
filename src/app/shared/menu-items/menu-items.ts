@@ -12,9 +12,13 @@ const MENUITEMS = [
   { state: 'device', name: 'Device', type: 'link', icon: 'devices' }
 ];
 
+const LOGINMENUITEMS = [
+  { state: 'login', name: 'Login', type: 'link', icon: 'login' },
+];
+
 @Injectable()
 export class MenuItems {
-  getMenuitem(): Menu[] {
-    return MENUITEMS;
+  getMenuitem(login:boolean): Menu[] {
+    return login ?MENUITEMS:LOGINMENUITEMS;
   }
 }

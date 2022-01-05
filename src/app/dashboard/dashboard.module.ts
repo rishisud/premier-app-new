@@ -10,6 +10,8 @@ import { VideoCallComponent } from './video-call/video-call.component';
 import { DeviceInterrogationComponent } from './device-interrogation/device-interrogation.component';
 import { DeviceComponent } from './device/device.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from '../shared/shared.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports: [
@@ -17,8 +19,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MaterialModule,
     FlexLayoutModule,
     FormsModule,
-    DashboardRoutes
+    DashboardRoutes,
+    SharedModule
   ],
-  declarations: [DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent]
+  declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent]
 })
 export class DashboardModule {}

@@ -22,10 +22,10 @@ import { DashboardModule } from './dashboard/dashboard.module';
 @NgModule({
   declarations: [
     AppComponent,
-    FullComponent,
     AppHeaderComponent,
     SpinnerComponent,
-    AppSidebarComponent
+    AppSidebarComponent,
+    FullComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +36,6 @@ import { DashboardModule } from './dashboard/dashboard.module';
     SharedModule,
     FormsModule,
     ReactiveFormsModule,
-    DashboardModule,
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [
