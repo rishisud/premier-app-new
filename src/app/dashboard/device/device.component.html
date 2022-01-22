@@ -3,6 +3,10 @@
       <mat-card-title>Select Device</mat-card-title>
     </mat-card-header>
     <mat-card-content>
+      <mat-form-field appearance="fill">
+        <mat-label>Request Id</mat-label>
+        <input matInput [(ngModel)]="requestId">
+      </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Device</mat-label>
             <mat-select [(ngModel)]="selectedValue" name="device"  (selectionChange)="selectDevice($event)">

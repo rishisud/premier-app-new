@@ -29,7 +29,7 @@ const routes: Routes = [
         component: VideoCallComponent
       },
       {
-        path: 'device-interrogation/:device',
+        path: 'device-interrogation/:device/:requestid',
         component: DeviceInterrogationComponent
   }];
 

@@ -3,7 +3,7 @@ import { HttpClient } from "@angular/common/http";
 import { DeviceInterrogation, Question } from 'src/app/model/device-interrogation.model';
 import * as internal from 'stream';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Answer } from 'src/app/model/device-interrogation.submit.model';
+import { Answer, DeviceInterrogationSubmit } from 'src/app/model/device-interrogation.submit.model';
 @Component({
   selector: 'app-device-interrogation',
   templateUrl: './device-interrogation.component.html',
@@ -16,11 +16,13 @@ export class DeviceInterrogationComponent implements OnInit {
   answers = new Array<Answer>();
   question: any;
   visibleSubmit = false;
+  requestId: any;
   constructor(private httpClient: HttpClient, private _router: ActivatedRoute) { }
 
   ngOnInit(): void {
     this._router.paramMap.subscribe(params=>{
-          this.device=params.get('device')
+          this.device=params.get('device');
+          this.requestId=params.get('requestid')
     })
 
     this.httpClient.get<DeviceInterrogation>('assets/json/'+this.device+'.json').subscribe(data =>{
@@ -31,7 +33,7 @@ export class DeviceInterrogationComponent implements OnInit {
   }
 
   post():void{
-
+    const postData = new DeviceInterrogationSubmit(this.requestId,this.device,this.answers);
   }
   yesClicked():void{
     this.createAnswers( this.question, 'yes');

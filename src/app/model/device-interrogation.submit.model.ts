@@ -1,6 +1,13 @@
-export interface DeviceInterrogationSubmit {
+export class DeviceInterrogationSubmit {
+    requestId: string;
     device: string;
-    questions: Answer[];
+    answers: Answer[];
+
+    constructor(requestid: string, device:string, answer:Answer[]) {
+        this.requestId = requestid;
+        this.device = device;
+        this.answers = answer;
+      }
 }
 
 export class Answer {

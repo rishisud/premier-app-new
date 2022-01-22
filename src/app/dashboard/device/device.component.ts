@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 })
 export class DeviceComponent implements OnInit {
   selectedValue: string = '0';
-
+  requestId!: string;
   devices: Device[] = [
     {value: 'None', viewValue: 'None'},
     {value: 'ECGBPL610', viewValue: 'ECG BPL 610'},
@@ -19,7 +19,7 @@ export class DeviceComponent implements OnInit {
   }
 
   selectDevice($event:any,){
-    this._router.navigate(['/device-interrogation',this.selectedValue]);
+    this._router.navigate(['/device-interrogation',this.selectedValue,this.requestId]);
   }
 
 }
