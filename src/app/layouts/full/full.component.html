@@ -4,12 +4,12 @@
             <mat-icon>menu</mat-icon>
         </button>
         <span fxFlex></span>
-        <app-header *ngIf="routerlinkCheck()"></app-header>
+        <app-header *ngIf="loggedInSuccess"></app-header>
     </mat-toolbar>
 
     <mat-sidenav-container  class="full-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 0 : 0">
         <mat-sidenav  #snav id="snav" class="dark-sidebar pl-xs" [mode]="mobileQuery.matches ? 'side' : 'over'" fixedTopGap="0" [opened]="mobileQuery.matches" [disableClose]="mobileQuery.matches"  >
-                <app-sidebar [login]="routerlinkCheck()"></app-sidebar>  
+                <app-sidebar [login]="loggedInSuccess"></app-sidebar>  
         </mat-sidenav>
         <mat-sidenav-content class="page-wrapper">
                  

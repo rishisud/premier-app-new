@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -16,7 +16,7 @@ export class AuthenticationService {
 
   private currentUserSubject: BehaviorSubject<User>;
   public currentUser: Observable<User>;
-  
+  @Output() userIsLoggedIn: EventEmitter<any> = new EventEmitter<any>(); 
   constructor(private http: HttpClient) { 
 	this.currentUserSubject = new BehaviorSubject<User>(JSON.parse(JSON.stringify(sessionStorage.getItem('currentUser'))));
     this.currentUser = this.currentUserSubject.asObservable();
@@ -38,6 +38,7 @@ export class AuthenticationService {
         if(res.token){
           sessionStorage.setItem('token', res.token);
         }
+        this.userIsLoggedIn.emit(true);
         return res;
       }));
   }
@@ -75,4 +76,8 @@ export class AuthenticationService {
     sessionStorage.removeItem('isLoggedin');
     //this.currentUserSubject.next(null);
   }
+
+  IsLoggedIn() { 
+    return this.userIsLoggedIn; 
+  } 
 }
