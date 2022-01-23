@@ -4,6 +4,8 @@ import { DeviceInterrogation, Question } from 'src/app/model/device-interrogatio
 import * as internal from 'stream';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Answer, DeviceInterrogationSubmit } from 'src/app/model/device-interrogation.submit.model';
+import { DeviceInterrogationService } from 'src/app/services/device-interrogation.service';
+import { first } from 'rxjs/operators';
 @Component({
   selector: 'app-device-interrogation',
   templateUrl: './device-interrogation.component.html',
@@ -17,7 +19,7 @@ export class DeviceInterrogationComponent implements OnInit {
   question: any;
   visibleSubmit = false;
   requestId: any;
-  constructor(private httpClient: HttpClient, private _router: ActivatedRoute) { }
+  constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService) { }
 
   ngOnInit(): void {
     this._router.paramMap.subscribe(params=>{
@@ -34,6 +36,16 @@ export class DeviceInterrogationComponent implements OnInit {
 
   post():void{
     const postData = new DeviceInterrogationSubmit(this.requestId,this.device,this.answers);
+    this.deviceInterrogationService.postData("username", postData)
+      .pipe(first())
+      .subscribe(
+        data => {
+          if(data.success) {
+          }
+        },
+        err => {
+        });
+      
   }
   yesClicked():void{
     this.createAnswers( this.question, 'yes');
