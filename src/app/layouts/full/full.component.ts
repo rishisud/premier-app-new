@@ -40,6 +40,6 @@ export class FullComponent implements OnDestroy, AfterViewInit {
   ngAfterViewInit() {}
 
   routerlinkCheck():boolean{
-    return this.routerPath !=='/login' && this.routerPath !=='/' ;
+    return this.loggedInSuccess ? this.loggedInSuccess : this.routerPath !=='/login' && this.routerPath !=='/' ;
   }
 }
