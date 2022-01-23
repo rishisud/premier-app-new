@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header style="background-color: #26c6da;">
+    <mat-card-title>Sign in</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field class="login-full-width">
+      <input #username matInput placeholder="Username" name="username">
+    </mat-form-field>
+
+    <mat-form-field class="login-full-width">
+      <input #password matInput type="password" placeholder="Password" name="password">
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions align="end" style="padding-bottom: 10px;padding-right: 10px;">
+    <button mat-raised-button style="background-color: #26c6da;" (click)="onSubmit(username.value, password.value)">Login</button>
+  </mat-card-actions>
+</mat-card>
