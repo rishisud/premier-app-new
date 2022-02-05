@@ -1,7 +1,6 @@
 {
-  "deviceName":"ECG BPL 610",
-	"questions": [
-		{
+	"deviceName": "ECG BPL 610",
+	"questions": [{
 			"question": "Confirm the Equipment with the below provided Image.",
 			"step": 1,
 			"image": "ECGBPL610",
@@ -13,54 +12,50 @@
 			}
 		},
 		{
-			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"question": "Upload the image of the equipment, contact the technical team for corrections and scan the bar code again.",
 			"step": 2,
 			"image": null,
-			"yes": {
-				"step": 0
-			},
-			"no": {
-				"step": 0
+			"yes": null,
+			"no": null,
+			"next": {
+				"step": null,
+				"submit": true
 			}
 		},
 		{
-			"question": "confirm is there any physical Damage of the Equipment.",
-			"step":3 ,
+			"question": "Confirm is there any physical Damage of the Equipment.",
+			"step": 3,
 			"yes": {
 				"step": 4
 			},
 			"no": {
 				"step": 5
-			},
-			"image": null
-
+			}
 		},
 		{
-			"question": "prepare Damage / Incident and Missing report.",
+			"question": "Prepare Damage / Incident and Missing report.",
 			"step": 4,
-			"yes": {
-				"step": 0
-			},
-			"no": {
-				"step": 0
-			},
-			"image": null
-
+			"yes": null,
+			"no": null,
+			"image": null,
+			"next": {
+				"step": null,
+				"submit": true
+			}
 		},
 		{
-			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"question": "Connect the equipment to the mains and confirm whether the equipment is getting ON.",
 			"step": 5,
 			"yes": {
-				"step": 15
+				"step": 18
 			},
 			"no": {
 				"step": 6
 			},
 			"image": null
-
 		},
 		{
-			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"question": "Check and confirm whether the wall outlet is provided with AC voltage of 230.",
 			"step": 6,
 			"yes": {
 				"step": 8
@@ -73,19 +68,18 @@
 
 		},
 		{
-			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"question": "Shift the Equipment to another place where the AC voltage of 230 is provided",
 			"step": 7,
-			"yes": {
-				"step": 0
-			},
-			"no": {
-				"step": 0
-			},
-			"image": null
-
+			"yes": null,
+			"no": null,
+			"image": null,
+			"next": {
+				"step": 8,
+				"submit": false
+			}
 		},
 		{
-			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"question": "Check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
 			"step": 8,
 			"yes": {
 				"step": 9
@@ -99,20 +93,16 @@
 		{
 			"question": "then replace the power cord with the new one.",
 			"step": 9,
-			"yes": {
-				"step": 0
-			},
-			"no": {
-				"step": 0
-			},
-			"image": null
-
+			"next": {
+				"step": 10,
+				"submit": false
+			}
 		},
 		{
-			"question": "confirm whether the Stand by LED is getting ON.",
+			"question": "Confirm whether the Stand by LED is getting ON.",
 			"step": 10,
 			"yes": {
-				"step": 12
+				"step": 13
 			},
 			"no": {
 				"step": 11
@@ -121,58 +111,41 @@
 
 		},
 		{
-			"question": "kindly check and confirm whether the power adaptor input connectors for any loose connections, carbon formation, pins Break and Jack pins.",
+			"question": "Kindly check and confirm whether the power adaptor input connectors for any loose connections, carbon formation, pins Break and Jack pins.",
 			"step": 11,
 			"yes": {
 				"step": 12
 			},
 			"no": {
-				"step": 11
+				"step": 15
 			},
 			"image": null
 
 		},
 		{
-			"question": "contact the technical team for repairing the board",
+			"question": "Clean and fix the connections accordingly",
 			"step": 12,
-			"yes": {
-				"step": 12
-			},
-			"no": {
-				"step": 12
-			},
-			"image": null
-
+			"next": {
+				"step": 10
+			}
 		},
 		{
-			"question": "check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board",
-			"step": 12,
-			"yes": {
-				"step": 14
-			},
-			"no": {
-				"step": 13
-			},
-			"image": null
-
-		},
-		{
-			"question": "replace the Keypad / Switch Board with a new one",
+			"question": "Confirm whether the stand by LED is ON but equipment does not switch ON.",
 			"step": 13,
 			"yes": {
 				"step": 14
 			},
 			"no": {
-				"step": 14
+				"step": 18
 			},
 			"image": null
 
 		},
 		{
-			"question": "confirm whether the battery voltage is getting charged.",
+			"question": "Open the equipment as shown in video, check and confirm whether the input of 12 VDC is available at the PCB. ",
 			"step": 14,
 			"yes": {
-				"step": 15
+				"step": 16
 			},
 			"no": {
 				"step": 15
@@ -181,31 +154,27 @@
 
 		},
 		{
-			"question": "check and confirm whether the input voltage to the battery (18VDC) is received.",
+			"question": "Contact the technical team for repairing the board",
 			"step": 15,
-			"yes": {
-				"step": 16
-			},
-			"no": {
-				"step": 16
-			},
-			"image": null
+			"next": {
+				"submit": true
+			}
 
 		},
 		{
-			"question": "charging circuit on the main PCB is defective, kindly replace it.",
+			"question": "Check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board.",
 			"step": 16,
 			"yes": {
 				"step": 17
 			},
 			"no": {
-				"step": 17
+				"step": 15
 			},
 			"image": null
 
 		},
 		{
-			"question": "replace the battery with the new one.",
+			"question": "Replace the Keypad / Switch Board with a new one.",
 			"step": 17,
 			"yes": {
 				"step": 18
@@ -217,10 +186,10 @@
 
 		},
 		{
-			"question": "check and confirm whether the Paper is rolling during the ECG is taken.",
+			"question": "Check and confirm whether the Paper is rolling during the ECG is taken.",
 			"step": 18,
 			"yes": {
-				"step": 19
+				"step": 22
 			},
 			"no": {
 				"step": 19
@@ -229,58 +198,48 @@
 
 		},
 		{
-			"question": "kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
+			"question": "Kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
 			"step": 19,
 			"yes": {
 				"step": 20
 			},
 			"no": {
-				"step": 20
+				"step": 21
 			},
 			"image": null
 
 		},
 		{
-			"question": "fix them accordingly.",
+			"question": "Fix them accordingly.",
 			"step": 20,
-			"yes": {
-				"step": 21
-			},
-			"no": {
-				"step": 21
-			},
-			"image": null
-
+			"next": {
+				"step": 22
+			}
 		},
 		{
-			"question": "replace the motor assembly with a new one.",
+			"question": "Replace the motor assembly with a new one.",
 			"step": 21,
-			"yes": {
+			"next": {
 				"step": 22
-			},
-			"no": {
-				"step": 22
-			},
-			"image": null
-
+			}
 		},
 		{
-			"question": "check and confirm whether the print out of ECG is dull.",
+			"question": "Check and confirm whether the print out of ECG is dull.",
 			"step": 22,
 			"yes": {
 				"step": 23
 			},
 			"no": {
-				"step": 23
+				"step": 28
 			},
 			"image": null
 
 		},
 		{
-			"question": "open the unit as shown in the video, clean the Thermal head and confirm whether the issue still occurs.",
+			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 23,
 			"yes": {
-				"step": 24
+				"step": 26
 			},
 			"no": {
 				"step": 24
@@ -289,58 +248,44 @@
 
 		},
 		{
-			"question": " replace the Thermal Head with a new one.",
+			"question": "Charging circuit on the main PCB is defective, kindly replace it",
 			"step": 24,
-			"yes": {
+			"next": {
 				"step": 25
-			},
-			"no": {
-				"step": 25
-			},
-			"image": null
-
+			}
 		},
 		{
-			"question": "check and confirm that there is print on the paper during the ECG is taken.",
+			"question": " Replace the battery with the new one",
 			"step": 25,
-			"yes": {
+			"next": {
 				"step": 26
-			},
-			"no": {
-				"step": 26
-			},
-			"image": null
-
+			}
 		},
 		{
-			"question": "open the unit as shown in the video and check the Thermal head for any loose connections.",
+			"question": "Clean the Thermal head and confirm whether the issue still occurs.",
 			"step": 26,
 			"yes": {
 				"step": 27
 			},
 			"no": {
-				"step": 27
+				"step": 28
 			},
 			"image": null
 
 		},
 		{
-			"question": "fix them accordingly as shown below.",
+			"question": "Replace the Thermal Head with a new one.",
 			"step": 27,
-			"yes": {
+			"next": {
 				"step": 28
-			},
-			"no": {
-				"step": 28
-			},
-			"image": null
+			}
 
 		},
 		{
-			"question": "replace the Thermal head assembly with a new one.",
+			"question": "Check and confirm that there is print on the paper during the ECG is taken.",
 			"step": 28,
 			"yes": {
-				"step": 29
+				"step": 35
 			},
 			"no": {
 				"step": 29
@@ -349,10 +294,10 @@
 
 		},
 		{
-			"question": "If yes, check and confirm whether there is lot of AC and muscle interference in the ECG print out.",
+			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 29,
 			"yes": {
-				"step": 30
+				"step": 31
 			},
 			"no": {
 				"step": 30
@@ -361,42 +306,86 @@
 
 		},
 		{
-			"question": "check the AC line for earthing and connect it properly.",
+			"question": "Charging circuit on the main PCB is defective, kindly replace it ",
 			"step": 30,
-			"yes": {
+			"next": {
 				"step": 31
-			},
-			"no": {
-				"step": 31
-			},
-			"image": null
-
+			}
 		},
 		{
-			"question": "check and confirm whether there is a straight line in the ECG print.",
+			"question": "Replace the battery with the new one",
 			"step": 31,
-			"yes": {
+			"next": {
 				"step": 32
-			},
-			"no": {
-				"step": 32
-			},
-			"image": null
+			}
 		},
 		{
-			"question": "replace the main board.",
+			"question": "Check the Thermal head for any loose connections and clean the thermal head for any dust formation.",
 			"step": 32,
 			"yes": {
-				"step": 0
+				"step": 33
 			},
 			"no": {
-				"step": 0
+				"step": 34
 			},
 			"image": null
 		},
 		{
-			"question": "Thanks.Please Submit",
-			"step": 0
+			"question": "Fix them as per the Video displayed",
+			"step": 33,
+			"next": {
+				"step": 35
+			}
+		},
+		{
+			"question": "Replace the Thermal head assembly with a new one",
+			"step": 34,
+			"next": {
+				"step": 35
+			}
+		},
+		{
+			"question": "Check and confirm whether there is lot of AC and muscle interference in the ECG print out.",
+			"step": 35,
+			"yes": {
+				"step": 36
+			},
+			"no": {
+				"step": 37
+			},
+			"image": null
+		},
+		{
+			"question": "Check the AC line for earthing and connect it properly.",
+			"step": 36,
+			"next": {
+				"step": 37
+			}
+		},
+		{
+			"question": "Check and confirm whether there is a straight line in the ECG print.",
+			"step": 37,
+			"yes": {
+				"step": 38
+			},
+			"no": {
+				"step": 39
+			},
+			"image": null
+		},
+		{
+			"question": "Replace the main board.",
+			"step": 38,
+			"next": {
+				"step": 39
+			}
+		},
+		{
+			"question": "Problem should have been Resolved. CONTACT THE TECHNICAL TEAM FOR ANY OTHER FURTHER ASSISTANCE through Video Call.",
+			"step": 39,
+			"next": {
+				"submit": true
+			}
 		}
 	]
 }
