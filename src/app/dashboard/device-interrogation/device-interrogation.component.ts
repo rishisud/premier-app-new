@@ -18,6 +18,11 @@ export class DeviceInterrogationComponent implements OnInit {
   answers = new Array<Answer>();
   question: any;
   visibleSubmit = false;
+  yes =false;
+  no=false;
+  back=false;
+  submit =false;
+  next =false;
   requestId: any;
   constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService) { }
 
@@ -31,6 +36,7 @@ export class DeviceInterrogationComponent implements OnInit {
       this.deviceName=data.deviceName;
       this.questions = data.questions;
       this.question=this.questions[0];
+      this.buttonConfig();
     })
   }
 
@@ -49,33 +55,35 @@ export class DeviceInterrogationComponent implements OnInit {
   }
   yesClicked():void{
     this.createAnswers( this.question, 'yes');
-    this.visibleSubmit = this.visibleSubmitButton(this.question.yes.step);
-    if (!this.visibleSubmit) {
-      this.question =this.questions[this.question.yes.step-1];
-    } else {
-      this.question = this.questions[this.questions.length-1];
-    }
+    this.question =this.questions[this.question.yes.step-1];
+    this.buttonConfig();
   }
 
   noClicked():void{
     this.createAnswers( this.question, 'no')
-    this.visibleSubmit = this.visibleSubmitButton(this.question.no.step);
-    if (!this.visibleSubmit) {
-      this.question =this.questions[this.question.no.step-1];
-    } else {
-      this.question = this.questions[this.questions.length-1];
-    }
+    this.question =this.questions[this.question.no.step-1];
+    this.buttonConfig();
+  }
+
+  nextClicked():void{
+    this.createAnswers( this.question, '');
+    this.question =this.questions[this.question.next.step-1];
+    this.buttonConfig();
+  }
+
+  buttonConfig():void{
+    this.next = this.question.next !== undefined && this.question.next !== null;
+    this.yes = this.question.yes !== undefined &&this.question.yes !== null;
+    this.no = this.question.no !== undefined && this.question.no !== null;
+    this.submit =this.question.submit;
   }
 
   backClicked():void{
     this.question =this.questions.find(q=>q.step === this.answers[this.answers.length - 1].step);
     this.answers.pop();
-    this.visibleSubmit = false;
+    this.buttonConfig()
   }
 
-  visibleSubmitButton(value:number):boolean{
-    return value === 0;
-  }
 
   isNull(value:any):boolean{
     return value !== null && value !== undefined

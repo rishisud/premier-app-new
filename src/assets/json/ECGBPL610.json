@@ -18,8 +18,7 @@
 			"yes": null,
 			"no": null,
 			"next": {
-				"step": null,
-				"submit": true
+				"step": 40
 			}
 		},
 		{
@@ -39,8 +38,7 @@
 			"no": null,
 			"image": null,
 			"next": {
-				"step": null,
-				"submit": true
+				"step": 40
 			}
 		},
 		{
@@ -51,8 +49,7 @@
 			},
 			"no": {
 				"step": 6
-			},
-			"image": null
+			}
 		},
 		{
 			"question": "Check and confirm whether the wall outlet is provided with AC voltage of 230.",
@@ -63,8 +60,7 @@
 			"no": {
 				"step": 7,
 				"msg": ""
-			},
-			"image": null
+			}
 
 		},
 		{
@@ -74,8 +70,7 @@
 			"no": null,
 			"image": null,
 			"next": {
-				"step": 8,
-				"submit": false
+				"step": 8
 			}
 		},
 		{
@@ -86,16 +81,13 @@
 			},
 			"no": {
 				"step": 10
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "then replace the power cord with the new one.",
 			"step": 9,
 			"next": {
-				"step": 10,
-				"submit": false
+				"step": 10
 			}
 		},
 		{
@@ -106,9 +98,7 @@
 			},
 			"no": {
 				"step": 11
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Kindly check and confirm whether the power adaptor input connectors for any loose connections, carbon formation, pins Break and Jack pins.",
@@ -118,9 +108,7 @@
 			},
 			"no": {
 				"step": 15
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Clean and fix the connections accordingly",
@@ -139,7 +127,6 @@
 				"step": 18
 			},
 			"image": null
-
 		},
 		{
 			"question": "Open the equipment as shown in video, check and confirm whether the input of 12 VDC is available at the PCB. ",
@@ -149,15 +136,14 @@
 			},
 			"no": {
 				"step": 15
-			},
-			"image": null
+			}
 
 		},
 		{
 			"question": "Contact the technical team for repairing the board",
 			"step": 15,
 			"next": {
-				"submit": true
+				"step": 40
 			}
 
 		},
@@ -169,9 +155,7 @@
 			},
 			"no": {
 				"step": 15
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Replace the Keypad / Switch Board with a new one.",
@@ -181,9 +165,7 @@
 			},
 			"no": {
 				"step": 18
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Check and confirm whether the Paper is rolling during the ECG is taken.",
@@ -193,9 +175,7 @@
 			},
 			"no": {
 				"step": 19
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
@@ -205,9 +185,7 @@
 			},
 			"no": {
 				"step": 21
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Fix them accordingly.",
@@ -231,9 +209,7 @@
 			},
 			"no": {
 				"step": 28
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
@@ -243,9 +219,7 @@
 			},
 			"no": {
 				"step": 24
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Charging circuit on the main PCB is defective, kindly replace it",
@@ -269,9 +243,7 @@
 			},
 			"no": {
 				"step": 28
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Replace the Thermal Head with a new one.",
@@ -289,9 +261,7 @@
 			},
 			"no": {
 				"step": 29
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
@@ -301,9 +271,7 @@
 			},
 			"no": {
 				"step": 30
-			},
-			"image": null
-
+			}
 		},
 		{
 			"question": "Charging circuit on the main PCB is defective, kindly replace it ",
@@ -327,8 +295,7 @@
 			},
 			"no": {
 				"step": 34
-			},
-			"image": null
+			}
 		},
 		{
 			"question": "Fix them as per the Video displayed",
@@ -352,8 +319,7 @@
 			},
 			"no": {
 				"step": 37
-			},
-			"image": null
+			}
 		},
 		{
 			"question": "Check the AC line for earthing and connect it properly.",
@@ -370,8 +336,7 @@
 			},
 			"no": {
 				"step": 39
-			},
-			"image": null
+			}
 		},
 		{
 			"question": "Replace the main board.",
@@ -384,8 +349,13 @@
 			"question": "Problem should have been Resolved. CONTACT THE TECHNICAL TEAM FOR ANY OTHER FURTHER ASSISTANCE through Video Call.",
 			"step": 39,
 			"next": {
-				"submit": true
+				"step": 40
 			}
+		},
+		{
+			"question":"Thanks",
+			"step": 40,
+			"submit":true
 		}
 	]
 }

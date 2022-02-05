@@ -15,7 +15,6 @@ export interface Back {
 
 export interface Next {
     step: number;
-    submit: boolean;
 }
 
 export interface No {
@@ -30,5 +29,6 @@ export interface Question {
     yes: Yes;
     no: No;
     next:Next;
+    submit:boolean
 }
 
