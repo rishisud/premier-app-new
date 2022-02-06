@@ -1,10 +1,12 @@
 export class DeviceInterrogationSubmit {
+	userId: string;
     requestId: string;
     device: string;
     answers: Answer[];
 
-    constructor(requestid: string, device:string, answer:Answer[]) {
-        this.requestId = requestid;
+    constructor(userid: string, requestid: string, device:string, answer:Answer[]) {
+        this.userId = userid;
+		this.requestId = requestid;
         this.device = device;
         this.answers = answer;
       }

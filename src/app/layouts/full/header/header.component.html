@@ -4,7 +4,7 @@
 <mat-menu #profile="matMenu" class="mymegamenu">
     <button mat-menu-item>
         <mat-icon>account_box</mat-icon> Profile </button>
-    <button mat-menu-item>
+    <button mat-menu-item (click)="logOut()">
         <mat-icon>exit_to_app</mat-icon> Sign Out </button>
 </mat-menu>
 

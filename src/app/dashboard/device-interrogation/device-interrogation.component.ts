@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { DeviceInterrogation, Question } from 'src/app/model/device-interrogation.model';
 import * as internal from 'stream';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 import { Answer, DeviceInterrogationSubmit } from 'src/app/model/device-interrogation.submit.model';
 import { DeviceInterrogationService } from 'src/app/services/device-interrogation.service';
 import { first } from 'rxjs/operators';
@@ -19,12 +19,16 @@ export class DeviceInterrogationComponent implements OnInit {
   question: any;
   visibleSubmit = false;
   requestId: any;
-  constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService) { }
+  userdetails: any;
+  UserID: any;
+  constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService, private router: Router) { }
 
   ngOnInit(): void {
     this._router.paramMap.subscribe(params=>{
           this.device=params.get('device');
           this.requestId=params.get('requestid')
+		  this.userdetails = JSON.parse(localStorage.getItem('userdetails'));
+		  this.UserID = this.userdetails.user_details[0].id;
     })
 
     this.httpClient.get<DeviceInterrogation>('assets/json/'+this.device+'.json').subscribe(data =>{
@@ -35,16 +39,19 @@ export class DeviceInterrogationComponent implements OnInit {
   }
 
   post():void{
-    const postData = new DeviceInterrogationSubmit(this.requestId,this.device,this.answers);
+    const postData = new DeviceInterrogationSubmit(this.UserID, this.requestId,this.device,this.answers);
     this.deviceInterrogationService.postData("username", postData)
       .pipe(first())
       .subscribe(
         data => {
           if(data.success) {
+			console.log('Successfully Submitted');
+			this.router.navigate(['/dashboard']);
           }
         },
         err => {
         });
+	this.router.navigate(['/dashboard']);
       
   }
   yesClicked():void{

@@ -13,7 +13,7 @@
 			}
 		},
 		{
-			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"question": "Upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
 			"step": 2,
 			"image": null,
 			"yes": {
@@ -24,7 +24,7 @@
 			}
 		},
 		{
-			"question": "confirm is there any physical Damage of the Equipment.",
+			"question": "Confirm is there any physical Damage of the Equipment.",
 			"step":3 ,
 			"yes": {
 				"step": 4
@@ -36,7 +36,7 @@
 
 		},
 		{
-			"question": "prepare Damage / Incident and Missing report.",
+			"question": "Prepare Damage / Incident and Missing report.",
 			"step": 4,
 			"yes": {
 				"step": 0
@@ -48,7 +48,7 @@
 
 		},
 		{
-			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"question": "Connect the equipment to the mains and confirm whether the equipment is getting ON.",
 			"step": 5,
 			"yes": {
 				"step": 15
@@ -60,7 +60,7 @@
 
 		},
 		{
-			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"question": "Check and confirm whether the wall outlet is provided with AC voltage of 230.",
 			"step": 6,
 			"yes": {
 				"step": 8
@@ -73,7 +73,7 @@
 
 		},
 		{
-			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"question": "Shift the Equipment to another place where the AC voltage of 230 is provided",
 			"step": 7,
 			"yes": {
 				"step": 0
@@ -85,7 +85,7 @@
 
 		},
 		{
-			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"question": "Check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
 			"step": 8,
 			"yes": {
 				"step": 9
@@ -97,7 +97,7 @@
 
 		},
 		{
-			"question": "then replace the power cord with the new one.",
+			"question": "Then replace the power cord with the new one.",
 			"step": 9,
 			"yes": {
 				"step": 0
@@ -109,7 +109,7 @@
 
 		},
 		{
-			"question": "confirm whether the Stand by LED is getting ON.",
+			"question": "Confirm whether the Stand by LED is getting ON.",
 			"step": 10,
 			"yes": {
 				"step": 12
@@ -121,7 +121,7 @@
 
 		},
 		{
-			"question": "kindly check and confirm whether the power adaptor input connectors for any loose connections, carbon formation, pins Break and Jack pins.",
+			"question": "Kindly check and confirm whether the power adaptor input connectors for any loose connections, carbon formation, pins Break and Jack pins.",
 			"step": 11,
 			"yes": {
 				"step": 12
@@ -133,7 +133,7 @@
 
 		},
 		{
-			"question": "contact the technical team for repairing the board",
+			"question": "Contact the technical team for repairing the board",
 			"step": 12,
 			"yes": {
 				"step": 12
@@ -145,7 +145,7 @@
 
 		},
 		{
-			"question": "check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board",
+			"question": "Check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board",
 			"step": 12,
 			"yes": {
 				"step": 14
@@ -157,7 +157,7 @@
 
 		},
 		{
-			"question": "replace the Keypad / Switch Board with a new one",
+			"question": "Replace the Keypad / Switch Board with a new one",
 			"step": 13,
 			"yes": {
 				"step": 14
@@ -169,7 +169,7 @@
 
 		},
 		{
-			"question": "confirm whether the battery voltage is getting charged.",
+			"question": "Confirm whether the battery voltage is getting charged.",
 			"step": 14,
 			"yes": {
 				"step": 15
@@ -181,7 +181,7 @@
 
 		},
 		{
-			"question": "check and confirm whether the input voltage to the battery (18VDC) is received.",
+			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 15,
 			"yes": {
 				"step": 16
@@ -193,7 +193,7 @@
 
 		},
 		{
-			"question": "charging circuit on the main PCB is defective, kindly replace it.",
+			"question": "Charging circuit on the main PCB is defective, kindly replace it.",
 			"step": 16,
 			"yes": {
 				"step": 17
@@ -205,7 +205,7 @@
 
 		},
 		{
-			"question": "replace the battery with the new one.",
+			"question": "Replace the battery with the new one.",
 			"step": 17,
 			"yes": {
 				"step": 18
@@ -217,7 +217,7 @@
 
 		},
 		{
-			"question": "check and confirm whether the Paper is rolling during the ECG is taken.",
+			"question": "Check and confirm whether the Paper is rolling during the ECG is taken.",
 			"step": 18,
 			"yes": {
 				"step": 19
@@ -229,7 +229,7 @@
 
 		},
 		{
-			"question": "kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
+			"question": "Kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
 			"step": 19,
 			"yes": {
 				"step": 20
@@ -241,7 +241,7 @@
 
 		},
 		{
-			"question": "fix them accordingly.",
+			"question": "Fix them accordingly.",
 			"step": 20,
 			"yes": {
 				"step": 21
@@ -253,7 +253,7 @@
 
 		},
 		{
-			"question": "replace the motor assembly with a new one.",
+			"question": "Replace the motor assembly with a new one.",
 			"step": 21,
 			"yes": {
 				"step": 22
@@ -265,7 +265,7 @@
 
 		},
 		{
-			"question": "check and confirm whether the print out of ECG is dull.",
+			"question": "Check and confirm whether the print out of ECG is dull.",
 			"step": 22,
 			"yes": {
 				"step": 23
@@ -277,7 +277,7 @@
 
 		},
 		{
-			"question": "open the unit as shown in the video, clean the Thermal head and confirm whether the issue still occurs.",
+			"question": "Open the unit as shown in the video, clean the Thermal head and confirm whether the issue still occurs.",
 			"step": 23,
 			"yes": {
 				"step": 24
@@ -289,7 +289,7 @@
 
 		},
 		{
-			"question": " replace the Thermal Head with a new one.",
+			"question": "Replace the Thermal Head with a new one.",
 			"step": 24,
 			"yes": {
 				"step": 25
@@ -301,7 +301,7 @@
 
 		},
 		{
-			"question": "check and confirm that there is print on the paper during the ECG is taken.",
+			"question": "Check and confirm that there is print on the paper during the ECG is taken.",
 			"step": 25,
 			"yes": {
 				"step": 26
@@ -313,7 +313,7 @@
 
 		},
 		{
-			"question": "open the unit as shown in the video and check the Thermal head for any loose connections.",
+			"question": "Open the unit as shown in the video and check the Thermal head for any loose connections.",
 			"step": 26,
 			"yes": {
 				"step": 27
@@ -325,7 +325,7 @@
 
 		},
 		{
-			"question": "fix them accordingly as shown below.",
+			"question": "Fix them accordingly as shown below.",
 			"step": 27,
 			"yes": {
 				"step": 28
@@ -337,7 +337,7 @@
 
 		},
 		{
-			"question": "replace the Thermal head assembly with a new one.",
+			"question": "Replace the Thermal head assembly with a new one.",
 			"step": 28,
 			"yes": {
 				"step": 29
@@ -361,7 +361,7 @@
 
 		},
 		{
-			"question": "check the AC line for earthing and connect it properly.",
+			"question": "Check the AC line for earthing and connect it properly.",
 			"step": 30,
 			"yes": {
 				"step": 31
@@ -373,7 +373,7 @@
 
 		},
 		{
-			"question": "check and confirm whether there is a straight line in the ECG print.",
+			"question": "Check and confirm whether there is a straight line in the ECG print.",
 			"step": 31,
 			"yes": {
 				"step": 32
@@ -384,7 +384,7 @@
 			"image": null
 		},
 		{
-			"question": "replace the main board.",
+			"question": "Replace the main board.",
 			"step": 32,
 			"yes": {
 				"step": 0

@@ -13,8 +13,8 @@ export class DeviceInterrogationService {
 
   postData(username: string, deviceInfo: DeviceInterrogationSubmit) {
     let data = { username: username, deviceInfo: deviceInfo };
-	  console.log(this.BASE_URL);
-    return this.http.post<any>(this.BASE_URL + '/engineer/save', data)
+	  console.log(data);
+    return this.http.post<any>(this.BASE_URL + '/servicerequest/save', data)
       .pipe(map(res => {
         //console.log(res);
         return res;
