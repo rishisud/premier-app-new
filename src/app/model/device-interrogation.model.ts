@@ -13,6 +13,10 @@ export interface Back {
     msg: string;
 }
 
+export interface Next {
+    step: number;
+}
+
 export interface No {
     step: number;
     msg: string;
@@ -24,6 +28,7 @@ export interface Question {
     image:string;
     yes: Yes;
     no: No;
-    submitIsVisible:boolean
+    next:Next;
+    submit:boolean
 }
 
