@@ -174,10 +174,7 @@
 
 			"question": "Replace the Keypad / Switch Board with a new one.",
 			"step": 17,
-			"yes": {
-				"step": 18
-			},
-			"no": {
+			"next": {
 				"step": 18
 			}
 		},
