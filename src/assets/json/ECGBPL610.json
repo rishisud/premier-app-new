@@ -38,9 +38,7 @@
 		{
 			"question": "Prepare Damage / Incident and Missing report.",
 			"step": 4,
-			"yes": null,
-			"no": null,
-			"image": null,
+			"msg": "Report will be filed in a different Application",
 			"next": {
 				"step": 40
 			}

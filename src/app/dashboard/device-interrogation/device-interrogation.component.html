@@ -9,6 +9,11 @@
         </p>
       </mat-card-content>
       <img mat-card-image  *ngIf="isNull(question?.image)" src="assets/images/device/{{ question.image }}.jpg">
+      <div *ngIf="isNull(question?.msg)">
+        <p style="color:green; padding-left: 50px;padding-right: 50px;">
+          {{question?.msg}}
+        </p>
+      </div>
       <mat-card-actions align="end" style="padding-bottom: 10px;padding-right: 10px;">
         <button mat-raised-button *ngIf="question?.step !== 1" style="background-color: #26c6da;"(click)="backClicked()">BACK</button>
         <button mat-raised-button *ngIf="submit" style="background-color: #26c6da;"(click)="post()">SUBMIT</button>
