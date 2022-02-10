@@ -15,6 +15,7 @@ export interface Back {
 
 export interface Next {
     step: number;
+    msg: string;
 }
 
 export interface No {
