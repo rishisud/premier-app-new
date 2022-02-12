@@ -3,7 +3,7 @@
 	"questions": [{
 			"question": "Confirm the Equipment with the below provided Image.",
 			"step": 1,
-			"image": "ECGBPL610",
+			"image": ["ECGBPL610"],
 			"yes": {
 				"step": 3
 			},
@@ -172,6 +172,7 @@
 
 			"question": "Replace the Keypad / Switch Board with a new one.",
 			"step": 17,
+			"image":["ECGBPL610I001","ECGBPL610I001_1"],
 			"next": {
 				"step": 18
 			}
@@ -194,7 +195,8 @@
 			},
 			"no": {
 				"step": 21
-			}
+			},
+			"image": ["ECGBPL610I004"]
 		},
 		{
 			"question": "Fix them accordingly.",
@@ -236,6 +238,7 @@
 
 			"question": "Charging circuit on the main PCB is defective, kindly replace it",
 			"step": 24,
+			"image":["ECGBPL610I002","ECGBPL610I002_1"],
 			"next": {
 				"step": 25
 			}
@@ -244,6 +247,7 @@
 
 			"question": " Replace the battery with the new one",
 			"step": 25,
+			"image": ["ECGBPL610I003"],
 			"next": {
 				"step": 26
 			}
@@ -252,6 +256,7 @@
 
 			"question": "Clean the Thermal head and confirm whether the issue still occurs.",
 			"step": 26,
+			"image":["ECGBPL610I005","ECGBPL610I005_1"],
 			"yes": {
 				"step": 27
 			},
@@ -294,6 +299,7 @@
 
 			"question": "Charging circuit on the main PCB is defective, kindly replace it ",
 			"step": 30,
+			"image":["ECGBPL610I002","ECGBPL610I002_1"],
 			"next": {
 				"step": 31
 			}
@@ -302,6 +308,7 @@
 
 			"question": "Replace the battery with the new one",
 			"step": 31,
+			"image": ["ECGBPL610I003"],
 			"next": {
 				"step": 32
 			}
@@ -309,6 +316,7 @@
 		{
 			"question": "Check the Thermal head for any loose connections and clean the thermal head for any dust formation.",
 			"step": 32,
+			"image": ["ECGBPL610I005"],
 			"yes": {
 				"step": 33
 			},

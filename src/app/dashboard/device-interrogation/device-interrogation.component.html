@@ -8,7 +8,11 @@
           {{question?.question}}
         </p>
       </mat-card-content>
-      <img mat-card-image  *ngIf="isNull(question?.image)" src="assets/images/device/{{ question.image }}.jpg">
+      <div *ngIf="isNull(question?.image)">
+        <div *ngFor="let item of question.image;">
+          <img mat-card-image  src="assets/images/device/{{ item }}.JPG">
+        </div>
+      </div>
       <div *ngIf="isNull(question?.msg)">
         <p style="color:green; padding-left: 50px;padding-right: 50px;">
           {{question?.msg}}

@@ -26,7 +26,7 @@ export interface No {
 export interface Question {
     question: string;
     step: number;
-    image:string;
+    image:string[];
     yes: Yes;
     no: No;
     next:Next;
