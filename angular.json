@@ -24,7 +24,12 @@
             "polyfills": "src/polyfills.ts",
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/ngx-video-list-player/assets",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "node_modules/chartist/dist/chartist.css",

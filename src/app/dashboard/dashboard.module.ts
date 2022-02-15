@@ -12,10 +12,12 @@ import { DeviceComponent } from './device/device.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { LoginComponent } from './login/login.component';
+import { NgxVideoListPlayerModule } from 'ngx-video-list-player';
 
 @NgModule({
   imports: [
     CommonModule,
+    NgxVideoListPlayerModule,
     MaterialModule,
     FlexLayoutModule,
     FormsModule,

@@ -25,9 +25,7 @@
 		},
 		{
 			"question": "Confirm is there any physical Damage of the Equipment.",
-
 			"step": 3,
-
 			"yes": {
 				"step": 4
 			},
@@ -149,7 +147,6 @@
 		{
 
 			"question": "Contact the technical team for repairing the board",
-
 			"step": 15,
 			"next": {
 				"step": 40
@@ -159,8 +156,19 @@
 		{
 
 			"question": "Check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board.",
-
 			"step": 16,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610002.mov",
+				"videoName":"Checking the voltage"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"yes": {
 				"step": 17
 			},
@@ -173,6 +181,18 @@
 			"question": "Replace the Keypad / Switch Board with a new one.",
 			"step": 17,
 			"image":["ECGBPL610I001","ECGBPL610I001_1"],
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610004.mp4",
+				"videoName":"Keypad"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"next": {
 				"step": 18
 			}
@@ -190,6 +210,14 @@
 		{
 			"question": "Kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
 			"step": 19,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"yes": {
 				"step": 20
 			},
@@ -208,6 +236,18 @@
 		{
 			"question": "Replace the motor assembly with a new one.",
 			"step": 21,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610008.mov",
+				"videoName":"Replacing"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"next": {
 				"step": 22
 			}
@@ -223,10 +263,20 @@
 			}
 		},
 		{
-
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
-
 			"step": 23,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610005.mov",
+				"videoName":"Checking"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"yes": {
 				"step": 26
 			},
@@ -238,6 +288,15 @@
 
 			"question": "Charging circuit on the main PCB is defective, kindly replace it",
 			"step": 24,
+			"videos": [
+			{
+				"src":"assets/videos/ECGBPL610006.mov",
+				"videoName":"Replacing PCB"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"image":["ECGBPL610I002","ECGBPL610I002_1"],
 			"next": {
 				"step": 25
@@ -247,6 +306,15 @@
 
 			"question": " Replace the battery with the new one",
 			"step": 25,
+			"videos": [
+				{
+					"src":"assets/videos/ECGBPL610007.mov",
+					"videoName":"Replacing Battery"
+				},
+				{
+					"src":"assets/videos/ECGBPL610003.mov",
+					"videoName":"Closing"
+				}],
 			"image": ["ECGBPL610I003"],
 			"next": {
 				"step": 26
@@ -256,6 +324,11 @@
 
 			"question": "Clean the Thermal head and confirm whether the issue still occurs.",
 			"step": 26,
+			"videos": [
+				{
+					"src":"assets/videos/ECGBPL610003.mov",
+					"videoName":"Closing"
+				}],
 			"image":["ECGBPL610I005","ECGBPL610I005_1"],
 			"yes": {
 				"step": 27
@@ -268,6 +341,15 @@
 
 			"question": "Replace the Thermal Head with a new one.",
 			"step": 27,
+			"videos": [
+				{
+					"src":"assets/videos/ECGBPL610009.mov",
+					"videoName":"Replacing"
+				},
+				{
+					"src":"assets/videos/ECGBPL610003.mov",
+					"videoName":"Closing"
+				}],
 			"next": {
 				"step": 28
 			}
@@ -288,6 +370,18 @@
 		{
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 29,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610005.mov",
+				"videoName":"Checking"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"yes": {
 				"step": 31
 			},
@@ -299,15 +393,32 @@
 
 			"question": "Charging circuit on the main PCB is defective, kindly replace it ",
 			"step": 30,
+			"videos": [
+				{
+					"src":"assets/videos/ECGBPL610006.mov",
+					"videoName":"Replacing PCB"
+				},
+				{
+					"src":"assets/videos/ECGBPL610003.mov",
+					"videoName":"Closing"
+				}],
 			"image":["ECGBPL610I002","ECGBPL610I002_1"],
 			"next": {
 				"step": 31
 			}
 		},
 		{
-
 			"question": "Replace the battery with the new one",
 			"step": 31,
+			"videos": [
+			{
+				"src":"assets/videos/ECGBPL610007.mov",
+				"videoName":"Replacing Battery"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"image": ["ECGBPL610I003"],
 			"next": {
 				"step": 32
@@ -317,6 +428,11 @@
 			"question": "Check the Thermal head for any loose connections and clean the thermal head for any dust formation.",
 			"step": 32,
 			"image": ["ECGBPL610I005"],
+			"videos": [
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"yes": {
 				"step": 33
 			},
@@ -334,6 +450,18 @@
 		{
 			"question": "Replace the Thermal head assembly with a new one",
 			"step": 34,
+			"videos": [{
+				"src":"assets/videos/ECGBPL610001.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGBPL610009.mov",
+				"videoName":"Replacing"
+			},
+			{
+				"src":"assets/videos/ECGBPL610003.mov",
+				"videoName":"Closing"
+			}],
 			"next": {
 				"step": 35
 			}

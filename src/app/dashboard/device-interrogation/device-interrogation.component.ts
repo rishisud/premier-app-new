@@ -6,6 +6,7 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 import { Answer, DeviceInterrogationSubmit } from 'src/app/model/device-interrogation.submit.model';
 import { DeviceInterrogationService } from 'src/app/services/device-interrogation.service';
 import { first } from 'rxjs/operators';
+import { IVideoConfig } from "ngx-video-list-player";
 @Component({
   selector: 'app-device-interrogation',
   templateUrl: './device-interrogation.component.html',
@@ -26,10 +27,24 @@ export class DeviceInterrogationComponent implements OnInit {
   requestId: any;
   userdetails: any;
   UserID: any;
+
+  config: IVideoConfig = {
+      isVideoLoader: true,
+      isAutoPlay: false,
+      isFirstVideoAutoPlay: false,
+      subtitleOffText: "",
+      subtitleText: "",
+      videoListDisplayMode:"block",
+      volumeCookieName: "NgxVideoListPlayerVolume",
+      videoIndexCookieName: "NgxVideoListPlayerIndex",
+      sources: null      
+  };
+
   constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService, private router: Router) { }
 
+
   ngOnInit(): void {
-    this._router.paramMap.subscribe(params=>{
+     this._router.paramMap.subscribe(params=>{
           this.device=params.get('device');
           this.requestId=params.get('requestid')
 		  this.userdetails = JSON.parse(localStorage.getItem('userdetails'));
@@ -83,6 +98,13 @@ export class DeviceInterrogationComponent implements OnInit {
     this.yes = this.question.yes !== undefined &&this.question.yes !== null;
     this.no = this.question.no !== undefined && this.question.no !== null;
     this.submit =this.question.submit;
+
+    if (this.question.videos !== null && this.question.videos !== undefined)
+    {
+        this.config.sources  = this.question.videos
+    } else{
+      this.config.sources  = null
+    }
   }
 
   backClicked():void{

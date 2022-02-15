@@ -18,6 +18,8 @@
           {{question?.msg}}
         </p>
       </div>
+      <ngx-video-list-player id="vlist" *ngIf="isNull(config.sources)" [config]="config">
+      </ngx-video-list-player>
       <mat-card-actions align="end" style="padding-bottom: 10px;padding-right: 10px;">
         <button mat-raised-button *ngIf="question?.step !== 1" style="background-color: #26c6da;"(click)="backClicked()">BACK</button>
         <button mat-raised-button *ngIf="submit" style="background-color: #26c6da;"(click)="post()">SUBMIT</button>
