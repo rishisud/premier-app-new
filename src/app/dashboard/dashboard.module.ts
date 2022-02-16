@@ -12,17 +12,22 @@ import { DeviceComponent } from './device/device.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { LoginComponent } from './login/login.component';
-import { NgxVideoListPlayerModule } from 'ngx-video-list-player';
-
+import {VgCoreModule} from '@videogular/ngx-videogular/core';
+import {VgControlsModule} from '@videogular/ngx-videogular/controls';
+import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
+import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
 @NgModule({
   imports: [
     CommonModule,
-    NgxVideoListPlayerModule,
     MaterialModule,
     FlexLayoutModule,
     FormsModule,
     DashboardRoutes,
-    SharedModule
+    SharedModule,
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule
   ],
   declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent]
 })

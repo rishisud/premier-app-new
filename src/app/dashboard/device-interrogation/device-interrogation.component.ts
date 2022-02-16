@@ -6,7 +6,7 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 import { Answer, DeviceInterrogationSubmit } from 'src/app/model/device-interrogation.submit.model';
 import { DeviceInterrogationService } from 'src/app/services/device-interrogation.service';
 import { first } from 'rxjs/operators';
-import { IVideoConfig } from "ngx-video-list-player";
+
 @Component({
   selector: 'app-device-interrogation',
   templateUrl: './device-interrogation.component.html',
@@ -28,17 +28,30 @@ export class DeviceInterrogationComponent implements OnInit {
   userdetails: any;
   UserID: any;
 
-  config: IVideoConfig = {
-      isVideoLoader: true,
-      isAutoPlay: false,
-      isFirstVideoAutoPlay: false,
-      subtitleOffText: "",
-      subtitleText: "",
-      videoListDisplayMode:"inline",
-      volumeCookieName: "NgxVideoListPlayerVolume",
-      videoIndexCookieName: "NgxVideoListPlayerIndex",
-      sources: null      
-  };
+  videoItems:any=null;
+  activeIndex = 0;
+  currentVideo:any;
+  data: any;
+
+  videoPlayerInit(data: any) {
+    this.data = data;
+    this.data.getDefaultMedia().subscriptions.loadedMetadata.subscribe(this.initVdo.bind(this));
+    this.data.getDefaultMedia().subscriptions.ended.subscribe(this.nextVideo.bind(this));
+  }
+  nextVideo() {
+    this.activeIndex++;
+    if (this.activeIndex === this.videoItems.length) {
+      this.activeIndex = 0;
+    }
+    this.currentVideo = this.videoItems[this.activeIndex];
+  }
+  initVdo() {
+    this.data.play();
+  }
+  startPlaylistVdo(item: any, index: number) {
+    this.activeIndex = index;
+    this.currentVideo = item;
+  }
 
   constructor(private httpClient: HttpClient, private _router: ActivatedRoute, private deviceInterrogationService: DeviceInterrogationService, private router: Router) { }
 
@@ -101,9 +114,11 @@ export class DeviceInterrogationComponent implements OnInit {
 
     if (this.question.videos !== null && this.question.videos !== undefined)
     {
-        this.config.sources  = this.question.videos
+        this.activeIndex =0;
+        this.videoItems  = this.question.videos;
+        this.currentVideo = this.videoItems[this.activeIndex];
     } else{
-      this.config.sources  = null
+      this.videoItems  = null
     }
   }
 
