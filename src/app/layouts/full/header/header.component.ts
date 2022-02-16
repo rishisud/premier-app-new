@@ -16,6 +16,7 @@ export class AppHeaderComponent {
 	logOut() {
     this.authenticationService.logout();
     this.user = '';
-    this.router.navigate(['/login']);
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.router.navigate(['/']);
   }
 }
