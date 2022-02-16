@@ -8,15 +8,15 @@
           {{question?.question}}
         </p>
       </mat-card-content>
-      <div *ngIf="isNull(question?.image)">
-        <div *ngFor="let item of question.image;">
-          <img mat-card-image  src="assets/images/device/{{ item }}.JPG">
-        </div>
-      </div>
       <div *ngIf="isNull(question?.msg)">
         <p style="color:green; padding-left: 50px;padding-right: 50px;">
           {{question?.msg}}
         </p>
+      </div>
+      <div *ngIf="isNull(question?.image)" class="video-player-wrapper">
+        <div *ngFor="let item of question.image;">
+          <img style="padding-bottom: 10px;" mat-card-image  src="assets/images/device/{{ item }}.JPG">
+        </div>
       </div>
       <div class="video-player-wrapper"  *ngIf="isNull(videoItems)">
         <vg-player (onPlayerReady)="videoPlayerInit($event)">
