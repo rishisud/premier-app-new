@@ -22,6 +22,10 @@ export class DeviceComponent implements OnInit {
     this._router.navigate(['/device-interrogation',this.selectedValue,this.requestId]);
   }
 
+  isDisable(): boolean {
+    return (this.requestId === null || this.requestId=== undefined) ? true : this.requestId.trim().length <= 0;
+  };
+
 }
 
 interface Device {

@@ -9,7 +9,7 @@
       </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Device</mat-label>
-            <mat-select [(ngModel)]="selectedValue" name="device"  (selectionChange)="selectDevice($event)">
+            <mat-select [disabled]="isDisable()" [(ngModel)]="selectedValue" name="device"  (selectionChange)="selectDevice($event)">
               <mat-option *ngFor="let device of devices" [value]="device.value">
                 {{device.viewValue}}
               </mat-option>
