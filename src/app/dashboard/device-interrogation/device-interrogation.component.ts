@@ -34,7 +34,7 @@ export class DeviceInterrogationComponent implements OnInit {
       isFirstVideoAutoPlay: false,
       subtitleOffText: "",
       subtitleText: "",
-      videoListDisplayMode:"block",
+      videoListDisplayMode:"inline",
       volumeCookieName: "NgxVideoListPlayerVolume",
       videoIndexCookieName: "NgxVideoListPlayerIndex",
       sources: null      
