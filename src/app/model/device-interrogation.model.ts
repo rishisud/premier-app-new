@@ -1,5 +1,3 @@
-import { IVideoSource } from "ngx-video-list-player";
-
 export interface DeviceInterrogation {
     deviceName: string;
     questions: Question[];
@@ -25,6 +23,11 @@ export interface No {
     msg: string;
 }
 
+export interface Videos {
+    src: number;
+    videoName: string;
+}
+
 
 export interface Question {
     question: string;
@@ -34,6 +37,6 @@ export interface Question {
     no: No;
     next:Next;
     submit:boolean,
-    videos:IVideoSource[]
+    videos:Videos[]
 }
 
