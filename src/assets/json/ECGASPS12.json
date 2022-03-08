@@ -1,0 +1,607 @@
+{
+	"deviceName": "ECG ASPEN SMART12",
+	"questions": [{
+			"question": "Confirm the equipment with the below provided image of the equipment.",
+			"step": 1,
+			"image": ["ECGASPS12"],
+			"yes": {
+				"step": 3
+			},
+			"no": {	
+				"step": 2
+			}
+		},
+		{
+
+			"question": "Upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"image": null,
+			"yes": null,
+			"no": null,
+			"next": {
+				"step": 40
+			}
+		},
+		{
+			"question": "Confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 47
+			}
+		},
+		{
+			"question": "Connect the equipment to the mains and confirm whether the equipment is getting ON",
+			"step": 5,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "Check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7,
+				"msg": ""
+			}
+
+		},
+		{
+			"question": "Shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"yes": null,
+			"no": null,
+			"image": null,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Check the continuity power cord confirm whether the power cord is defective.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "Replace the power cord with the new one.",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Check and confirm whether the fuse is blown / burnt",
+			"step": 10,
+			"image": ["ECGASPS12I001"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12001.mp4",
+				"videoName":"Checking the fuse"
+			}],
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+			"question": "Replace the fuse with a new one",
+			"step": 11,
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12002.mp4",
+				"videoName":"Replacing the fuse"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+				{
+			"question": "Check and confirm whether the AC power LED Indicator does not illuminate.",
+			"step": 12,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 47
+			}
+		},
+		{
+			"question": "Open the equipment as shown in the video, check and confirm whether the voltage 230 AC is available at Input AC module",
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening Equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12004.mp4",
+				"videoName":"Checking AC Volt"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing the equipment"
+			}],
+			"step": 13,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+
+			"question": "Replace the module with a new one",
+			"step": 14,
+			"image": ["ECGASPS12I002"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening Equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12006.mp4",
+				"videoName":"Replacing module"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing the equipment"
+			}],
+			"next": {
+				"step": 5
+			}
+
+		},
+		{
+
+			"question": "Check and confirm whether DC Voltage is available at the AC – DC Converter Board.",
+			"step": 15,
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening Equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12007.mp4",
+				"videoName":"Checking DC Voltage"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing the equipment"
+			}],
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 16
+			}
+
+		},
+		{
+
+			"question": "Replace the AC – DC converter board with a new one",
+			"step": 16,
+			"image": ["ECGASPS12I003"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening Equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12008.mp4",
+				"videoName":"Replacing AC – DC Board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing the equipment"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Check and confirm whether the DC Voltage is available at the DC – DC Converter.",
+			"step": 17,
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "Replace the control board with a new one",
+			"step": 18,
+			"image": ["ECGASPS12I004"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12009.mp4",
+				"videoName":"Replacing control board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Contact the technical for repairing the board / replace it with a new one",
+			"step": 19,
+			"image": ["ECGASPS12I005","ECGASPS12I005_1"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12010.mp4",
+				"videoName":"Replacing DC -DC Board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Check and confirm whether some of the buttons / buttons do not respond while pressing",
+			"step": 20,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 26
+			}
+		},
+		{
+			"question": "Cross check and confirm whether the switch control board is defective.",
+			"step": 21,
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 23
+			}
+		},
+		{
+			"question": "Replace the switch control board with a new one.",
+			"step": 22,
+			"image": ["ECGASPS12I006"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12011.mp4",
+				"videoName":"Replacing Switch control board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing equipment"
+			}],
+			"next": {
+				"step": 47
+			}
+		},
+		{
+			"question": "Cross check and confirm whether the control board is defective.",
+			"step": 23,
+			"yes": {
+				"step": 24
+			},
+			"no": {
+				"step": 25
+			}
+		},
+		{
+
+			"question": "Replace the control board with a new one",
+			"step": 24,
+			"image": ["ECGASPS12I004"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12009.mp4",
+				"videoName":"Replacing control board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 47
+			}
+		},
+		{
+
+			"question": "DC- DC Converter board is defective replace it with a new one.",
+			"step": 25,
+			"image": ["ECGASPS12I005","ECGASPS12I005_1"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12010.mp4",
+				"videoName":"Replacing DC -DC Board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 47
+			}
+		},
+		{
+
+			"question": "Check and confirm whether unable to increase / decrease the Amplitude / Size.",
+			"step": 26,
+			"yes": {
+				"step": 27
+			},
+			"no": {
+				"step": 28
+			}
+		},
+		{
+
+			"question": "Replace the ECG Amplifier Board with a new one",
+			"step": 27,
+			"image": ["CGASPS12I007"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12012.mp4",
+				"videoName":"Replacing ECG Board "
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 26
+			}
+
+		},
+		{
+
+			"question": "check and confirm whether the ECG print is very dull.",
+			"step": 28,
+			"yes": {
+				"step": 29
+			},
+			"no": {
+				"step": 31
+			}
+		},
+		{
+			"question": " open the equipment as shown in the video and clean the thermal head to remove the dirt and confirm whether the problem still persists.",
+			"step": 29,
+			"yes": {
+				"step": 30
+			},
+			"no": {
+				"step": 47
+			}
+		},
+		{
+
+			"question": "replace the thermal head with a new one",
+			"step": 30,
+			"image": ["ECGASPS12I008"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12013.mp4",
+				"videoName":"Replacing the thermal head"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 28
+			}
+		},
+		{
+			"question": "Check and confirm whether the print is partial.",
+			"step": 31,
+			"yes": {
+				"step": 32
+			},
+			"no": {
+				"step": 33
+			}
+		},
+		{
+			"question": "Replace the thermal head with a new one",
+			"step": 32,
+			"image": ["ECGASPS12I008"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening Equipment"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12013.mp4",
+				"videoName":"Replacing the thermal head"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing the equipment"
+			}],
+			"next": {
+				"step": 31
+			}
+		},
+		{
+			"question": "Check and confirm whether the paper is getting stuck / no rolling of paper.",
+			"step": 33,
+			"yes": {
+				"step": 34
+			},
+			"no": {
+				"step": 36
+			}
+		},
+		{
+			"question": "Reseat the paper properly and confirm whether the problem still persist",
+			"step": 34,
+			"yes": {
+				"step": 35
+			},
+			"no": {
+				"step": 47
+			}
+		},
+		{
+			"question": "Replace the motor with a new one",
+			"step": 35,
+			"image": ["ECGASPS12I009"],
+			"next": {
+				"step": 33
+			}
+		},
+		{
+			"question": "Check and confirm whether the battery Indicator does not illuminate.",
+			"step": 36,
+			"yes": {
+				"step": 37
+			},
+			"no": {
+				"step": 38
+			}
+		},
+		{
+			"question": "replace the battery with a new one",
+			"step": 37,
+			"image": ["ECGASPS12I010"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12014.mp4",
+				"videoName":"Replacing the battery"
+			}],
+			"next": {
+				"step": 36
+			}
+		},
+		{
+			"question": "Check and confirm whether the Error LED illuminates continuously.",
+			"step": 38,
+			"yes": {
+				"step": 39
+			},
+			"no": {
+				"step": 46
+			}
+		},
+		{
+			"question": "heck and confirm whether the leads cable is not connected / properly not connected.",
+			"step": 39,
+			"yes": {
+				"step": 40
+			},
+			"no": {
+				"step": 41
+			}
+		},
+		{
+			"question": "Connect the cables properly",
+			"step": 40,
+			"next": {
+				"step": 38
+			}
+		},
+		{
+			"question": "Check whether the cable is damaged / broken.",
+			"step": 41,
+			"yes": {
+				"step": 42
+			},
+			"no": {
+				"step": 43
+			}
+		},
+		{
+			"question": "Rreplace it with a new",
+			"step": 42,
+			"next": {
+				"step": 38
+			}
+		},
+		{
+			"question": "Check and confirm whether the connector is damaged / broken / loose soldering.",
+			"step": 43,
+			"yes": {
+				"step": 44
+			},
+			"no": {
+				"step": 45
+			}
+		},
+		{
+			"question": "Replace the connector pin accordingly",
+			"step": 44,
+			"next": {
+				"step": 38
+			}
+		},
+		{
+			"question": "Replace the ECG module with a new one",
+			"step": 45,
+			"image": ["ECGASPS12I007"],
+			"videos": [{
+				"src":"assets/videos/ECGASPS12/ECGASPS12003.mp4",
+				"videoName":"Opening"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12012.mp4",
+				"videoName":"Replacing ECG Board"
+			},
+			{
+				"src":"assets/videos/ECGASPS12/ECGASPS12005.mp4",
+				"videoName":"Closing"
+			}],
+			"next": {
+				"step": 38
+			}
+		},
+		{
+			"question": "If problem has not yet solved, contact the Technical Team for any other assistance through video call",
+			"step": 46,
+			"next": {
+				"step": 47
+			}
+		},
+		{
+			"question":"Thanks",
+			"step": 47,
+			"submit":true
+		}
+	]
+}
