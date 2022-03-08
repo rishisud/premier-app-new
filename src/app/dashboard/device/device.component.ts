@@ -12,7 +12,8 @@ export class DeviceComponent implements OnInit {
     {value: 'None', viewValue: 'None'},
     {value: 'ECGBPL610', viewValue: 'ECG BPL 610'},
     {value: 'ECGPHITR1', viewValue: 'ECG PHILIPS'},
-    {value: 'ECGASPS12', viewValue: 'ECG ASPEN SMART 12'}
+    {value: 'ECGASPS12', viewValue: 'ECG ASPEN SMART 12'},
+    {value: 'STERLIUNI', viewValue: 'STERLIZING UNIT'}
   ];
   constructor(private _router: Router) { }
 
