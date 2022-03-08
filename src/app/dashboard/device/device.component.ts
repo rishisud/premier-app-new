@@ -11,7 +11,7 @@ export class DeviceComponent implements OnInit {
   devices: Device[] = [
     {value: 'None', viewValue: 'None'},
     {value: 'ECGBPL610', viewValue: 'ECG BPL 610'},
-    {value: 'ECGPhilips', viewValue: 'ECG Philips'},
+    {value: 'ECGPHITR1', viewValue: 'ECG PHILIPS'},
   ];
   constructor(private _router: Router) { }
 

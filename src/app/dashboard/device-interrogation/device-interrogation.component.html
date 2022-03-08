@@ -15,13 +15,13 @@
       </div>
       <div *ngIf="isNull(question?.image)" class="video-player-wrapper">
         <div *ngFor="let item of question.image;">
-          <img style="padding-bottom: 10px;" mat-card-image  src="assets/images/device/{{ item }}.JPG">
+          <img style="padding-bottom: 10px;" mat-card-image  src="assets/images/device/{{device}}/{{ item }}.JPG">
         </div>
       </div>
       <div class="video-player-wrapper"  *ngIf="isNull(videoItems)">
         <vg-player (onPlayerReady)="videoPlayerInit($event)">
           <vg-overlay-play></vg-overlay-play>
-          <vg-buffering></vg-buffering>
+   
           <vg-scrub-bar>
             <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
             <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
