@@ -1,0 +1,462 @@
+{
+	"deviceName": "Valley lab ForceFX-C",
+	"questions": [{
+			"question": "Confirm the equipment with below provided image",
+			"step": 1,
+			"image": ["ESUVALFXC"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+			"step": 2,
+			"next": {
+				"step": 37
+			}
+		},
+		{
+			"question": "confirm is there any physical damage of the equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare the Incident / Damage and Missing Report",
+			"step": 4,
+			"next": {
+				"step": 37
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+			"step": 5,
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided ",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+
+		},
+		{
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "replace the power cord with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the AC fuses are burnt / Blown",
+			"step": 10,
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			},
+			"videos": [{
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC001.mov",
+				"videoName": "checking"
+			}],
+			"image": ["ESUVALFXCI001"]
+
+		},
+		{
+			"question": "replace the AC fuses with the new one",
+			"step": 11,
+			"next": {
+				"step": 5
+			},
+			"videos": [{
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC002.mov",
+				"videoName": "replacing the fuses"
+			}]
+
+		},
+		{
+			"question": "check and confirm whether the ON/OFF switch is defective",
+			"step": 12,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+			"question": "replace the ON / OFF switch with a new one",
+			"step": 13,
+			"next": {
+				"step": 5
+			},
+			"videos": [{
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC003.mov",
+				"videoName": "replacing the switch "
+			}],
+			"image": ["ESUVALFXCI002"]
+
+		},
+
+		{
+			"question": "open the equipment as shown in the video, check and confirm whether there is a SMPS output voltage",
+			"step": 14,
+			"yes": {
+				"step": 16
+			},
+			"no": {
+				"step": 15
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC005.mov",
+					"videoName": "checking the voltage"
+				}
+			],
+			"image": ["ESUVALFXCI003"]
+
+		},
+
+		{
+			"question": "replace the SMPS Board with a new one",
+			"step": 15,
+			"next": {
+				"step": 5
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC006.mov",
+					"videoName": "replacing the SMPS "
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			]
+		},
+		{
+			"question": "replace the mother board with a new one .",
+			"step": 16,
+			"next": {
+				"step": 5
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC008.mov",
+					"videoName": "replacing the Board"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI004"]
+		},
+		{
+			"question": "confirm whether there is a RF Output in Cut or Coagulation mode",
+			"step": 17,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 18
+			}
+		},
+		{
+			"question": "check the foot switch for continuity and confirm whether it is defective",
+			"step": 18,
+			"yes": {
+				"step": 19
+			},
+			"no": {
+				"step": 20
+			},
+
+			"videos": [{
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC009.mov",
+				"videoName": "checking the continuity"
+			}],
+			"image": ["ESUVALFXCI005"]
+		},
+		{
+			"question": "replace the foot switch with a new one",
+			"step": 19,
+			"next": {
+				"step": 17
+			}
+
+		},
+		{
+			"question": "check the cautery pencil for continuity and confirm whether it is defective",
+			"step": 20,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 22
+			},
+			"videos": [{
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC010.mov",
+				"videoName": "checking continuity"
+			}],
+			"image": ["ESUVALFXCI006"]
+		},
+		{
+			"question": "replace the cautery pencil with new one",
+			"step": 21,
+			"next": {
+				"step": 17
+			}
+		},
+		{
+			"question": "replace the RF Board",
+			"step": 22,
+			"next": {
+				"step": 17
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC011.mov",
+					"videoName": "replacing RF Board "
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI007", "ESUVALFXCI007_1"]
+		},
+		{
+			"question": "confirm whether the display is blank when the equipment is Power ON",
+			"step": 23,
+			"yes": {
+				"step": 24
+			},
+			"no": {
+				"step": 25
+			}
+		},
+		{
+			"question": "replace the display board with a new one",
+			"step": 24,
+			"next": {
+				"step": 23
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mov",
+					"videoName": "replacing the Display Board"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI008", "ESUVALFXCI008_1"]
+		},
+		{
+			"question": "check and confirm whether the earth pad alarm / Beep appears when connected",
+			"step": 25,
+			"yes": {
+				"step": 26
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+			"question": "check the connecting points for any carbon / debris formation",
+			"step": 26,
+			"yes": {
+				"step": 27
+			},
+			"no": {
+				"step": 28
+			}
+		},
+		{
+			"question": "clean the connecting point and connect the earth pad back",
+			"step": 27,
+			"next": {
+				"step": 37
+			}
+		},
+		{
+			"question": "replace the control board with a new one",
+			"step": 28,
+			"next": {
+				"step": 25
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC013.mov",
+					"videoName": "replacing Control Board"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI009"]
+		},
+		{
+			"question": "confirm whether the alarm tones do not sound",
+			"step": 29,
+			"yes": {
+				"step": 30
+			},
+			"no": {
+				"step": 34
+			}
+		},
+		{
+			"question": "check the continuity of speaker and confirm whether it is defective",
+			"step": 30,
+			"yes": {
+				"step": 31
+			},
+			"no": {
+				"step": 32
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC014.mov",
+					"videoName": "checking the continuity"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI010"]
+		},
+		{
+			"question": "replace the speaker with a new one ",
+			"step": 31,
+			"next": {
+				"step": 29
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC015.mov",
+					"videoName": "replacing the Speaker"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			]
+		},
+		{
+			"question": "check and confirm whether the Input power to SMPS and Control Board are present",
+			"step": 32,
+			"yes": {
+				"step": 36
+			},
+			"no": {
+				"step": 33
+			}
+		},
+		{
+			"question": "replace the board accordingly",
+			"step": 33,
+			"next": {
+				"step": 29
+			}
+		},
+		{
+			"question": "check and confirm whether the buttons do not respond while setting the appropriate value in Cut or Coagulation Mode",
+			"step": 34,
+			"yes": {
+				"step": 35
+			},
+			"no": {
+				"step": 36
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and replace the key pad assemble.",
+			"step": 35,
+			"next": {
+				"step": 34
+			},
+			"videos": [{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mov",
+					"videoName": "replacing the Keypad "
+				},
+				{
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"image": ["ESUVALFXCI008", "ESUVALFXCI008_1"]
+		},
+		{
+			"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+			"step": 36,
+			"next": {
+				"step": 37
+			}
+		},	
+		{
+			"question":"Thanks",
+			"step": 37,
+			"submit":true
+		}
+
+	]
+}

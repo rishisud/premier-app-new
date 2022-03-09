@@ -1,0 +1,274 @@
+{
+	"deviceName": "BP APPARATUS",
+	"questions": [{
+			"question": "confirm the Equipment with the below provided Image.",
+			"step": 1,
+			"image": ["BPMBPLB18"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+			"question": "Upload the image of the equipment, contact the technical team for corrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "Confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Prepare Incident/Damage and Missing report.",
+			"step": 4,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "start the equipment and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "replace the battery with a new one and confirm whether the problem still persist.",
+			"step": 6,
+			"videos": [{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18001.mp4",
+				"videoName":"replacing the batteries"
+			}],
+			"yes": {
+				"step": 7
+			},
+			"no": {
+				"step": 26
+			}
+
+		},
+		{
+			"question": "replace the Mother Board with a new one ",
+			"step": 7,
+			"videos": [{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18002.mp4",
+				"videoName":"opening the equipment "
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18003.mp4",
+				"videoName":"replacing the Mother Board"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether pressure is delivered when the equipment is ON",
+			"step": 8,
+			"yes": {
+				"step": 10
+			},
+			"no": {
+				"step": 9
+			}
+		},
+		{
+			"question": "replace the motor with a new one",
+			"step": 9,
+			"videos": [{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18002.mp4",
+				"videoName":"opening the equipment "
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
+				"videoName":"replacing the motor"
+			}],
+			"next": {
+				"step": 8
+			}
+		},
+		{
+			"question": "check and confirm whether the pressure deflates immediately after the inflammation.",
+			"step": 10,
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 16
+			}
+		},
+		{
+			"question": "open the equipment, check and confirm whether for any leakage, loose connections and breakage of internal tubing’s.",
+			"step": 11,
+			"yes": {
+				"step": 12
+			},
+			"no": {
+				"step": 13
+			}
+		},
+		{
+			"question": "replace them accordingly",
+			"step": 12,
+			"next": {
+				"step": 10
+			}
+		},
+		{
+			"question": "check the arm cuff tube for any blockage or leakage",
+			"step": 13,
+			"yes": {
+				"step": 14
+			},
+			"no": {
+				"step": 15
+			}
+		},
+		{
+			"question": "replace the arm cuff tube with a new one ",
+			"step": 14,
+			"next": {
+				"step": 10
+			}
+		},
+		{
+			"question": "replace the solenoid",
+			"step": 15,
+			"image": ["BPMBPLB18I004"],
+			"videos": [
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18005.mp4",
+				"videoName":"replacing the solenoid"
+			}],
+			"next": {
+				"step": 10
+			}
+		},
+		{
+			"question": "check and confirm whether the display is blank / not getting ON",
+			"step": 16,
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 18
+			}
+		},
+		{
+			"question": "replace the Mother Board with a new one",
+			"step": 17,
+			"image": ["BPMBPLB18I002"],
+			"videos": [
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
+				"videoName":"replacing the motor"
+			}],
+			"next": {
+				"step": 16
+			}
+		},
+		{
+			"question": "check and confirm whether there is a low pressure available during inflammation",
+			"step": 18,
+			"yes": {
+				"step": 19
+			},
+			"no": {
+				"step": 22
+			}
+		},
+		{
+			"question": "check the arm cuff tube for any blockage or leakage",
+			"step": 19,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 21
+			}
+		},
+
+		{
+			"question": "replace the arm cuff tube with a new one",
+			"step": 20,
+			"next": {
+				"step": 18
+			}
+		},
+		{
+			"question": "replace the motor with a new one.",
+			"step": 21,
+			"next": {
+				"step": 18
+			},
+			"videos": [{
+				"src": "assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
+				"videoName": "replacing the Mother Board"
+			}],
+			"image": ["BPMBPLB18I002"]
+		},
+		{
+			"question": "check and confirm whether the arm cuff is getting inflated but there is improper deflating / no deflating.",
+			"step": 22,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 25
+			}
+		},
+		{
+			"question": "replace the solenoid and confirm whether problem still persist.",
+			"step": 23,
+			"yes": {
+				"step": 24
+			},
+			"no": {
+				"step": 26
+			},
+
+			"videos": [{
+				"src": "assets/videos/BPMBPLB18/BPMBPLB18005.mp4",
+				"videoName": "replacing the solenoid"
+			}],
+			"image": ["BPMBPLB18I004"]
+		},
+		{
+			"question": "replace the Mother Board with a new one.",
+			"step": 24,
+			"next": {
+				"step": 22
+			},
+			"videos": [{
+				"src": "assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
+				"videoName": "replacing the motor"
+			}],
+			"image": ["BPMBPLB18I002"]
+		},
+		{
+			"question": "If problem has not yet solved, contact the Technical Team for any other assistance through video call.",
+			"step": 25,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question":"Thanks",
+			"step": 26,
+			"submit":true
+		}
+	]
+}
