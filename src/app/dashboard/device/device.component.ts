@@ -15,6 +15,7 @@ export class DeviceComponent implements OnInit {
     {value: 'ECGASPS12', viewValue: 'ECG ASPEN SMART 12'},
     {value: 'STERLIUNI', viewValue: 'STERLIZING UNIT'},
     {value: 'BPMBPLB18', viewValue: 'BPL 120/80 B18'},
+    {value: 'LEDPHOPHO', viewValue: 'PHOTOLUX'},
     {value: 'ESUVALFXC', viewValue: 'Valley lab ForceFX-C'},
     {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'}
   ];
