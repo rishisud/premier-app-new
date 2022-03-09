@@ -1,0 +1,219 @@
+{
+	"deviceName": "READY MIST PISTON COMPRESSOR",
+	"questions": [{
+			"question": "Confirm the Equipment with the image placed below.",
+			"step": 1,
+			"image": ["NEBREAPIS","NEBREAPIS_1"],
+			"yes": {
+				"step": 3
+			},
+			"no": {	
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "check and confirm is there any physical damage of the equipment and accessories.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare a Damage and Missing Report or Incident report.",
+			"step": 4,
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "Switch on the Equipment and confirm the Equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "heck the power cable and confirm power plug integrity and loose connection are present.",
+			"step": 6,
+			"yes": {
+				"step": 7
+			},
+			"no": {
+				"step": 8
+			}
+
+		},
+		{
+			"question": "connect the power cable properly",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "open the equipment as shown in below video and check the internal fuse.",
+			"step": 8,
+			"image": ["NEBREAPISI001"],
+			"videos": [{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS001.mov",
+				"videoName":"opening of the Equipment"
+			},
+			{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS002.mov",
+				"videoName":"checking the fuse"
+			}],
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "Confirm whether the fuse is burnt.",
+			"step": 9,
+			"yes": {
+				"step": 10
+			},
+			"no": {
+				"step": 21
+			}
+		},
+		{
+			"question": "replace the Fuse with a new one",
+			"step": 10,
+			"image": ["NEBREAPIS003"],
+			"videos": [{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS004.mp4",
+				"videoName":"closing the equipment"
+			}],			
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "confirm whether sufficient amount of vapour / Nebulization is provided by the equipment.",
+			"step": 11,
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+			"question": "Check the tube connection and confirm for any loose connection.",
+			"step": 12,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+			"question": "Advice the user to get a new tubing set",
+			"step": 13,
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "Check the Inlet filter and confirm whether it is occupied by dust.",
+			"step": 14,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 16
+			}
+		},
+		{
+			"question": "Clean the inlet filter accordingly",
+			"step": 15,
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "Check the internal tubing connections for any physical damage (Cracks / Breaks)",
+			"step": 16,
+			"image": ["NEBREAPISI003"],
+			"videos": [{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS001.mov",
+				"videoName":"opening the equipment"
+			},{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS004.mp4",
+				"videoName":"closing the equipment"
+			}],	
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 21
+			}
+		},
+		{
+			"question": "kindly replace the tubing set with a new one",
+			"step": 17,
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "check and confirm whether the suction Motor is running.",
+			"step": 18,
+			"image": ["NEBREAPISI004"],
+			"videos": [{
+				"src":"assets/videos/NEBREAPIS/NEBREAPIS001.mov",
+				"videoName":"opening the equipment"
+			}],	
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "observe whether the motor winding is getting heated too much and can sense burnt smell.",
+			"step": 19,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 22
+			}
+		},
+		{
+			"question": "Replace the Motor Assembly and close the Equipment properly and carefully.",
+			"step": 20,
+			"next": {
+				"step": 18
+			}
+		},
+		{
+			"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+			"step": 21,
+			"next": {
+				"step": 22
+			}
+		},		
+		{
+			"question":"Thanks",
+			"step": 22,
+			"submit":true
+		}
+	]
+}

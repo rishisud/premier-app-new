@@ -158,15 +158,15 @@
 			"question": "Check and confirm whether the machine is not getting ON even after the hard press of the ON key on the Keypad / Switch board.",
 			"step": 16,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610002.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610002.mov",
 				"videoName":"Checking the voltage"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"yes": {
@@ -182,15 +182,15 @@
 			"step": 17,
 			"image":["ECGBPL610I001","ECGBPL610I001_1"],
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610004.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610004.mp4",
 				"videoName":"Keypad"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"next": {
@@ -211,11 +211,11 @@
 			"question": "Kindly open the equipment as shown in the video, check and confirm the motor assembly, gear box assembly motor loose connections, gears teeth breaks or for any springs detached and for any dust formation.",
 			"step": 19,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"yes": {
@@ -237,15 +237,15 @@
 			"question": "Replace the motor assembly with a new one.",
 			"step": 21,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610008.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610008.mov",
 				"videoName":"Replacing"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"next": {
@@ -266,15 +266,15 @@
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 23,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610005.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610005.mov",
 				"videoName":"Checking"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"yes": {
@@ -290,11 +290,11 @@
 			"step": 24,
 			"videos": [
 			{
-				"src":"assets/videos/ECGBPL610006.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610006.mov",
 				"videoName":"Replacing PCB"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"image":["ECGBPL610I002","ECGBPL610I002_1"],
@@ -308,11 +308,11 @@
 			"step": 25,
 			"videos": [
 				{
-					"src":"assets/videos/ECGBPL610007.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610007.mov",
 					"videoName":"Replacing Battery"
 				},
 				{
-					"src":"assets/videos/ECGBPL610003.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 					"videoName":"Closing"
 				}],
 			"image": ["ECGBPL610I003"],
@@ -326,7 +326,7 @@
 			"step": 26,
 			"videos": [
 				{
-					"src":"assets/videos/ECGBPL610003.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 					"videoName":"Closing"
 				}],
 			"image":["ECGBPL610I005","ECGBPL610I005_1"],
@@ -343,11 +343,11 @@
 			"step": 27,
 			"videos": [
 				{
-					"src":"assets/videos/ECGBPL610009.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610009.mov",
 					"videoName":"Replacing"
 				},
 				{
-					"src":"assets/videos/ECGBPL610003.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 					"videoName":"Closing"
 				}],
 			"next": {
@@ -371,15 +371,15 @@
 			"question": "Check and confirm whether the input voltage to the battery (18VDC) is received.",
 			"step": 29,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610005.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610005.mov",
 				"videoName":"Checking"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"yes": {
@@ -395,11 +395,11 @@
 			"step": 30,
 			"videos": [
 				{
-					"src":"assets/videos/ECGBPL610006.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610006.mov",
 					"videoName":"Replacing PCB"
 				},
 				{
-					"src":"assets/videos/ECGBPL610003.mov",
+					"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 					"videoName":"Closing"
 				}],
 			"image":["ECGBPL610I002","ECGBPL610I002_1"],
@@ -412,11 +412,11 @@
 			"step": 31,
 			"videos": [
 			{
-				"src":"assets/videos/ECGBPL610007.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610007.mov",
 				"videoName":"Replacing Battery"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"image": ["ECGBPL610I003"],
@@ -430,7 +430,7 @@
 			"image": ["ECGBPL610I005"],
 			"videos": [
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"yes": {
@@ -451,15 +451,15 @@
 			"question": "Replace the Thermal head assembly with a new one",
 			"step": 34,
 			"videos": [{
-				"src":"assets/videos/ECGBPL610001.mp4",
+				"src":"assets/videos/ECGBPL610/ECGBPL610001.mp4",
 				"videoName":"Opening"
 			},
 			{
-				"src":"assets/videos/ECGBPL610009.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610009.mov",
 				"videoName":"Replacing"
 			},
 			{
-				"src":"assets/videos/ECGBPL610003.mov",
+				"src":"assets/videos/ECGBPL610/ECGBPL610003.mov",
 				"videoName":"Closing"
 			}],
 			"next": {

@@ -20,7 +20,7 @@
 			}
 		},
 		{
-			"question": "Cconfirm for any physical Damage of the Equipment.",
+			"question": "confirm for any physical Damage of the Equipment.",
 			"step": 3,
 			"yes": {
 				"step": 4
