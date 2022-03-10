@@ -1,0 +1,220 @@
+{
+	"deviceName": "RESPRONICS -PHILIPS: REMSTAR AUTO FLEX",
+	"questions": [{
+			"question": "Confirm the Equipment with below provided image.",
+			"step": 1,
+			"image": ["CPAPHIREM"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "confirm is there any physical Damage of the Equipment",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare Damage / Incident and Missing report.",
+			"step": 4,
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "check whether the wall out let is provided with the AC Voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+		},
+		{
+			"question": "kindly shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the Input (230 VAC) and Output (12 VDC) are available at the adapter.",
+			"step": 8,
+			"videos": [{
+				"src": "assets/videos/CPAPHIREM/CPAPHIREM001.mp4",
+				"videoName": "checking voltages"
+			}],
+			"yes": {
+				"step": 10
+			},
+			"no": {
+				"step": 9
+			}
+		},
+		{
+			"question": "replace the adapter with a new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "replace the Control Board with a new one",
+			"step": 10,
+			"image": ["CPAPHIREMI001"],
+			"videos": [{
+					"src": "assets/videos/CPAPHIREM/CPAPHIREM002.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/CPAPHIREM/CPAPHIREM003.mp4",
+					"videoName": "replacing control board"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the machine turned ON but blower is not working.",
+			"step": 11,
+			"yes": {
+				"step": 12
+			},
+			"no": {
+				"step": 17
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Check and confirm for any obstructions in the Blower Assemble.",
+			"step": 12,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+			"question": "clean the Blower assemble accordingly",
+			"step": 13,
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "check and confirm whether the voltage is available to the Blower Motor Assemble.",
+			"step": 14,
+			"image": ["CPAPHIREMI002"],
+			"yes": {
+				"step": 16
+			},
+			"no": {
+				"step": 15
+			}
+		},
+		{
+			"question": "replace the Blower Motor Assemble with a new one",
+			"step": 15,
+			"image": ["CPAPHIREMI003"],
+			"videos": [{
+				"src": "assets/videos/CPAPHIREM/CPAPHIREM004.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "replace the Control Board with a new one",
+			"step": 16,
+			"image": ["CPAPHIREMI001"],
+			"videos": [{
+				"src": "assets/videos/CPAPHIREM/CPAPHIREM002.mp4",
+				"videoName": "replacing the control board"
+			}],
+			"next": {
+				"step": 11
+			}
+		},
+		{
+			"question": "check and confirm whether there is a CPAP Output available.",
+			"step": 17,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 18
+			}
+		},
+		{
+			"question": "check and confirm whether there is any obstruction in the inlet filter.",
+			"step": 18,
+			"yes": {
+				"step": 19
+			},
+			"no": {
+				"step": 20
+			}
+		},
+		{
+			"question": "clean the inlet filter and fix it back.",
+			"step": 19,
+			"next": {
+				"step": 17
+			}
+		},
+		{
+			"question": "replace it with a new one",
+			"step": 20,
+			"image": ["CPAPHIREMI004", "CPAPHIREMI004_1"],
+			"videos": [{
+				"src": "assets/videos/CPAPHIREM/CPAPHIREM005.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 17
+			}
+		},
+		,
+		{
+			"question":"If the problem has not yet solved, contact the Technical team for any other assistance through video call.",
+			"step": 21,
+			"next": {
+				"step": 22
+			}
+		},
+		,
+		{
+			"question":"Thanks",
+			"step": 22,
+			"submit":true
+		}
+	]
+}

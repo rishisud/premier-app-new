@@ -17,6 +17,8 @@ export class DeviceComponent implements OnInit {
     {value: 'BPMBPLB18', viewValue: 'BPL 120/80 B18'},
     {value: 'LEDPHOPHO', viewValue: 'PHOTOLUX'},
     {value: 'ESUVALFXC', viewValue: 'Valley lab ForceFX-C'},
+    {value: 'CPAPHIREM', viewValue: 'RESPRONICS -PHILIPS'},
+    {value: 'CENREMR4C', viewValue: 'REMI - R 4C'},
     {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'}
   ];
   constructor(private _router: Router) { }
