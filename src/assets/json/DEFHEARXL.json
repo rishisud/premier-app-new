@@ -1,0 +1,567 @@
+{
+	"deviceName": "HEART START XL",
+	"questions": [{
+			"question": "Confirm the Equipment with below provided image.",
+			"step": 1,
+			"image": ["DEFHEARXL"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+
+			"question": "prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 14
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+
+			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+		},
+		{
+
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+
+			"question": "then replace the power cord with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+
+			"question": "open the equipment as shown in the below video and check whether the Fuses are burnt.",
+			"step": 10,
+			"image": ["DEFHEARXLI001"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL002.mov",
+					"videoName": "checking the fuses"
+				}
+			],
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+
+			"question": "replace the fuses with new one",
+			"step": 11,
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL003.mov",
+					"videoName": "replacing the Fuses"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+
+			"question": "repair or replace the power supply (SMPS) with a new one and confirm whether the equipment is getting ON.",
+			"step": 12,
+			"image": ["DEFHEARXLI002"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL005.mov",
+					"videoName": "replacing the power supply"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"yes": {
+				"step": 44
+			},
+			"no": {
+				"step": 13
+			}
+		},
+		{
+
+			"question": "replace the Control PCA with a new one",
+			"step": 13,
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL006.mov",
+					"videoName": "replacing the PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+
+			"question": "check and confirm whether No Paddles Connected message appears on the display.",
+			"step": 14,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 17
+			}
+		},
+		{
+
+			"question": "connect the external paddles properly and confirm whether the message still appears.",
+			"step": 15,
+			"yes": {
+				"step": 16
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "replace the control PCA",
+			"step": 16,
+			"image": ["DEFHEARXLI004"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL007.mov",
+					"videoName": "replacing the Control PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 14
+			}
+		},
+		{
+
+			"question": "check and confirm whether Pads Cable Off message appears on the display.",
+			"step": 17,
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 21
+			}
+		},
+		{
+
+			"question": "check that the paddles cable is properly locked in place.",
+			"step": 18,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+
+			"question": "connect the paddles cable properly as shown in the video and confirm whether the message still appears.",
+			"step": 19,
+			"videos": [{
+				"src": "assets/videos/DEFHEARXL/DEFHEARXL008.mov",
+				"videoName": "connecting the paddles"
+			}],
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "replace the power PCA with the new one",
+			"step": 20,
+			"image": ["DEFHEARXLI003"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL006.mov",
+					"videoName": "replacing the Power PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 17
+			}
+		},
+		{
+
+			"question": "check and confirm whether Pads Off message appears on the display.",
+			"step": 21,
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 24
+			}
+		},
+		{
+
+			"question": "connect the pads properly to the patient and confirm whether the message still appears.",
+			"step": 22,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "replace the power PCA with the new one",
+			"step": 23,
+			"image": ["DEFHEARXLI003"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL006.mov",
+					"videoName": "replacing the Power PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 21
+			}
+		},
+		{
+			"question": "confirm whether a continuous beep of about 7 seconds is heard after powering ON the equipment.",
+			"step": 24,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 27
+			}
+		},
+		{
+			"question": "power off the equipment and power again. Confirm whether the beep still continues.",
+			"step": 25,
+			"yes": {
+				"step": 26
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+
+			"question": "replace the control PCA with new one",
+			"step": 26,
+			"image": ["DEFHEARXLI004"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL007.mov",
+					"videoName": "replacing the Control PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 24
+			}
+		},
+		{
+			"question": "check and confirm whether any flat line appears during the ECG is taken.",
+			"step": 27,
+			"yes": {
+				"step": 28
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+
+			"question": "replace / repair the control PCA with new one",
+			"step": 28,
+			"image": ["DEFHEARXLI004"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL007.mov",
+					"videoName": "replacing the Control PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 27
+			}
+		},
+		{
+			"question": "confirm whether there is Noisy / Trace distorted in the ECG.",
+			"step": 29,
+			"yes": {
+				"step": 30
+			},
+			"no": {
+				"step": 32
+			}
+		},
+		{
+			"question": "connect the paddles properly to the patient and unit, then confirm still the Noisy / Trace distorted still appears.",
+			"step": 30,
+			"yes": {
+				"step": 31
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+			"question": "replace the control PCA",
+			"step": 31,
+			"image": ["DEFHEARXLI004"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL007.mov",
+					"videoName": "replacing the Control PCA"
+				}, {
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 29
+			}
+		},
+		{
+			"question": "check and confirm whether one or more ECG controls are not responding ( Eg. Selection of lead or ECG size).",
+			"step": 32,
+			"yes": {
+				"step": 33
+			},
+			"no": {
+				"step": 35
+			}
+		},
+		{
+			"question": "check whether the top case / Keypad panel is defective and replace accordingly. Confirm whether the issue still occurs.",
+			"step": 33,
+			"yes": {
+				"step": 34
+			},
+			"no": {
+				"step": 44
+			}
+		},
+		{
+			"question": "replace the Keyscan PCA with a new one",
+			"step": 34,
+			"image": ["DEFHEARXLI005", "DEFHEARXLI005_1"],
+			"videos": [{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL001.mov",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL009.mov",
+					"videoName": "replacing Keyscan PCA"
+				},
+				{
+					"src": "assets/videos/DEFHEARXL/DEFHEARXL004.mov",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 32
+			}
+		},
+		{
+			"question": "confirm the paper roller is moving during the print.",
+			"step": 35,
+			"yes": {
+				"step": 38
+			},
+			"no": {
+				"step": 36
+			}
+		},
+		{
+			"question": "reload the paper roll and clear the jam if present and confirm whether the paper is moving.",
+			"step": 36,
+			"yes": {
+				"step": 44
+			},
+			"no": {
+				"step": 37
+			}
+		},
+		{
+			"question": "replace the printer with a new one",
+			"step": 37,
+			"image": ["DEFHEARXLI006", "DEFHEARXLI006_1"],
+			"videos": [{
+				"src": "assets/videos/DEFHEARXL/DEFHEARXL010.mov",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 35
+			}
+		},
+		{
+			"question": "confirm whether the print appears on the paper.",
+			"step": 38,
+			"yes": {
+				"step": 41
+			},
+			"no": {
+				"step": 39
+			}
+		},
+		{
+			"question": "clean the printhead for any dust / Obstructions and confirm print appears on the paper.",
+			"step": 39,
+			"yes": {
+				"step": 44
+			},
+			"no": {
+				"step": 40
+			}
+		},
+		{
+			"question": "replace the printer with the new one",
+			"step": 40,
+			"image": ["DEFHEARXLI006", "DEFHEARXLI006_1"],
+			"videos": [{
+				"src": "assets/videos/DEFHEARXL/DEFHEARXL010.mov",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 38
+			}
+		},
+		{
+			"question": "confirm whether any black / white line is running along the paper.",
+			"step": 41,
+			"yes": {
+				"step": 42
+			},
+			"no": {
+				"step": 43
+			}
+		},
+		{
+			"question": "replace the printer with new one",
+			"step": 42,
+			"image": ["DEFHEARXLI006", "DEFHEARXLI006_1"],
+			"videos": [{
+				"src": "assets/videos/DEFHEARXL/DEFHEARXL010.mov",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 41
+			}
+		},
+		{
+			"question": "If problem has not yet solved, contact the Technical Team for any other assistance through video call.",
+			"step": 43,
+			"next": {
+				"step": 44
+			}
+		},
+		{
+			"question": "Thanks",
+			"step": 44,
+			"submit": true
+		}
+	]
+}
