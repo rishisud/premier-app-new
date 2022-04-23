@@ -190,10 +190,10 @@
 			"question": "observe whether the motor winding is getting heated too much and can sense burnt smell.",
 			"step": 19,
 			"yes": {
-				"step": 21
+				"step": 20
 			},
 			"no": {
-				"step": 22
+				"step": 21
 			}
 		},
 		{

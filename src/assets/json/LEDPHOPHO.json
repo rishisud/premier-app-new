@@ -114,10 +114,10 @@
 			"question": "confirm whether the LED’s are glowing.",
 			"step": 13,
 			"yes": {
-				"step": 14
+				"step": 15
 			},
 			"no": {
-				"step": 15
+				"step": 14
 			}
 		},
 		{

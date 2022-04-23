@@ -347,7 +347,7 @@
 			}
 		},
 		{
-			"question": "Check and confirm whether ECG Print is very dul",
+			"question": "Check and confirm whether ECG Print is very dull",
 			"step": 29,
 			"yes": {
 				"step": 30
@@ -447,7 +447,7 @@
 			},
 			{
 				"src":"assets/videos/ECGPHITR1/ECGPHITR1013.mp4",
-				"videoName":"Replacing monitor"
+				"videoName":"Replacing motor"
 			},
 			{
 				"src":"assets/videos/ECGPHITR1/ECGPHITR1006.mp4",

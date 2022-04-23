@@ -90,7 +90,7 @@
 			"question": "Check and confirm whether the water is getting heated",
 			"step": 10,
 			"yes": {
-				"step": 12
+				"step": 13
 			},
 			"no": {
 				"step": 11
