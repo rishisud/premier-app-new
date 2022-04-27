@@ -19,6 +19,17 @@ export class DeviceComponent implements OnInit {
     {value: 'ESUVALFXC', viewValue: 'Valley lab ForceFX-C'},
     {value: 'CPAPHIREM', viewValue: 'RESPRONICS -PHILIPS'},
     {value: 'CENREMR4C', viewValue: 'REMI - R 4C'},
+    {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'},
+    {value: 'HUMFIS810', viewValue: 'Fisher & Paykel MR810'},
+    {value: 'INFFREOVS', viewValue: 'FRESENIUS OPTIMA VS'},
+    {value: 'MUSBIO103', viewValue: 'BIO-MED INC. – BMI 1033'},
+    {value: 'PATSCHTRU', viewValue: 'SCHILLER -TRUESCOPE ll'},
+    {value: 'PULNEL560', viewValue: 'NELLCOR OXIMAX N – 560'},
+    {value: 'SEMMER300', viewValue: 'Merck -MICRO LAB -300'},
+    {value: 'SUCINSPRE', viewValue: 'INSTAVAC PREMIUM'},
+    {value: 'SYRBBAPER', viewValue: 'B BARUN PERFUSSOR COMPACT'},
+    {value: 'ULTSON100', viewValue: 'SONOSCAPE SSI1000'},
+    {value: 'DEFHEARXL', viewValue: 'HEART START XL'},
     {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'}
   ];
   constructor(private _router: Router) { }
