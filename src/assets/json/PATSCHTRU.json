@@ -1,0 +1,488 @@
+{
+	"deviceName": "SCHILLER -TRUESCOPE ll",
+	"questions": [{
+			"question": "Confirm the Equipment with below provided image.",
+			"step": 1,
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			},
+			"image": ["PATSCHTRU"]
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 39
+			}
+		},
+		{
+			"question": "confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 39
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": " check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "then replace the power cord with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the LED power ON indicator appears but the equipment does not switch ON.",
+			"step": 10,
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 36
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and clean the soft switch for any obstructions. Confirm whether the issue still persists",
+			"step": 11,
+			"yes": {
+				"step": 12
+			},
+			"no": {
+				"step": 13
+			}
+		},
+		{
+			"question": "replace the keypad assemble with a new one",
+			"step": 12,
+			"image": ["PATSCHTRUI001"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU002.mp4",
+					"videoName": "replacing"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			]
+		},
+		{
+			"question": "check the AC fuses and confirm whether they are blown out.",
+			"step": 13,
+			"image": ["PATSCHTRUI002"],
+			"videos": [{
+				"src": "assets/videos/PATSCHTRU/PATSCHTRU004.mp4",
+				"videoName": "checking"
+			}],
+
+			"yes": {
+				"step": 14
+			},
+			"no": {
+				"step": 15
+			}
+
+		},
+		{
+			"question": "replace the AC fuses with the new one",
+			"step": 14,
+			"videos": [{
+				"src": "assets/videos/PATSCHTRU/PATSCHTRU005.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Open the equipment as shown in the video. Check and confirm whether the Input and output voltages are available at the Power Unit (SMPS).",
+			"step": 15,
+			"image": ["PATSCHTRUI003"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening the Equipment"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU006.mp4",
+					"videoName": "checking the voltages of SMPS"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+			"yes": {
+				"step": 38
+			},
+			"no": {
+				"step": 16
+			}
+		},
+		{
+			"question": "replace the Power supply Unit (SMPS) with the new one",
+			"step": 16,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the display does not appears / switch On.",
+			"step": 17,
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and replace the display assemble with a new one",
+			"step": 18,
+			"image": ["PATSCHTRUI004"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU007.mp4",
+					"videoName": "replacing the display"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+
+			"next": {
+				"step": 17
+			}
+		},
+		{
+			"question": "check and confirm whether ECG cable not connected message appears on the display.",
+			"step": 19,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 22
+			}
+		},
+		{
+			"question": "check the input connector for any damage / improper connection.",
+			"step": 20,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 38
+			}
+		},
+		{
+			"question": "replace the connector / reconnect the cable properly",
+			"step": 21,
+			"next": {
+				"step": 19
+			}
+		},
+		{
+			"question": "check and confirm whether Leads off message appears on display.",
+			"step": 22,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 26
+			}
+		},
+		{
+			"question": "check and confirm whether the ECG cable is defective.",
+			"step": 23,
+			"videos": [{
+				"src": "assets/videos/PATSCHTRU/PATSCHTRU008.mp4",
+				"videoName": "checking the cable"
+			}],
+
+			"yes": {
+				"step": 24
+			},
+			"no": {
+				"step": 25
+			}
+		},
+		{
+			"question": " replace the cable with a new one",
+			"step": 24,
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Replace the ECG Module / Parameter Board with a new one",
+			"step": 25,
+			"image": ["PATSCHTRUI005"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening of equipment"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU009.mp4",
+					"videoName": "replacing the Module"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+
+			"next": {
+				"step": 22
+			}
+		},
+		{
+			"question": "check and confirm whether Sensor off / SPO2 off message appears on the display.",
+			"step": 26,
+			"yes": {
+				"step": 27
+			},
+			"no": {
+				"step": 30
+			}
+		},
+		{
+			"question": "check the pulse Oxi probe connector for any damage / improper connection.",
+			"step": 27,
+			"yes": {
+				"step": 28
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+			"question": " replace the connector with the new one / reconnect properly",
+			"step": 28,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and replace the Parameter Board with a new one",
+			"step": 29,
+			"image": ["PATSCHTRUI005"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening of equipment"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU010.mp4",
+					"videoName": "replacing the Module"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "check and confirm whether the NIBP Cuff is not getting inflated / unable to get the sufficient inflammation.",
+			"step": 30,
+			"yes": {
+				"step": 31
+			},
+			"no": {
+				"step": 34
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Check the internal tubing connection from DC Air pump to output port for any damage / cracks / leakages / loose connection.",
+			"step": 31,
+			"image": ["PATSCHTRUI006"],
+			"yes": {
+				"step": 32
+			},
+			"no": {
+				"step": 33
+			}
+		},
+		{
+			"question": "replace the internal tubing with a new one / reconnect it properly",
+			"step": 32,
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU011.mp4",
+					"videoName": "reconnecting"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+			"next": {
+				"step": 30
+			}
+		},
+		{
+			"question": "replace the NIBP Module with a new one",
+			"step": 33,
+			"image": ["PATSCHTRUI007"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU010.mp4",
+					"videoName": "replacing the module"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+			"next": {
+				"step": 30
+			}
+		},
+		{
+			"question": "check and confirm whether the parameter display appears empty.",
+			"step": 34,
+			"image": ["PATSCHTRUI008"],
+			"yes": {
+				"step": 35
+			},
+			"no": {
+				"step": 36
+			}
+		},
+		{
+			"question": "replace the NIBP Module with a new one",
+			"step": 35,
+			"image": ["PATSCHTRUI008"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening of equipment"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU012.mp4",
+					"videoName": "replacing the Control Board"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+			"next": {
+				"step": 34
+			}
+		},
+		{
+			"question": "check and confirm whether low battery indication appears.",
+			"step": 36,
+			"yes": {
+				"step": 37
+			},
+			"no": {
+				"step": 38
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Replace the battery with a new one",
+			"step": 37,
+			"image": ["PATSCHTRUI009"],
+			"videos": [{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU013.mp4",
+					"videoName": "replacing the battery"
+
+				},
+				{
+					"src": "assets/videos/PATSCHTRU/PATSCHTRU003.mp4",
+					"videoName": "closing the equipment"
+
+				}
+			],
+			"next": {
+				"step": 36
+			}
+		}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 38,
+		"next": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 39,
+		"submit": true
+	}
+	]
+}

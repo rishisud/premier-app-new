@@ -1,0 +1,314 @@
+{
+	"deviceName": "Merck -MICRO LAB -300",
+	"questions": [{
+			"question": "Confirm the Equipment with below provided image.",
+			"step": 1,
+			"image": ["SEMMER300"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "confirm for any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "kindly prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "then replace the power cord with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check the fuses for continuity and confirm whether they are defective.",
+			"step": 10,
+			"image": ["SEMMER300I001"],
+			"videos": [{
+				"src": "assets/videos/SEMMER300/SEMMER300001.mp4",
+				"videoName": "checking the fuses"
+			}],
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+			"question": "replace the fuses with a new one",
+			"step": 11,
+			"videos": [{
+				"src": "assets/videos/SEMMER300/SEMMER300002.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Check and confirm whether the Input and voltages are available at SMPS.",
+			"step": 12,
+			"image": ["SEMMER300I002"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300003.mp4",
+					"videoName": "opening of equipment"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300004.mp4",
+					"videoName": "checking the equipment"
+				}
+			],
+			"yes": {
+				"step": 14
+			},
+			"no": {
+				"step": 13
+			}
+		},
+		{
+			"question": "replace the SMPS with a new one",
+			"step": 13,
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300005.mp4",
+					"videoName": "replacing"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300006.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "replace the control Board",
+			"step": 14,
+			"image": ["SEMMER300I003"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300007.mp4",
+					"videoName": "replacing the control board"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300006.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether the display is getting ON.",
+			"step": 15,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 16
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Check and confirm whether the SMPS Output voltage is available.",
+			"step": 16,
+			"image": ["SEMMER300I004"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300003.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300008.mp4",
+					"videoName": "checking the voltage"
+				}
+			],
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 17
+			}
+		},
+		{
+			"question": "replace SMPS with a new one",
+			"step": 17,
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300005.mp4",
+					"videoName": "replacing"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300006.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 15
+			}
+		},
+		{
+			"question": "replace the display module with a new one. Check and confirm whether the display is getting ON.",
+			"step": 18,
+			"image": ["SEMMER300I005"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300009.mp4",
+					"videoName": "replacing"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300006.mp4",
+					"videoName": "closing"
+				}
+			],
+			"yes": {
+				"step": 26
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "replace the Control Board with a new one",
+			"step": 19,
+			"image": ["SEMMER300I003"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300007.mp4",
+					"videoName": "replacing the control board"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300006.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 15
+			}
+		},
+		{
+			"question": "check and confirm whether the lamp in the optical module is glowing.",
+			"step": 20,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 21
+			}
+		},
+		{
+			"question": "open the cover of optical assembly. Check the continuity of the lamp and confirm whether it is defective.",
+			"step": 21,
+			"image": ["SEMMER300I006"],
+			"videos": [{
+					"src": "assets/videos/SEMMER300/SEMMER300010.mp4",
+					"videoName": "opening cover"
+				},
+				{
+					"src": "assets/videos/SEMMER300/SEMMER300011.mp4",
+					"videoName": "checking the lamp"
+				}
+			],
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 26
+			}
+		},		{
+			"question": "replace the lamp with a new one ",
+			"step": 22,
+			"next": {
+				"step": 20
+			},
+			"videos": [{
+				"src": "assets/videos/SEMMER300/SEMMER300012.mp4",
+				"videoName": "replacing the lamp"
+			}]
+		},
+		{
+			"question": "check and confirm whether the keys on keypad are functional / working.",
+			"step": 23,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 24
+			}
+		},
+		{
+			"question": "open the top cover, remove the soft keypad assemble and replace it with a new one",
+			"step": 24,
+			"next": {
+				"step": 23
+			}
+		},{
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+			"step": 25,
+			"next": {
+				"step": 26
+			}
+		}, {
+			"question": "Thanks",
+			"step": 26,
+			"submit": true
+		}
+	]
+}

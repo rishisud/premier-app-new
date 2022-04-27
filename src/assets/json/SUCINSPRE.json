@@ -1,0 +1,266 @@
+{
+	"deviceName": "INSTAVAC PREMIUM",
+	"questions": [{
+			"question": "Confirm the Equipment with the image placed below.",
+			"step": 1,
+			"image": ["SUCINSPRE"],
+			"yes": {
+				"step": 3
+			},
+			"no": {	
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 27
+			}
+		},
+		{
+			"question": "confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 27
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "check whether the wall outlet is provided with AC Voltage of 230.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "then replace the power cord with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "open the equipment, check the continuity of Power Switch and confirm whether the switch is defective.",
+			"step": 10,
+			"image": ["SUCINSPREI001"],
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE001.mp4",
+				"videoName":"checking continuity"
+			}],
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+			"question": "replace the switch with a new one",
+			"step": 11,
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE002.mp4",
+				"videoName":"replacing the switch"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "replace the motor with a new one",
+			"step": 12,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "Confirm the Power / Suction pilot lamp appears when equipment is switched ON.",
+			"step": 13,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+			"question": "replace the pilot lamp with a new one",
+			"step": 14,
+			"image": ["SUCINSPREI002","SUCINSPREI002_1"],
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE003.mp4",
+				"videoName":"replacement of pilot lamps"
+			},{
+				"src":"assets/videos/SUCINSPRE/SUNINSPRE003_1.mp4",
+				"videoName":"replacement of pilot lamps"
+			}],
+			"next": {
+				"step": 13
+			}
+		},
+		{
+			"question": "Check and confirm whether sufficient pressure / pressure is delivered.",
+			"step": 15,
+			"yes": {
+				"step": 24
+			},
+			"no": {
+				"step": 16
+			}
+		},
+		{
+			"question": "check and confirm whether there is any breakage, cracks, Loosens and debris formation in the tubing.",
+			"step": 16,
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 18
+			}
+		},
+		{
+			"question": "replace the tubing with a new one",
+			"step": 17,
+			"next": {
+				"step": 15
+			}
+		},
+		{
+			"question": "check and confirm whether the jars / canister for any breakage, cracks / Damage.",
+			"step": 18,
+			"yes": {
+				"step": 19
+			},
+			"no": {
+				"step": 20
+			}
+		},
+		{
+			"question": "replace the jars / canister with a new one",
+			"step": 19,
+			"image": ["SUCINSPREI003"],
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUNINSPRE004.mp4",
+				"videoName":"replacing"
+			}],
+			"next": {
+				"step": 15
+			}
+		},
+		{
+			"question": "check and confirm whether the suction port filter for any obstructions and debris formation.",
+			"step": 20,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 22
+			}
+		},
+		{
+			"question": "replace the filter with a new one",
+			"step": 21,
+			"image": ["SUCINSPREI004"],
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE005.mp4",
+				"videoName":"replacing the port filter"
+			}],
+			"next": {
+				"step": 15
+			}		
+		},
+		{
+			"question": "open the front panel, check and confirm for any loose connections, filter port obstructions or disconnections.",
+			"step": 22,
+			"videos": [{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE006.mp4",
+				"videoName":"required for opening"
+			},
+			{
+				"src":"assets/videos/SUCINSPRE/SUCINSPRE007.mp4",
+				"videoName":"closing"
+			}],
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 27
+			}
+		},
+		{
+			"question": "connect them accordingly",
+			"step": 23,
+			"next": {
+				"step": 15
+			}
+		},
+		{
+			"question": "check and confirm whether the equipment is getting ON but there is no suction with a motor sound.",
+			"step": 24,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 26
+			}
+	},
+	{
+			"question": "kindly replace the motor with a new one",
+			"step": 25,
+			"next": {
+				"step": 24
+			}		
+		},{
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 26,
+		"next": {
+			"step": 27
+		}
+	}, {
+		"question": "Thanks",
+		"step": 27,
+		"submit": true
+	}
+	]
+}

@@ -1,0 +1,288 @@
+{
+	"deviceName": "B BARUN PERFUSSOR COMPACT",
+	"questions": [{
+			"question": "Confirm the Equipment with the image placed below.",
+			"step": 1,
+			"image": ["SYRBBAPER"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "Check and confirm is there any physical damage of the equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare a Damage / Incident and Missing report.",
+			"step": 4,
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": " Switch on the Equipment and confirm the Equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 17
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230V.",
+			"step": 6,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+
+		},
+		{
+			"question": " shift the equipment to another place where the AC Voltage 230V is provided",
+			"step": 7,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check the power cord cable for continuity as shown in the video and confirm whether it is defective or not.",
+			"step": 8,
+			"yes": {
+				"step": 9
+			},
+			"no": {
+				"step": 10
+			}
+		},
+		{
+			"question": "the power cord cable is defective replace it with the new one",
+			"step": 9,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm the input AC module for any cracks, bent pins or rust.",
+			"step": 10,
+			"image": ["SYRBBAPERI001"],
+			"yes": {
+				"step": 11
+			},
+			"no": {
+				"step": 12
+			}
+		},
+		{
+			"question": " replace the Transformer / N Module",
+			"step": 11,
+			"image": ["SYRBBAPERI002"],
+			"videos": [{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER001.mp4",
+					"videoName": "opening the Equipment"
+				},
+				{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER002.mp4",
+					"videoName": "replacing transformer"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "open the equipment as shown in the below video and plug in the power cord, check and confirm whether the transformer output is provided.",
+			"step": 12,
+			"videos": [{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER003.mp4",
+					"videoName": "checking the o/p of transformer"
+				}
+			],
+			"yes": {
+				"step": 14
+			},
+			"no": {
+				"step": 13
+			}
+		},
+		{
+			"question": "replace the transformer / N module with the new one",
+			"step": 13,
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER002.mp4",
+				"videoName": "replacing transformer"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "plug in the power cord cable, and check the capacitor C3 across the A module and confirm whether it is delivering 6.2 V to 6.8 V.",
+			"step": 14,
+			"image": ["SYRBBAPERI003"],
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER004.mp4",
+				"videoName": "required for checking"
+			}],
+			"yes": {
+				"step": 16
+			},
+			"no": {
+				"step": 15
+			}
+		},
+		{
+			"question": "replace the A module with the new one and confirm whether the problem still persist.",
+			"step": 15,
+			"image": ["SYRBBAPERI004"],
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER005.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 26
+			}
+		},
+		{
+			"question": "replace the E module",
+			"step": 16,
+			"image": ["SYRBBAPERI006","SYRBBAPERI006_1"],
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER006.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "confirm whether a battery and power cord symbol appears when power cable is plugged in and unit / equipment does not switch ON.confirm whether a battery and power cord symbol appears when power cable is plugged in and unit / equipment does not switch ON.",
+			"step": 17,
+			"image": ["SYRBBAPERI005"],
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "replace the keypad with the new one",
+			"step": 18,
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER007.mp4",
+				"videoName": "replacing keypad"
+			}],
+			"next": {
+				"step": 17
+			}
+		},
+		{
+			"question": "kindly set the flow rate and confirm whether the piston is moving.",
+			"step": 19,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": 20
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and confirm whether there any obstructions / broken gears.",
+			"step": 20,
+			"image": ["SYRBBAPERI007"],
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER001.mp4",
+				"videoName": "opening the Equipment"
+			}],
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 22
+			}
+		},
+		{
+			"question": "replace the gears with the new one / clean the obstructions",
+			"step": 21,
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER008.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 19
+			}
+		},
+		{
+			"question": "replace the motor assembly with a new one",
+			"step": 22,
+			"image": ["SYRBBAPERI008"],
+			"videos": [{
+				"src": "assets/videos/SYRBBAPER/SYRBBAPER009.mp4",
+				"videoName": "Replacing the motor Assembly"
+			}],
+			"next": {
+				"step": 19
+			}
+		},
+		{
+			"question": "confirm whether the ml of syringe is detected and displayed.",
+			"step": 23,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 24
+			}
+		},
+		{
+			"question": "kindly replace the senser near the drive board",
+			"step": 24,
+			"image": ["SYRBBAPERI009"],
+			"videos": [{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER010.mp4",
+					"videoName": "replacing"
+				},
+				{
+					"src": "assets/videos/SYRBBAPER/SYRBBAPER011.mp4",
+					"videoName": "Closing of equipment"
+				}
+			],
+			"next": {
+				"step": 23
+			}
+		},{
+			"question": "If the problem has not yet solved, contact the Technical Team for any other assistance through video call.",
+			"step": 25,
+			"next": {
+				"step": 26
+			}
+		}, {
+			"question": "Thanks",
+			"step": 26,
+			"submit": true
+		}
+	]
+}

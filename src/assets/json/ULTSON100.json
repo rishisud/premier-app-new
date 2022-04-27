@@ -1,0 +1,327 @@
+{
+	"deviceName": "SONOSCAPE SSI1000",
+	"questions": [{
+			"question": "Confirm the Equipment with below provided image.",
+			"step": 1,
+			"image": ["ULTSON100","ULTSON100_1"],
+			"yes": {
+				"step": 3
+			},
+			"no": {
+				"step": 2
+			}
+		},
+		{
+
+			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+			"step": 2,
+			"next": {
+				"step": 29
+			}
+		},
+		{
+			"question": " confirm is there any physical Damage of the Equipment.",
+			"step": 3,
+			"yes": {
+				"step": 4
+			},
+			"no": {
+				"step": 5
+			}
+		},
+		{
+			"question": "prepare the Incident / Damage and Missing Report.",
+			"step": 4,
+			"next": {
+				"step": 29
+			}
+		},
+		{
+			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+			"step": 5,
+			"yes": {
+				"step": 12
+			},
+			"no": {
+				"step": 6
+			}
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided.",
+			"step": 6,
+			"next": {
+				"step": 29
+			}
+
+		},
+		{
+			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+			"step": 7,
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 9
+			}
+		},
+		{
+			"question": "then replace the power cord with the new one",
+			"step": 8,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm for any cracks / Breakage in the Input power pin connector.",
+			"step": 9,
+			"yes": {
+				"step": 10
+			},
+			"no": {
+				"step": 11
+			}
+		},
+		{
+			"question": "replace the input power pin connector with a new one",
+			"step": 10,
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and replace / repair the SMPS with a new one",
+			"step": 11,
+			"image": ["ULTSON100I001", "ULTSON100I001_1"],
+			"videos": [{
+					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100002.mp4",
+					"videoName": "replacing SMPS"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100003.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether any message as port 1 and port 2 probes are not connected appears on the screen / Display.",
+			"step": 12,
+			"yes": {
+				"step": 13
+			},
+			"no": {
+				"step": 17
+			}
+		},
+		{
+			"question": "check and confirm whether probes are connected properly.",
+			"step": 13,
+			"yes": {
+				"step": 15
+			},
+			"no": {
+				"step": 14
+			}
+		},
+		{
+			"question": "reconnect the probes properly",
+			"step": 14,
+			"next": {
+				"step": 12
+			}
+		},
+		{
+			"question": "switch off the unit, connect the probes and turn ON the machine and confirm whether the message still appears.",
+			"step": 15,
+			"yes": {
+				"step": 16
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video and replace the Cable Module with a new one",
+			"step": 16,
+			"image": ["ULTSON100I002"],
+			"videos": [{
+					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
+					"videoName": "opening the equipment"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100004.mp4",
+					"videoName": "replacing the module"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100003.mp4",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 12
+			}
+		},
+		{
+			"question": "check and confirm whether the cursor appears on the screen but there is no movement of cursor on the screen.",
+			"step": 17,
+			"yes": {
+				"step": 18
+			},
+			"no": {
+				"step": 19
+			}
+		},
+		{
+			"question": "open the cursor ball lock, remove the ball clean the sensor control area and replace it back",
+			"step": 18,
+			"videos": [{
+				"src": "assets/videos/ULTSON100/ULTSON100005.mp4",
+				"videoName": "removing cursor"
+			}],
+			"next": {
+				"step": 17
+			}
+		},
+		{
+			"question": "Check and confirm whether the display appears blank / plain.",
+			"step": 19,
+			"yes": {
+				"step": 20
+			},
+			"no": {
+				"step": 24
+			}
+		},
+		{
+			"question": "turn off the machine and turn it ON again. Confirm whether the issue still occurs.",
+			"step": 20,
+			"yes": {
+				"step": 21
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video, clean the RAM’s on the mother board with cleaner solution, wait for a while, reseat the RAM’s back. Check and confirm whether the issue persists.",
+			"step": 21,
+			"image": ["ULTSON100I003"],
+			"videos": [{
+					"src": "assets/videos/ULTSON100/ULTSON100006.mp4",
+					"videoName": "reseating"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100003.mp4",
+					"videoName": "closing"
+				}
+			],
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 29
+			}
+		},
+		{
+			"question": "replace the RAM’s with a new one. Check and confirm whether issue still persists.",
+			"step": 22,
+			"yes": {
+				"step": 23
+			},
+			"no": {
+				"step": "Problem solved"
+			}
+		},
+		{
+			"question": "replace VGA Card with a new one",
+			"step": 23,
+			"image": ["ULTSON100I004"],
+			"videos": [{
+					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100007.mp4",
+					"videoName": "replacing VGA CARD"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100003.mp4",
+					"videoName": "closing the equipment"
+				}
+			],
+			"next": {
+				"step": 19
+			}
+		},
+		{
+			"question": "check and confirm whether the image doesn’t appear on the display during scanning.",
+			"step": 24,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 26
+			}
+		},
+		{
+			"question": "open the equipment as shown in the video. Replace the TR board with a new one",
+			"step": 25,
+			"image": ["ULTSON100I005"],
+			"videos": [{
+					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
+					"videoName": "opening"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100008.mp4",
+					"videoName": "replacing TR BOARD"
+				},
+				{
+					"src": "assets/videos/ULTSON100/ULTSON100003.mp4",
+					"videoName": "closing"
+				}
+			],
+			"next": {
+				"step": 24
+			}
+		},
+		{
+			"question": "check and confirm whether the screen / Display appears blank with blue screen.",
+			"step": 26,
+			"yes": {
+				"step": 27
+			},
+			"no": {
+				"step": 28
+			}
+		},
+		{
+			"question": "replace the hard disk with a new one",
+			"step": 27,
+			"image": ["ULTSON100I006"],
+			"videos": [{
+				"src": "assets/videos/ULTSON100/ULTSON100009.mp4",
+				"videoName": "replacing"
+			}],
+			"next": {
+				"step": 26
+			}
+		}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 28,
+		"next": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 29,
+		"submit": true
+	}
+	]
+}
