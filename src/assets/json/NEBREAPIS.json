@@ -47,7 +47,7 @@
 			}
 		},
 		{
-			"question": "heck the power cable and confirm power plug integrity and loose connection are present.",
+			"question": "check the power cable and confirm power plug integrity and loose connection are present.",
 			"step": 6,
 			"yes": {
 				"step": 7
@@ -77,7 +77,7 @@
 				"videoName":"checking the fuse"
 			}],
 			"next": {
-				"step": 22
+				"step": 9
 			}
 		},
 		{
@@ -180,7 +180,7 @@
 				"videoName":"opening the equipment"
 			}],	
 			"yes": {
-				"step": 20
+				"step": 21
 			},
 			"no": {
 				"step": 19
