@@ -48,6 +48,10 @@
 		{
 			"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230V.",
 			"step": 6,
+			"videos": [{
+				"src": "assets/videos/checking the wall outlet voltage.mp4",
+				"videoName": "checking the wall outlet voltage"
+			}],
 			"yes": {
 				"step": 8
 			},
@@ -66,6 +70,10 @@
 		{
 			"question": "check the power cord cable for continuity as shown in the video and confirm whether it is defective or not.",
 			"step": 8,
+			"videos": [{
+				"src": "assets/videos/checking the power cord.mp4",
+				"videoName": "checking the power cord"
+			}],
 			"yes": {
 				"step": 9
 			},
@@ -154,7 +162,7 @@
 			}
 		},
 		{
-			"question": "replace the A module with the new one and confirm whether the problem still persist.",
+			"question": "replace the A module with the new one.",
 			"step": 15,
 			"image": ["SYRBBAPERI004"],
 			"videos": [{

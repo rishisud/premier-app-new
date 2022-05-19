@@ -50,8 +50,8 @@
 			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
 			"step": 6,
 			"videos": [{
-				"src": "assets/videos/CHECKING THE WALL OUTLET.mp4",
-				"videoName": "CHECKING THE WALL OUTLET"
+				"src": "assets/videos/checking the wall outlet voltage.mp4",
+				"videoName": "checking the wall outlet voltage"
 			}],
 			"yes": {
 				"step": 8
@@ -72,8 +72,8 @@
 			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
 			"step": 8,
 			"videos": [{
-				"src": "assets/videos/CHECKING THE POWER CORD CABLE.mp4",
-				"videoName": "CHECKING THE POWER CORD CABLE"
+				"src": "assets/videos/checking the power cord.mp4",
+				"videoName": "checking the power cord"
 			}],
 			"yes": {
 				"step": 9
