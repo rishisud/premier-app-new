@@ -47,50 +47,68 @@
 			}
 		},
 		{
-			"question": "shift the Equipment to another place where the AC voltage of 230 is provided.",
+			"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
 			"step": 6,
+			"videos": [{
+				"src": "assets/videos/CHECKING THE WALL OUTLET.mp4",
+				"videoName": "CHECKING THE WALL OUTLET"
+			}],
+			"yes": {
+				"step": 8
+			},
+			"no": {
+				"step": 7
+			}
+		},
+		{
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided.",
+			"step": 7,
 			"next": {
-				"step": 29
+				"step": 5
 			}
 
 		},
 		{
 			"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
-			"step": 7,
+			"step": 8,
+			"videos": [{
+				"src": "assets/videos/CHECKING THE POWER CORD CABLE.mp4",
+				"videoName": "CHECKING THE POWER CORD CABLE"
+			}],
 			"yes": {
-				"step": 8
+				"step": 9
 			},
 			"no": {
-				"step": 9
+				"step": 10
 			}
 		},
 		{
 			"question": "then replace the power cord with the new one",
-			"step": 8,
+			"step": 9,
 			"next": {
 				"step": 5
 			}
 		},
 		{
 			"question": "check and confirm for any cracks / Breakage in the Input power pin connector.",
-			"step": 9,
+			"step": 10,
 			"yes": {
-				"step": 10
+				"step": 11
 			},
 			"no": {
-				"step": 11
+				"step": 12
 			}
 		},
 		{
 			"question": "replace the input power pin connector with a new one",
-			"step": 10,
+			"step": 11,
 			"next": {
 				"step": 5
 			}
 		},
 		{
 			"question": "open the equipment as shown in the video and replace / repair the SMPS with a new one",
-			"step": 11,
+			"step": 12,
 			"image": ["ULTSON100I001", "ULTSON100I001_1"],
 			"videos": [{
 					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
@@ -111,44 +129,44 @@
 		},
 		{
 			"question": "check and confirm whether any message as port 1 and port 2 probes are not connected appears on the screen / Display.",
-			"step": 12,
+			"step": 13,
 			"yes": {
-				"step": 13
+				"step": 14
 			},
 			"no": {
-				"step": 17
+				"step": 18
 			}
 		},
 		{
 			"question": "check and confirm whether probes are connected properly.",
-			"step": 13,
+			"step": 14,
 			"yes": {
-				"step": 15
+				"step": 16
 			},
 			"no": {
-				"step": 14
+				"step": 15
 			}
 		},
 		{
 			"question": "reconnect the probes properly",
-			"step": 14,
+			"step": 15,
 			"next": {
 				"step": 12
 			}
 		},
 		{
 			"question": "switch off the unit, connect the probes and turn ON the machine and confirm whether the message still appears.",
-			"step": 15,
+			"step": 16,
 			"yes": {
-				"step": 16
+				"step": 17
 			},
 			"no": {
-				"step": 29
+				"step": 30
 			}
 		},
 		{
 			"question": "open the equipment as shown in the video and replace the Cable Module with a new one",
-			"step": 16,
+			"step": 17,
 			"image": ["ULTSON100I002"],
 			"videos": [{
 					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
@@ -169,17 +187,17 @@
 		},
 		{
 			"question": "check and confirm whether the cursor appears on the screen but there is no movement of cursor on the screen.",
-			"step": 17,
+			"step": 18,
 			"yes": {
-				"step": 18
+				"step": 19
 			},
 			"no": {
-				"step": 19
+				"step": 20
 			}
 		},
 		{
 			"question": "open the cursor ball lock, remove the ball clean the sensor control area and replace it back",
-			"step": 18,
+			"step": 19,
 			"videos": [{
 				"src": "assets/videos/ULTSON100/ULTSON100005.mp4",
 				"videoName": "removing cursor"
@@ -190,27 +208,27 @@
 		},
 		{
 			"question": "Check and confirm whether the display appears blank / plain.",
-			"step": 19,
-			"yes": {
-				"step": 20
-			},
-			"no": {
-				"step": 24
-			}
-		},
-		{
-			"question": "turn off the machine and turn it ON again. Confirm whether the issue still occurs.",
 			"step": 20,
 			"yes": {
 				"step": 21
 			},
 			"no": {
-				"step": 29
+				"step": 25
+			}
+		},
+		{
+			"question": "turn off the machine and turn it ON again. Confirm whether the issue still occurs.",
+			"step": 21,
+			"yes": {
+				"step": 22
+			},
+			"no": {
+				"step": 30
 			}
 		},
 		{
 			"question": "open the equipment as shown in the video, clean the RAM’s on the mother board with cleaner solution, wait for a while, reseat the RAM’s back. Check and confirm whether the issue persists.",
-			"step": 21,
+			"step": 22,
 			"image": ["ULTSON100I003"],
 			"videos": [{
 					"src": "assets/videos/ULTSON100/ULTSON100006.mp4",
@@ -222,25 +240,25 @@
 				}
 			],
 			"yes": {
-				"step": 22
+				"step": 23
 			},
 			"no": {
-				"step": 29
+				"step": 30
 			}
 		},
 		{
 			"question": "replace the RAM’s with a new one. Check and confirm whether issue still persists.",
-			"step": 22,
+			"step": 23,
 			"yes": {
-				"step": 23
+				"step": 24
 			},
 			"no": {
-				"step": "Problem solved"
+				"step": 30
 			}
 		},
 		{
 			"question": "replace VGA Card with a new one",
-			"step": 23,
+			"step": 24,
 			"image": ["ULTSON100I004"],
 			"videos": [{
 					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
@@ -261,17 +279,17 @@
 		},
 		{
 			"question": "check and confirm whether the image doesn’t appear on the display during scanning.",
-			"step": 24,
+			"step": 25,
 			"yes": {
-				"step": 25
+				"step": 26
 			},
 			"no": {
-				"step": 26
+				"step": 27
 			}
 		},
 		{
 			"question": "open the equipment as shown in the video. Replace the TR board with a new one",
-			"step": 25,
+			"step": 26,
 			"image": ["ULTSON100I005"],
 			"videos": [{
 					"src": "assets/videos/ULTSON100/ULTSON100001.mp4",
@@ -292,17 +310,17 @@
 		},
 		{
 			"question": "check and confirm whether the screen / Display appears blank with blue screen.",
-			"step": 26,
+			"step": 27,
 			"yes": {
-				"step": 27
+				"step": 28
 			},
 			"no": {
-				"step": 28
+				"step": 29
 			}
 		},
 		{
 			"question": "replace the hard disk with a new one",
-			"step": 27,
+			"step": 28,
 			"image": ["ULTSON100I006"],
 			"videos": [{
 				"src": "assets/videos/ULTSON100/ULTSON100009.mp4",
@@ -313,14 +331,14 @@
 			}
 		}, {
 		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
-		"step": 28,
+		"step": 29,
 		"next": {
-			"step": 29
+			"step": 30
 		},
 		"videos": []
 	}, {
 		"question": "Thanks",
-		"step": 29,
+		"step": 30,
 		"submit": true
 	}
 	]
