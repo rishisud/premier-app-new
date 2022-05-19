@@ -334,8 +334,7 @@
 		"step": 29,
 		"next": {
 			"step": 30
-		},
-		"videos": []
+		}
 	}, {
 		"question": "Thanks",
 		"step": 30,

@@ -484,8 +484,7 @@
 		"step": 38,
 		"next": {
 			"step": 39
-		},
-		"videos": []
+		}
 	}, {
 		"question": "Thanks",
 		"step": 39,
