@@ -1,0 +1,374 @@
+{
+	"deviceName": "BPL – FM 9853",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["CTGBPLFM985"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+		"step": 2,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident/Damage and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON and the LED’s illuminate.",
+		"step": 5,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage 230.",
+		"step": 6,
+		"yes": {
+			"step": 7
+		},
+		"no": {
+			"step": 8
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALL OUTLET VOLTAGE.mp4",
+			"videoName": "CHECKING THE WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether there is carbon formation/breakage or damage to the Input module.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		}
+	}, {
+		"question": "clean the Input module or replace the Input module with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"image": ["CTGBPLFM985I001"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985002.mp4",
+			"videoName": "Video for replacing Input module"
+		}, {
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check whether there is any loose connection/breakage of cable between Input module and Power supply board.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		}
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 13,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the output of 15VDC is available at the Power supply Board.",
+		"step": 14,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985004.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "repair/replace the Power supply board accordingly",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"image": ["CTGBPLFM985I002"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985005.mp4",
+			"videoName": "Video for replacing Power supply"
+		}, {
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check whether there is any loose connection/breakage of cable between Power supply board and Control board.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		}
+	}, {
+		"question": "reseat/replace the cable accordingly",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["CTGBPLFM985I007"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985012.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair/replace the Control board with a new one",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["CTGBPLFM985I007"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985012.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the LED’s illuminates but the display is blank/no text on display.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "open the equipment, check the continuity of ON /OFF switch and confirm whether the switch is defective.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		}
+	}, {
+		"question": "replace the switch with the new one",
+		"step": 21,
+		"next": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985006.mp4",
+			"videoName": "Video for replacing switch"
+		}]
+	}, {
+		"question": "check and confirm the connections between backlight and Switch control board and also the connection between display and control board for any loose connections or breakage of cables.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		}
+	}, {
+		"question": "reseat/replace the cables accordingly",
+		"step": 23,
+		"next": {
+			"step": 19
+		}
+	}, {
+		"question": "replace the display with a new one",
+		"step": 24,
+		"next": {
+			"step": 19
+		},
+		"image": ["CTGBPLFM985I003"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985007.mp4",
+			"videoName": "Video for replacing the display"
+		}]
+	}, {
+		"question": "check and confirm whether the display appears half or brightness is dim or screen flickering.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 29
+		}
+	}, {
+		"question": "check the connections between display and control board for any loose connections or breakage of cables.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		}
+	}, {
+		"question": "reseat/replace the cables accordingly",
+		"step": 27,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "replace the display with a new one",
+		"step": 28,
+		"next": {
+			"step": 25
+		},
+		"image": ["CTGBPLFM985I003"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985007.mp4",
+			"videoName": "Video for replacing the display"
+		}]
+	}, {
+		"question": "check and confirm whether the button do not respond when operating",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 33
+		}
+	}, {
+		"question": "check the continuity of switches on switch control board and confirm whether the switches are defective.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985008.mp4",
+			"videoName": "Video for checking switches"
+		}]
+	}, {
+		"question": "replace the switches accordingly",
+		"step": 31,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "replace the switch control board with the new one",
+		"step": 32,
+		"next": {
+			"step": 29
+		},
+		"image": ["CTGBPLFM985I004"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985009.mp4",
+			"videoName": "Video for replacing the switch control board"
+		}]
+	}, {
+		"question": "check and confirm whether the printer paper does not roll during the print.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		}
+	}, {
+		"question": "replace the motor with a new one",
+		"step": 34,
+		"next": {
+			"step": 33
+		},
+		"image": ["CTGBPLFM985I005"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985010.mp4",
+			"videoName": "Video for replacing motor"
+		}]
+	}, {
+		"question": "check and confirm whether print is dull/discontinues.",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 38
+		}
+	}, {
+		"question": "clean the thermal head and confirm whether the problem still persist.",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 37,
+		"next": {
+			"step": 35
+		},
+		"image": ["CTGBPLFM985I006"],
+		"videos": [{
+			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985011.mp4",
+			"videoName": "Video for replacing the thermal head"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 38,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "Thanks",
+		"step": 39,
+		"submit": true
+	}]
+}

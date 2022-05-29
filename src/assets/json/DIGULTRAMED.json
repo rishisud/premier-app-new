@@ -1,0 +1,452 @@
+{
+	"deviceName": "MEDITEK ELECTRONICS",
+	"questions": [{
+		"question": "Confirm the equipment with below provided video of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED.mp4",
+			"videoName": "VIDEO OF THE EQUIPMENT"
+		}]
+	}, {
+		"question": "upload the image of equipment, contact the technical team for recorrections and the bar code again",
+		"step": 2,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "check and confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident/Damage and Missing report",
+		"step": 4,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALL OUTLET VOLTAGE.mp4",
+			"videoName": "CHECKING THE WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE CONTINUITY OF POWER CORD.mp4",
+			"videoName": "CHECKING THE CONTINUITY OF POWER CORD"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the AC fuse is blown out",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED001.mp4",
+			"videoName": "Video for checking the fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of switch and confirm whether the switch is defective",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED002.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED003.mp4",
+			"videoName": "Video for checking the switch"
+		}]
+	}, {
+		"question": "replace the switch with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["DIGULTRAMEDI001"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED004.mp4",
+			"videoName": "Video for replacing the switch"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the input AC voltage of 230 is available",
+		"step": 14,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED006.mp4",
+			"videoName": "Video for checking voltage"
+		}]
+	}, {
+		"question": "check and confirm whether the power input connector is damage or broken",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "replace the power input connector with a new one",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["DIGULTRAMEDI002"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED007.mp4",
+			"videoName": "Video for replacing the power input pin connector"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the input voltage is available at the Transformer",
+		"step": 17,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED008.mp4",
+			"videoName": "Video for checking volt. Of transformer"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cables from power input connector to transformer.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the transformer output voltage is available",
+		"step": 20,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED009.mp4",
+			"videoName": "Video for checking o/p volt. Of transformer"
+		}]
+	}, {
+		"question": "replace the transformer with a new one",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["DIGULTRAMEDI003"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED010.mp4",
+			"videoName": "Video for replacing the transformer"
+		}]
+	}, {
+		"question": "check and confirm whether the DC- DC Convertor board output voltage is available.",
+		"step": 22,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED011.mp4",
+			"videoName": "Video for checking o/p volt"
+		}]
+	}, {
+		"question": ", replace / repair the DC- DC Convertor board accordingly",
+		"step": 23,
+		"next": {
+			"step": 5
+		},
+		"image": ["DIGULTRAMEDI004"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED011.mp4",
+			"videoName": "Video for replacing the DC- DC Convertor board"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection or breakage of cable from power supply to control board",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 25,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 26,
+		"next": {
+			"step": 5
+		},
+		"image": ["DIGULTRAMEDI005"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED012.mp4",
+			"videoName": "Video for replacing the control board"
+		}]
+	}, {
+		"question": "check and confirm whether unable to change the pulse intensity",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 31
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of potentiometer and confirm whether it is defective.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED002.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED013.mp4",
+			"videoName": "Video for checking potentiometer"
+		}]
+	}, {
+		"question": "replace the potentiometer with a new one",
+		"step": 29,
+		"next": {
+			"step": 27
+		},
+		"image": ["DIGULTRAMEDI006"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED014.mp4",
+			"videoName": "Video for replacing the potentiometer"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 30,
+		"next": {
+			"step": 27
+		},
+		"image": ["DIGULTRAMEDI005"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED012.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the pulse output is available when the intensity is fixed",
+		"step": 31,
+		"yes": {
+			"step": 41
+		},
+		"no": {
+			"step": 32
+		}
+	}, {
+		"question": "check and confirm whether the probe is properly placed",
+		"step": 32,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 33
+		}
+	}, {
+		"question": "reseat the probe properly",
+		"step": 33,
+		"next": {
+			"step": 31
+		}
+	}, {
+		"question": "cross check the probe with another equipment and confirm whether it is defective",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 36
+		}
+	}, {
+		"question": "replace the probe with a new one",
+		"step": 35,
+		"next": {
+			"step": 31
+		}
+	}, {
+		"question": "check and confirm for pin breakage at the probe connector",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		}
+	}, {
+		"question": "replace the probe pin connector with a new one",
+		"step": 37,
+		"next": {
+			"step": 31
+		},
+		"image": ["DIGULTRAMEDI007"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED015.mp4",
+			"videoName": "Video for replacing the probe pin"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connection or breakage of cable from pin connector to power supply",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 40
+		}
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 39,
+		"next": {
+			"step": 31
+		}
+	}, {
+		"question": "repair / replace the DC- DC Convertor board accordingly",
+		"step": 40,
+		"next": {
+			"step": 31
+		},
+		"image": ["DIGULTRAMEDI004"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED011.mp4",
+			"videoName": "Video for replacing the DC- DC Convertor board"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is plan / blank",
+		"step": 41,
+		"yes": {
+			"step": 42
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "open the equipment as shown in the video, replace the display with a new one",
+		"step": 42,
+		"next": {
+			"step": 41
+		},
+		"image": ["DIGULTRAMEDI008"],
+		"videos": [{
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED016.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/DIGULTRAMED /DIGULTRAMED005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for further assistance through video call.",
+		"step": 43,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "Thanks",
+		"step": 44,
+		"submit": true
+	}]
+}

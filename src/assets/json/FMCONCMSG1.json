@@ -1,0 +1,643 @@
+{
+	"deviceName": "CONTEC – CMS800G1",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["FMCONCMSG1"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 66
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident / Damage and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 66
+		}
+	}, {
+		"question": "connect the equipment to the mains and check whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check whether the wall outlet is provided with AC Voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALLOUTLET VOLTAGE.mp4",
+			"videoName": "CHECKING THE WALLOUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where wall outlet is provided with 230 AC Voltage",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord id defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING CONTINUITY OF POWER CORD.mp4",
+			"videoName": "CHECKING CONTINUITY OF POWER CORD"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the AC Fuse for continuity and confirm whether they are defective",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1001.mp4",
+			"videoName": "Video for checking fuses"
+		}]
+	}, {
+		"question": "replace the fuses with new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"image": ["FMCONCMSG1I001"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1002.mp4",
+			"videoName": "Video for replacing fuses"
+		}]
+	}, {
+		"question": "check for any carbon formation or breakage of input connector",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		}
+	}, {
+		"question": "clean or replace the input pin connector accordingly",
+		"step": 13,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether the input 230Vac is available at the power supply.",
+		"step": 14,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1003.mp4",
+			"videoName": "Video for checking input"
+		}]
+	}, {
+		"question": "check the continuity of switch and confirm whether the switch is defective",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1005.mp4",
+			"videoName": "Video for checking the switch"
+		}]
+	}, {
+		"question": "replace the switch with a new one",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["FMCONCMSG1I002"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1006.mp4",
+			"videoName": "Video for replacing the switch"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check for any loose cable connection / breakage of cable to the power supply board.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the output 9VDC is available at the power supply board",
+		"step": 19,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/– FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1008.mp4",
+			"videoName": "Video for checking O/P"
+		}]
+	}, {
+		"question": "repair / replace the power supply board accordingly",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"image": ["FMCONCMSG1I003"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1009.mp4",
+			"videoName": "Video for replacing the power supply"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check whether the input of -5VDC is available at the input of DC-DC Convertor board.",
+		"step": 21,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1010.mp4",
+			"videoName": "Video for checking I/P"
+		}]
+	}, {
+		"question": "check for any loose connection / breakage of cable from power supply board to DC-DC convertor board.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"next": {
+			"step": 66
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 23,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the output is available at the DC-DC Convertor board.",
+		"step": 24,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1011.mp4",
+			"videoName": "Video for checking O/P of DC-DC Board"
+		}]
+	}, {
+		"question": "repair / replace the DC-DC Convertor board accordingly",
+		"step": 25,
+		"next": {
+			"step": 5
+		},
+		"image": ["FMCONCMSG1I004"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1012.mp4",
+			"videoName": "Video for replacing dc-dc board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check for any loose connection / breakage of cable to control board from DC-DC Convertor board.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 27,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 28,
+		"next": {
+			"step": 5
+		},
+		"image": ["FMCONCMSG1I005"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1013.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is poor quality of TOCO",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 42
+		}
+	}, {
+		"question": "check whether the abdomen belt is too tight or loose or patient movement.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		}
+	}, {
+		"question": "place it properly to the abdomen or make the patient relax",
+		"step": 31,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "check and confirm whether the cable is connected properly to the equipment.",
+		"step": 32,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 33
+		}
+	}, {
+		"question": "connect the cable properly",
+		"step": 33,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "check for any breakage in the cable pin connector or breakage of the cable",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 36
+		}
+	}, {
+		"question": "replace the cable pin connector or cable accordingly",
+		"step": 35,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connections or breakage of cable to TOCO board.",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 37,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "check for any loose connections or breakage of cable from TOCO Board to control board.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 40
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 39,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "repair / replace the TOCO board accordingly and confirm whether the problem still persist.",
+		"step": 40,
+		"yes": {
+			"step": 41
+		},
+		"next": {
+			"step": 66
+		},
+		"image": ["FMCONCMSG1I006"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1014.mp4",
+			"videoName": "Video for replacing the TOCO board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 41,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "check and confirm whether there is inconstant trace of FHR or Doubtful FHR.",
+		"step": 42,
+		"yes": {
+			"step": 43
+		},
+		"no": {
+			"step": 54
+		}
+	}, {
+		"question": "check whether the Transducer abdomen belt is too tight or loose or patient movement.",
+		"step": 43,
+		"yes": {
+			"step": 44
+		},
+		"no": {
+			"step": 45
+		}
+	}, {
+		"question": "place it properly to the abdomen or make the patient relax",
+		"step": 44,
+		"next": {
+			"step": 42
+		}
+	}, {
+		"question": "check and confirm whether the cable is connected properly to the equipment",
+		"step": 45,
+		"yes": {
+			"step": 47
+		},
+		"no": {
+			"step": 46
+		}
+	}, {
+		"question": "connect the cable properly",
+		"step": 46,
+		"next": {
+			"step": 42
+		}
+	}, {
+		"question": "check for any breakage in the cable pin connector or breakage of the cable.",
+		"step": 47,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 49
+		}
+	}, {
+		"question": "replace the cable pin connector or cable accordingly",
+		"step": 48,
+		"next": {
+			"step": 42
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connections or breakage of cable to TOCO board.",
+		"step": 49,
+		"yes": {
+			"step": 50
+		},
+		"no": {
+			"step": 51
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 50,
+		"next": {
+			"step": 42
+		}
+	}, {
+		"question": "check for any loose connections or breakage of cable from TOCO Board to control board.",
+		"step": 51,
+		"yes": {
+			"step": 52
+		},
+		"no": {
+			"step": 53
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 52,
+		"next": {
+			"step": 42
+		}
+	}, {
+		"question": "repair / replace the TOCO board accordingly",
+		"step": 53,
+		"next": {
+			"step": 42
+		},
+		"image": ["FMCONCMSG1I006"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1014.mp4",
+			"videoName": "Video for replacing the TOCO board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the display is getting ON but it is blank or plain",
+		"step": 54,
+		"yes": {
+			"step": 55
+		},
+		"no": {
+			"step": 58
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from display to control board.",
+		"step": 55,
+		"yes": {
+			"step": 56
+		},
+		"no": {
+			"step": 57
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 56,
+		"next": {
+			"step": 54
+		}
+	}, {
+		"question": "replace the display with a new one",
+		"step": 57,
+		"next": {
+			"step": 54
+		},
+		"image": ["FMCONCMSG1I007"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1015.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether some of the buttons / buttons do not respond while operating.",
+		"step": 58,
+		"yes": {
+			"step": 59
+		},
+		"no": {
+			"step": 65
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connection or breakage of cable from switch control board to control board",
+		"step": 59,
+		"yes": {
+			"step": 60
+		},
+		"no": {
+			"step": 61
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 60,
+		"next": {
+			"step": 58
+		}
+	}, {
+		"question": "check for the continuity of switches and confirm whether they are defective.",
+		"step": 61,
+		"yes": {
+			"step": 62
+		},
+		"no": {
+			"step": 63
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1016.mp4",
+			"videoName": "Video for checking continuity"
+		}]
+	}, {
+		"question": "replace the switches accordingly",
+		"step": 62,
+		"next": {
+			"step": 58
+		},
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1017.mp4",
+			"videoName": "Video required for replacing"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the switch control board with a new one and confirm whether the problem still persist.",
+		"step": 63,
+		"yes": {
+			"step": 64
+		},
+		"next": {
+			"step": 66
+		},
+		"image": ["FMCONCMSG1I008"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1018.mp4",
+			"videoName": "Video for replacing the switch control board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 64,
+		"next": {
+			"step": 58
+		},
+		"image": ["FMCONCMSG1I005"],
+		"videos": [{
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1013.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 65,
+		"next": {
+			"step": 66
+		}
+	}, {
+		"question": "Thanks",
+		"step": 66,
+		"submit": true
+	}]
+}

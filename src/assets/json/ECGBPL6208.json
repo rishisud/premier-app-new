@@ -1,0 +1,365 @@
+{
+	"deviceName": "BPL – CARDIDART 6208",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ECGBPL6208"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+		"step": 2,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident/Damage or Missing report.",
+		"step": 4,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING WALL OUTLET VOLTAGE.mp4",
+			"videoName": "CHECKING WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC Voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether it is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING POWER CORD.mp4",
+			"videoName": "CHECKING POWER CORD"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the power input and output voltages are available at the control board.",
+		"step": 10,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 11
+		},
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208002.mp4",
+			"videoName": "Video for checking voltages of I/P & O/P"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECGBPL6208I001"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208003.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the paper is rolling during the ECG is taken.",
+		"step": 12,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 13
+		}
+	}, {
+		"question": "place the paper roll properly and confirm whether the problem still persist.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm is there any dust or obstruction in the gears.",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 16
+		}
+	}, {
+		"question": "clean the gears",
+		"step": 15,
+		"next": {
+			"step": 12
+		}
+	}, {
+		"question": "check and confirm is there any breakage/damage to the gears.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		}
+	}, {
+		"question": "replace the gears with a new one",
+		"step": 17,
+		"next": {
+			"step": 12
+		},
+		"image": ["ECGBPL6208I002"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208005.mp4",
+			"videoName": "Video for replacing the gears"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the motor with a new one",
+		"step": 18,
+		"next": {
+			"step": 12
+		},
+		"image": ["ECGBPL6208I003"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208006.mp4",
+			"videoName": "Video for replacing the motor"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the print on ECG is dull or no print of ECG.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 23
+		}
+	}, {
+		"question": "place the paper roll properly and confirm whether the problem still persist.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "open the equipment as shown in the video, clean the thermal head with a soft cloth and confirm whether the problem still persist.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208007.mp4",
+			"videoName": "Video for cleaning the thermal head"
+		}]
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 22,
+		"next": {
+			"step": 19
+		},
+		"image": ["ECGBPL6208I004"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208008.mp4",
+			"videoName": "Video for replacing the thermal head"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is lot of AC and muscle interference in the ECG print out.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "check the AC line for earthing and connect it properly",
+		"step": 24,
+		"next": {
+			"step": 23
+		},
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/CHECKING AC LINE FOR EARTHING.mp4",
+			"videoName": "CHECKING AC LINE FOR EARTHING."
+		}]
+	}, {
+		"question": "check and confirm whether there is a straight line in the ECG print.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"image": ["IMAGES REQUIRED OF ECG PRINT WITH STRAIGHT LINE."]
+	}, {
+		"question": "replace the main board",
+		"step": 26,
+		"next": {
+			"step": 25
+		},
+		"image": ["ECGBPL6208I001"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208003.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons / some of the buttons don’t respond while pressing.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 34
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm for any loose connection / breakage of cable from switch control to control board.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 29,
+		"next": {
+			"step": 27
+		}
+	}, {
+		"question": "check the continuity of buttons and confirm whether the buttons are defective",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208009.mp4",
+			"videoName": "Video for checking buttons"
+		}]
+	}, {
+		"question": "replace the buttons accordingly",
+		"step": 31,
+		"next": {
+			"step": 27
+		},
+		"image": ["ECGBPL6208I005"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208010.mp4",
+			"videoName": "Video for replacing buttons"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the switch control board accordingly and confirm whether the problem still persist",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 34
+		},
+		"image": ["ECGBPL6208I006"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208011.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 33,
+		"next": {
+			"step": 27
+		},
+		"image": ["ECGBPL6208I001"],
+		"videos": [{
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208003.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208004.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 34,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "Thanks",
+		"step": 35,
+		"submit": true
+	}]
+}

@@ -30,7 +30,17 @@ export class DeviceComponent implements OnInit {
     {value: 'SYRBBAPER', viewValue: 'B BARUN PERFUSSOR COMPACT'},
     {value: 'ULTSON100', viewValue: 'SONOSCAPE SSI1000'},
     {value: 'DEFHEARXL', viewValue: 'HEART START XL'},
-    {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'}
+    {value: 'NEBREAPIS', viewValue: 'READY MIST PISTON COMPRESSOR'},
+    {value: 'CTGBPLFM985', viewValue: 'BPL – FM 9853'},
+    {value: 'DXRCONWMOU', viewValue: 'CONFIDENT – WHOLE MOUNT'},
+    {value: 'FMCONCMSG1', viewValue: 'CONTEC – CMS800G1'},
+    {value: 'SEMAAMEURA', viewValue: 'MEDSOURCE – URA'},
+    {value: 'DEFBPLDF2', viewValue: 'BPL DF 2509'},
+    {value: 'ECGBIOCAR2', viewValue: 'BIONET – Cardio Care 2000'},
+    {value: 'DIGULTRAMED', viewValue: 'MEDITEK ELECTRONICS'},
+    {value: 'ECGBPL6208', viewValue: 'BPL – CARDIDART 6208'},
+    {value: 'ECGMACM', viewValue: 'ECGMAC EM – 301'},
+    {value: 'TENSBIOMUL', viewValue: 'BIO MED INC – MULTIFUNCTION 4 CH TENS'}
   ];
   constructor(private _router: Router) { }
 

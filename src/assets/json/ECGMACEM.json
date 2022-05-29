@@ -1,0 +1,425 @@
+{
+	"deviceName": "ECGMAC EM – 301",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ECGMACM"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "check and confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident / Damage and Missing report",
+		"step": 4,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALL OUTLET.mp4",
+			"videoName": "CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC Voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of fuse and confirm whether the fuses are blown",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30115.mp4",
+			"videoName": "Video for Opening"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30101.mp4",
+			"videoName": "Video for checking the fuse"
+		}]
+	}, {
+		"question": "replace the fuses with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30101.mp4",
+			"videoName": "Video for replacing the fuses"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is Input of 230 VAC is available at the Input module",
+		"step": 12,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30102.mp4",
+			"videoName": "Video for checking the input AC"
+		}]
+	}, {
+		"question": "replace the input module with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECGMACM301I01 ", " ECGMACM301I01_1"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30103.mp4",
+			"videoName": "Video for replacing the module"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the output from power supply board is available.",
+		"step": 14,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30104.mp4",
+			"videoName": "Video for checking output"
+		}]
+	}, {
+		"question": "repair / replace the power supply board accordingly",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECGMACM301I02"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30105.mp4",
+			"videoName": "Video for replacing the power supply"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the output of DC -DC Converter is available",
+		"step": 16,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30106.mp4",
+			"videoName": "Video for checking output"
+		}]
+	}, {
+		"question": "repair / replace the DC-DC Converter board accordingly",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECGMACM301I03"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30107.mp4",
+			"videoName": "Video for replacing the DC-DC Converter"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the Control board accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECGMACM301I04"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30108.mp4",
+			"videoName": "Video required for replacing the Control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is AC interference in the ECG",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "check whether there is any grounding issue and shift the equipment to another area. Confirm whether the problem still persists",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "check and confirm whether the electrode or patient cable is connected properly",
+		"step": 21,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 22
+		}
+	}, {
+		"question": "reconnect the patient cable properly",
+		"step": 22,
+		"next": {
+			"step": 19
+		}
+	}, {
+		"question": "open the equipment, check and confirm whether there is any dry soldering or loose connection of the ECG cable connector pin",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 40
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30115.mp4",
+			"videoName": "Video for Opening"
+		}]
+	}, {
+		"question": "solder the connector pin properly",
+		"step": 24,
+		"next": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30109.mp4",
+			"videoName": "Video for soldering pin"
+		}]
+	}, {
+		"question": "check and confirm whether the keypad does not respond while pressing.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 29
+		}
+	}, {
+		"question": "check whether there is loose connection / breakage of cable between the control board and switch control board",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30115.mp4",
+			"videoName": "Video for Opening"
+		}]
+	}, {
+		"question": "reconnect / replace the cables accordingly",
+		"step": 27,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "replace the switch control with a new one",
+		"step": 28,
+		"next": {
+			"step": 25
+		},
+		"image": ["ECGMACM301I05"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30110.mp4",
+			"videoName": "Video for replacing switch control board"
+		}]
+	}, {
+		"question": "check and confirm whether the print available during the ECG is being taken",
+		"step": 29,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 30
+		}
+	}, {
+		"question": "check and confirm whether the paper roll is inserted",
+		"step": 30,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 31
+		}
+	}, {
+		"question": "insert the paper roll properly",
+		"step": 31,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "open the equipment, check and confirm whether there is any loose connection / breakage of cable between the control board and thermal head",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30115.mp4",
+			"videoName": "Video for Opening"
+		}]
+	}, {
+		"question": "reconnect / replace the cable accordingly between the control board and thermal head.",
+		"step": 33,
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "open the equipment, clean the thermal head to clear all the dirt or dust. Confirm whether the problem still persist",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"next": {
+			"step": 41
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30115.mp4",
+			"videoName": "Video for Opening"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30111.mp4",
+			"videoName": "Video required for cleaning"
+		}]
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 35,
+		"next": {
+			"step": 29
+		},
+		"image": ["ECGMACM301I06"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30112.mp4",
+			"videoName": "Video required for replacing thermal head"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether cable not detected message appears on the display",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 40
+		}
+	}, {
+		"question": "connect the cables properly and confirm whether the problem still persists",
+		"step": 37,
+		"yes": {
+			"step": 38
+		},
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "replace the cables with a new one and confirm whether the problem still persist",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "replace the ECG Module with a new one",
+		"step": 39,
+		"next": {
+			"step": 36
+		},
+		"image": ["ECGMACM301I07"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30113.mp4",
+			"videoName": "Video for replacing the ECG Module"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/ECGMACM30114.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 40,
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "Thanks",
+		"step": 41,
+		"submit": true
+	}]
+}

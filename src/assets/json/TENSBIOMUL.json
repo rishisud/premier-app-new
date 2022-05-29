@@ -1,0 +1,430 @@
+{
+	"deviceName": "BIO MED INC – MULTIFUNCTION 4 CH TENS",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["TENSBIOMUL"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident/Damage and Missing report",
+		"step": 4,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALL OUTLET.mp4",
+			"videoName": "CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC Voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THR POWER CORD CONTINUITY.mp4",
+			"videoName": "CHECKING THR POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the fuse is blown out.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL001.mp4",
+			"videoName": "Video for checking the fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check for any carbon formation or breakage of power input pin connector",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		}
+	}, {
+		"question": "clean or replace the power input pin connector",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL002.mp4",
+			"videoName": "Video for cleaning or replacing the pin connector"
+		}]
+	}, {
+		"question": "open the equipment check the continuity of switch and confirm whether it is defective.",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL004.mp4",
+			"videoName": "Video for checking the switch"
+		}]
+	}, {
+		"question": "replace the switch with a new one",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL005.mp4",
+			"videoName": "Video for replacing switch"
+		}]
+	}, {
+		"question": "check whether the Transformer output is available.",
+		"step": 16,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL006.mp4",
+			"videoName": "Video for checking O/P"
+		}]
+	}, {
+		"question": "replace the transformer with a new one",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["TENSBIOMULI001"],
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL007.mp4",
+			"videoName": "Video for replacing the Transformer"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the Pulse board accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["TENSBIOMULI002"],
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL009.mp4",
+			"videoName": "Video for replacing pulse board"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the electrical pulse is available while connected to the patient.",
+		"step": 19,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 20
+		}
+	}, {
+		"question": "check and confirm whether the cables are not connected properly or is there any loose connection of cable.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		}
+	}, {
+		"question": "reconnect the properly",
+		"step": 21,
+		"next": {
+			"step": 19
+		}
+	}, {
+		"question": "check for any carbon formation of pin connector or breakage of connector",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		}
+	}, {
+		"question": "clean or replace the pin connector",
+		"step": 23,
+		"next": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL010.mp4",
+			"videoName": "Video for cleaning or pin connector"
+		}]
+	}, {
+		"question": "cross check with the probes and confirm whether the probes are defective",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "replace the probes with a new one",
+		"step": 25,
+		"next": {
+			"step": 19
+		}
+	}, {
+		"question": "open the equipment as shown in the video, repair / replace the pulse board accordingly",
+		"step": 26,
+		"next": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL009.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether available to increase/Decrease the Intensity",
+		"step": 27,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 28
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of potentiometer and confirm whether it is defective.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL011.mp4",
+			"videoName": "Video for checking the potentiometer"
+		}]
+	}, {
+		"question": "replace the potentiometer with a new one",
+		"step": 29,
+		"next": {
+			"step": 27
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL012.mp4",
+			"videoName": "Video for replacing potentiometer"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable from potentiometer to pulse board.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		}
+	}, {
+		"question": "reconnect or replace the cable accordingly",
+		"step": 31,
+		"next": {
+			"step": 27
+		}
+	}, {
+		"question": "repair / replace the Pulse Board accordingly",
+		"step": 32,
+		"next": {
+			"step": 27
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL009.mp4",
+			"videoName": "Video for replacing board"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON, but the display is plan / blank.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 37
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from display board to pulse board",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 36
+		}
+	}, {
+		"question": "reconnect or replace the connector accordingly",
+		"step": 35,
+		"next": {
+			"step": 33
+		}
+	}, {
+		"question": "replace the display with a new one",
+		"step": 36,
+		"next": {
+			"step": 33
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL013.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether unable change the frequency or time.",
+		"step": 37,
+		"yes": {
+			"step": 38
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of micro switch and confirm whether the switch is defective.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 40
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL014.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the switches accordingly",
+		"step": 39,
+		"next": {
+			"step": 37
+		}
+	}, {
+		"question": "check is there any loose connection or breakage of cable from switch control board to pulse board.",
+		"step": 40,
+		"yes": {
+			"step": 41
+		},
+		"no": {
+			"step": 42
+		}
+	}, {
+		"question": "reconnect or reseat the cable accordingly",
+		"step": 41,
+		"next": {
+			"step": 37
+		}
+	}, {
+		"question": "repair / replace the pulse board",
+		"step": 42,
+		"next": {
+			"step": 37
+		},
+		"videos": [{
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL007.mp4",
+			"videoName": "Video for replacing board"
+		}, {
+			"src": "assets/videos/TENSBIOMUL/TENSBIOMUL008.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 43,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "Thanks",
+		"step": 44,
+		"submit": true
+	}]
+}

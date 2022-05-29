@@ -1,0 +1,485 @@
+{
+	"deviceName": "MEDSOURCE – URA",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["SEMAAMEURA"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 50
+		}
+	}, {
+		"question": "check and confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident/Damage and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 50
+		}
+	}, {
+		"question": "connect the equipment to the mains, ON power switch and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE WALL OUTLET VOLTAGE.mp4",
+			"videoName": "CHECKING THE WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC voltage of 230 is available",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CHECKING THE POWER CORD.mp4",
+			"videoName": "CHECKING THE POWER CORD"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the Fuse is blown",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA001.mp4",
+			"videoName": "Video for checking the fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether the input voltage 230 AC is available at the Power supply board",
+		"step": 12,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check for any breakage or carbon formation of power input pin connector",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		}
+	}, {
+		"question": "replace the power input pin connector with a new one",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA003.mp4",
+			"videoName": "Video for replacing the pin connector"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from power input connector to power supply",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "replace or reseat the cables accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "replace the switch with a new one",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA004.mp4",
+			"videoName": "Video for replacing the switch"
+		}]
+	}, {
+		"question": "If yes, check and confirm whether the output voltage is available at Power supply board",
+		"step": 18,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA005.mp4",
+			"videoName": "Video for checking the O/P of SMPS"
+		}]
+	}, {
+		"question": "repair/replace the SMPS accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "replace the control board with a new one",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"image": ["SEMAAMEURAI001"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA006.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the intensity of lamp is low",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "open the equipment as shown, check and confirm for any dirt or dust on the lamp.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the lamp with a soft tissue, replace back the lamp",
+		"step": 23,
+		"next": {
+			"step": 21
+		}
+	}, {
+		"question": "replace the lamp with a new one",
+		"step": 24,
+		"next": {
+			"step": 21
+		},
+		"image": ["SEMAAMEURAI002"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA008.mp4",
+			"videoName": "Video required for replacing the lamp"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the lamp does not glow.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 31
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether the voltage to the lamp is available.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA009.mp4",
+			"videoName": "Video for checking lamp voltage"
+		}]
+	}, {
+		"question": "replace the lamp with a new one",
+		"step": 27,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "check for any loose connection between lamp and servo motor board.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		}
+	}, {
+		"question": "reseat the cables properly",
+		"step": 29,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "repair/replace the board accordingly",
+		"step": 30,
+		"next": {
+			"step": 25
+		},
+		"image": ["SEMAAMEURAI003"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA010.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no liquid into the flow cell.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 34
+		}
+	}, {
+		"question": "check for any blockage or breakage of tube from motor to the flow cell.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 49
+		}
+	}, {
+		"question": "clean or replace the tube with a new one",
+		"step": 33,
+		"next": {
+			"step": 31
+		}
+	}, {
+		"question": "check and confirm whether unable to print the reports.",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 41
+		}
+	}, {
+		"question": "check and confirm whether the paper roll is inserted and properly placed.",
+		"step": 35,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 36
+		}
+	}, {
+		"question": "place the paper roll properly",
+		"step": 36,
+		"next": {
+			"step": 34
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connections or breakage of cable from control board to printer board.",
+		"step": 37,
+		"yes": {
+			"step": 38
+		},
+		"no": {
+			"step": 39
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 38,
+		"next": {
+			"step": 34
+		}
+	}, {
+		"question": "replace the printer board with a new one and confirm whether the problem still persist.",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"next": {
+			"step": 50
+		},
+		"image": ["SEMAAMEURAI004"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA011.mp4",
+			"videoName": "Video for replacing the board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the control board with a new one",
+		"step": 40,
+		"next": {
+			"step": 34
+		},
+		"image": ["SEMAAMEURAI001"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA006.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm equipment is getting ON but display is blank.",
+		"step": 41,
+		"yes": {
+			"step": 42
+		},
+		"no": {
+			"step": 46
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connection or breakage of cable between the display to control board.",
+		"step": 42,
+		"yes": {
+			"step": 43
+		},
+		"no": {
+			"step": 44
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 43,
+		"next": {
+			"step": 41
+		}
+	}, {
+		"question": "replace the display with a new one and confirm whether the problem still persist.",
+		"step": 44,
+		"yes": {
+			"step": 45
+		},
+		"no": {
+			"step": 49
+		},
+		"image": ["SEMAAMEURAI005", "SEMAAMEURAI005_1"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA012.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the control board with a new one",
+		"step": 45,
+		"next": {
+			"step": 41
+		},
+		"image": ["SEMAAMEURAI001"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA006.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA/SEMAAMEURA007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no aspiration of sample or improper aspiration of sample.",
+		"step": 46,
+		"yes": {
+			"step": 47
+		},
+		"no": {
+			"step": 49
+		}
+	}, {
+		"question": "check for any blockage or breakage or loose connection of tubing",
+		"step": 47,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 49
+		}
+	}, {
+		"question": "replace or reseat the tubing properly",
+		"step": 48,
+		"next": {
+			"step": 46
+		}
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 49,
+		"next": {
+			"step": 50
+		}
+	}, {
+		"question": "Thanks",
+		"step": 50,
+		"submit": true
+	}]
+}
