@@ -63,6 +63,7 @@
 		{
 			"question": "replace the Mother Board with a new one ",
 			"step": 7,
+			"image": ["BPMBPLB18I001"],
 			"videos": [{
 				"src":"assets/videos/BPMBPLB18/BPMBPLB18002.mp4",
 				"videoName":"opening the equipment "
@@ -70,6 +71,10 @@
 			{
 				"src":"assets/videos/BPMBPLB18/BPMBPLB18003.mp4",
 				"videoName":"replacing the Mother Board"
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"next": {
 				"step": 5
@@ -95,6 +100,10 @@
 			{
 				"src":"assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
 				"videoName":"replacing the motor"
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"next": {
 				"step": 8
@@ -152,6 +161,10 @@
 			{
 				"src":"assets/videos/BPMBPLB18/BPMBPLB18005.mp4",
 				"videoName":"replacing the solenoid"
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"next": {
 				"step": 10
@@ -170,11 +183,15 @@
 		{
 			"question": "replace the Mother Board with a new one",
 			"step": 17,
-			"image": ["BPMBPLB18I002"],
+			"image": ["BPMBPLB18I001"],
 			"videos": [
 			{
-				"src":"assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
-				"videoName":"replacing the motor"
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18003.mp4",
+				"videoName":"replacing the Mother Board"
+			},
+			{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"next": {
 				"step": 16
@@ -217,6 +234,9 @@
 			"videos": [{
 				"src": "assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
 				"videoName": "replacing the Mother Board"
+			},{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"image": ["BPMBPLB18I002"]
 		},
@@ -243,6 +263,9 @@
 			"videos": [{
 				"src": "assets/videos/BPMBPLB18/BPMBPLB18005.mp4",
 				"videoName": "replacing the solenoid"
+			},{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
 			"image": ["BPMBPLB18I004"]
 		},
@@ -254,9 +277,12 @@
 			},
 			"videos": [{
 				"src": "assets/videos/BPMBPLB18/BPMBPLB18004.mp4",
-				"videoName": "replacing the motor"
+				"videoName": "replacing the Mother Board"
+			},{
+				"src":"assets/videos/BPMBPLB18/BPMBPLB18006.mp4",
+				"videoName":"closing"
 			}],
-			"image": ["BPMBPLB18I002"]
+			"image": ["BPMBPLB18I001"]
 		},
 		{
 			"question": "If problem has not yet solved, contact the Technical Team for any other assistance through video call.",
