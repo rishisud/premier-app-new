@@ -98,11 +98,10 @@
 				"step": 12
 			},
 			"videos": [{
-				"src": "assets/videos/ESUVALFXC/ESUVALFXC001.mov",
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC001.mp4",
 				"videoName": "checking"
 			}],
 			"image": ["ESUVALFXCI001"]
-
 		},
 		{
 			"question": "replace the AC fuses with the new one",
@@ -111,7 +110,7 @@
 				"step": 5
 			},
 			"videos": [{
-				"src": "assets/videos/ESUVALFXC/ESUVALFXC002.mov",
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC002.mp4",
 				"videoName": "replacing the fuses"
 			}]
 
@@ -133,7 +132,7 @@
 				"step": 5
 			},
 			"videos": [{
-				"src": "assets/videos/ESUVALFXC/ESUVALFXC003.mov",
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC003.mp4",
 				"videoName": "replacing the switch "
 			}],
 			"image": ["ESUVALFXCI002"]
@@ -150,11 +149,11 @@
 				"step": 15
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC005.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC005.mp4",
 					"videoName": "checking the voltage"
 				}
 			],
@@ -169,11 +168,11 @@
 				"step": 5
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC006.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC006.mp4",
 					"videoName": "replacing the SMPS "
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			]
@@ -185,11 +184,11 @@
 				"step": 5
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC008.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC008.mp4",
 					"videoName": "replacing the Board"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
@@ -216,7 +215,7 @@
 			},
 
 			"videos": [{
-				"src": "assets/videos/ESUVALFXC/ESUVALFXC009.mov",
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC009.mp4",
 				"videoName": "checking the continuity"
 			}],
 			"image": ["ESUVALFXCI005"]
@@ -239,7 +238,7 @@
 				"step": 22
 			},
 			"videos": [{
-				"src": "assets/videos/ESUVALFXC/ESUVALFXC010.mov",
+				"src": "assets/videos/ESUVALFXC/ESUVALFXC010.mp4",
 				"videoName": "checking continuity"
 			}],
 			"image": ["ESUVALFXCI006"]
@@ -258,15 +257,15 @@
 				"step": 17
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC011.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC011.mp4",
 					"videoName": "replacing RF Board "
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
@@ -289,15 +288,15 @@
 				"step": 23
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mp4",
 					"videoName": "replacing the Display Board"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
@@ -337,15 +336,15 @@
 				"step": 25
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC013.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC013.mp4",
 					"videoName": "replacing Control Board"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
@@ -371,15 +370,15 @@
 				"step": 32
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC014.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC014.mp4",
 					"videoName": "checking the continuity"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
@@ -392,15 +391,15 @@
 				"step": 29
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC015.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC015.mp4",
 					"videoName": "replacing the Speaker"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			]
@@ -439,15 +438,15 @@
 				"step": 34
 			},
 			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
 					"videoName": "opening"
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC012.mp4",
 					"videoName": "replacing the Keypad "
 				},
 				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mov",
+					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
 					"videoName": "closing the equipment"
 				}
 			],
