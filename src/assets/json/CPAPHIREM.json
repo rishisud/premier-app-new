@@ -206,7 +206,6 @@
 				"step": 17
 			}
 		},
-		,
 		{
 			"question":"If the problem has not yet solved, contact the Technical team for any other assistance through video call.",
 			"step": 21,
@@ -214,7 +213,6 @@
 				"step": 22
 			}
 		},
-		,
 		{
 			"question":"Thanks",
 			"step": 22,
