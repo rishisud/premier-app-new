@@ -4,18 +4,19 @@ export interface Menu {
   state: string;
   name: string;
   type: string;
-  icon: string;
+  icon?: string;
 }
 
 const engineerMENUITEMS = [
   { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'dashboard'},
-  { state: 'device', name: 'Device', type: 'link', icon: 'devices' },
+  { state: 'device', name: 'Device', type: 'link', icon: 'devices' }
 ];
 
 const adminMENUITEMS = [
   { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'dashboard'},
   { state: 'device', name: 'Device', type: 'link', icon: 'devices'},
-  { state: 'user-list', name: 'Users', type: 'link', icon: 'user'}
+  { state: 'user-list', name: 'Users', type: 'link', icon: 'supervisor_account'},
+  { state: 'user-details', name: 'Users', type: 'link'}
 ];
 
 const LOGINMENUITEMS = [

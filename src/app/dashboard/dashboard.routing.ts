@@ -11,6 +11,7 @@ import { VideoCallComponent } from './video-call/video-call.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { RoleGuard } from '../authguard/role.guard';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 const routes: Routes = [
 
@@ -35,6 +36,10 @@ const routes: Routes = [
       {
         path: 'user-list',
         component: UserListComponent, canActivate: [AuthGuard,RoleGuard]
+      },
+      {
+        path: 'user-details',
+        component: UserDetailsComponent, canActivate: [AuthGuard,RoleGuard]
       },
       {
         path: 'change-password',

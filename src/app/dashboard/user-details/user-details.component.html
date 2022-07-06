@@ -1,1 +1,53 @@
-<p>user-details works!</p>
+<mat-card>
+    <mat-card-header style="background-color: #26c6da;">
+      <mat-card-title>Add User</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-form-field appearance="fill">
+        <mat-label>Id</mat-label>
+        <input matInput [(ngModel)]="user.id">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput [(ngModel)]="user.firstName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput [(ngModel)]="user.lastName">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>User Name</mat-label>
+        <input matInput [(ngModel)]="user.userName">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput [(ngModel)]="user.password">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Email Id</mat-label>
+        <input matInput [(ngModel)]="user.email">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Phone Number</mat-label>
+        <input matInput [(ngModel)]="user.phoneNumber">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Role</mat-label>
+        <mat-select [(ngModel)]="selectedValue" name="role">
+          <mat-option *ngFor="let role of roles" [value]="role.code">
+            {{role.value}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-actions align="end" style="padding-bottom: 10px;padding-right: 10px;">
+        <button mat-raised-button style="background-color: #26c6da;"(click)="post()">Save</button>
+      </mat-card-actions>
+  </mat-card>
+
