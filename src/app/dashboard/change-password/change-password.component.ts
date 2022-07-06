@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./change-password.component.css']
 })
 export class ChangePasswordComponent implements OnInit {
-
+  oldPassword!: string;
+  newPassword!: string;
+  confirmPassword!: string;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  post():void{
   }
 
 }

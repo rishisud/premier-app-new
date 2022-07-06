@@ -10,6 +10,7 @@ import { ScannerComponent } from './scanner/scanner.component';
 import { VideoCallComponent } from './video-call/video-call.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { RoleGuard } from '../authguard/role.guard';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 const routes: Routes = [
 
@@ -34,6 +35,10 @@ const routes: Routes = [
       {
         path: 'user-list',
         component: UserListComponent, canActivate: [AuthGuard,RoleGuard]
+      },
+      {
+        path: 'change-password',
+        component: ChangePasswordComponent, canActivate: [AuthGuard]
       },
       {
         path: 'device-interrogation/:device/:requestid',

@@ -13,6 +13,9 @@ export class AppHeaderComponent {
 	
 	ngOnInit() {}
 	
+  redirectToChangePassword() {
+    this.router.navigate(['/change-password']);
+  }
 	logOut() {
     this.authenticationService.logout();
     this.user = '';
