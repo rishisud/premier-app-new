@@ -17,6 +17,10 @@ import {VgControlsModule} from '@videogular/ngx-videogular/controls';
 import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
 import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
 import { UserListComponent } from './user-list/user-list.component';
+import { WorkOrderListComponent } from './work-order-list/work-order-list.component';
+import { WorkOrderDetailsComponent } from './work-order-details/work-order-details.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -30,6 +34,6 @@ import { UserListComponent } from './user-list/user-list.component';
     VgOverlayPlayModule,
     VgBufferingModule
   ],
-  declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent, UserListComponent]
+  declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent, UserListComponent, WorkOrderListComponent, WorkOrderDetailsComponent, UserDetailsComponent, ChangePasswordComponent]
 })
 export class DashboardModule {}
