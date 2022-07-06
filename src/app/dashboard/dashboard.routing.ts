@@ -8,6 +8,8 @@ import { DeviceInterrogationComponent } from './device-interrogation/device-inte
 import { DeviceComponent } from './device/device.component';
 import { ScannerComponent } from './scanner/scanner.component';
 import { VideoCallComponent } from './video-call/video-call.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { RoleGuard } from '../authguard/role.guard';
 
 const routes: Routes = [
 
@@ -28,6 +30,10 @@ const routes: Routes = [
       {
         path: 'video-call',
         component: VideoCallComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'user-list',
+        component: UserListComponent, canActivate: [AuthGuard,RoleGuard]
       },
       {
         path: 'device-interrogation/:device/:requestid',

@@ -15,11 +15,15 @@ export class FullComponent implements OnDestroy, AfterViewInit {
   mobileQuery: MediaQueryList;
   routerPath:string='';
   loggedInSuccess = false;
+  role ='';
   private _mobileQueryListener: () => void;
 
   ngOnInit() { 
     this.authenticationService.IsLoggedIn().subscribe(() => { 
       this.loggedInSuccess = true;
+    });
+    this.authenticationService.getCurrentUserRole().subscribe((res) => { 
+      this.role = res;
     }); 
   } 
 

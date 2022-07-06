@@ -9,6 +9,7 @@ import { MenuItems } from '../../../shared/menu-items/menu-items';
 export class AppSidebarComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
   @Input() login = true;
+  @Input() role = '';
   private _mobileQueryListener: () => void;
 
   constructor(

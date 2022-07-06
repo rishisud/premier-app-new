@@ -16,7 +16,8 @@ export class AuthenticationService {
 
   private currentUserSubject: BehaviorSubject<User>;
   public currentUser: Observable<User>;
-  @Output() userIsLoggedIn: EventEmitter<any> = new EventEmitter<any>(); 
+  @Output() userIsLoggedIn: EventEmitter<any> = new EventEmitter<any>();
+  @Output() userRole: EventEmitter<any> = new EventEmitter<any>(); 
   constructor(private http: HttpClient) { 
 	this.currentUserSubject = new BehaviorSubject<User>(JSON.parse(JSON.stringify(sessionStorage.getItem('currentUser'))));
     this.currentUser = this.currentUserSubject.asObservable();
@@ -39,6 +40,7 @@ export class AuthenticationService {
           sessionStorage.setItem('token', res.token);
         }
         this.userIsLoggedIn.emit(true);
+        this.userRole.emit(res.Role);
         return res;
       }));
   }
@@ -79,5 +81,9 @@ export class AuthenticationService {
 
   IsLoggedIn() { 
     return this.userIsLoggedIn; 
+  }
+
+  getCurrentUserRole() { 
+    return this.userRole; 
   } 
 }

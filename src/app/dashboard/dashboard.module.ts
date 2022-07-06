@@ -16,6 +16,7 @@ import {VgCoreModule} from '@videogular/ngx-videogular/core';
 import {VgControlsModule} from '@videogular/ngx-videogular/controls';
 import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
 import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
+import { UserListComponent } from './user-list/user-list.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -29,6 +30,6 @@ import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
     VgOverlayPlayModule,
     VgBufferingModule
   ],
-  declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent]
+  declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent, UserListComponent]
 })
 export class DashboardModule {}

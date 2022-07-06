@@ -7,9 +7,15 @@ export interface Menu {
   icon: string;
 }
 
-const MENUITEMS = [
-  { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'dashboard' },
-  { state: 'device', name: 'Device', type: 'link', icon: 'devices' }
+const engineerMENUITEMS = [
+  { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'dashboard'},
+  { state: 'device', name: 'Device', type: 'link', icon: 'devices' },
+];
+
+const adminMENUITEMS = [
+  { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'dashboard'},
+  { state: 'device', name: 'Device', type: 'link', icon: 'devices'},
+  { state: 'user-list', name: 'Users', type: 'link', icon: 'user'}
 ];
 
 const LOGINMENUITEMS = [
@@ -18,7 +24,7 @@ const LOGINMENUITEMS = [
 
 @Injectable()
 export class MenuItems {
-  getMenuitem(login:boolean): Menu[] {
-    return login ?MENUITEMS:LOGINMENUITEMS;
+  getMenuitem(login:boolean,role:string): Menu[] {
+    return login ? (role==='admin'? adminMENUITEMS:engineerMENUITEMS) :LOGINMENUITEMS;
   }
 }

@@ -9,7 +9,7 @@
 
     <mat-sidenav-container  class="full-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 0 : 0">
         <mat-sidenav  #snav id="snav" class="dark-sidebar pl-xs" [mode]="mobileQuery.matches ? 'side' : 'over'" fixedTopGap="0" [opened]="mobileQuery.matches" [disableClose]="mobileQuery.matches"  >
-                <app-sidebar [login]="routerlinkCheck()"></app-sidebar>  
+                <app-sidebar [login]="routerlinkCheck()" [role]="role"></app-sidebar>  
         </mat-sidenav>
         <mat-sidenav-content class="page-wrapper">
                  

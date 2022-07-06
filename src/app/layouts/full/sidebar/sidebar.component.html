@@ -1,7 +1,7 @@
 <mat-nav-list appAccordion>
     <span><img src="assets/images/header/logo.png" style="height: 40px;padding-left: 10px;"></span> 
-    <mat-list-item appAccordionLink *ngFor="let menuitem of menuItems.getMenuitem(login)" routerLinkActive="selected" group="{{menuitem.state}}">
-        <a class="" appAccordionToggle [routerLink]="['/', menuitem.state]" *ngIf="menuitem.type === 'link'">
+    <mat-list-item appAccordionLink *ngFor="let menuitem of menuItems.getMenuitem(login,role)" routerLinkActive="selected" group="{{menuitem.state}}">
+        <a class="" appAccordionToggle [routerLink]="['/', menuitem.state]">
             <mat-icon>{{ menuitem.icon }}</mat-icon> 
             <span>{{ menuitem.name }}</span> 
             <span fxFlex></span> 
