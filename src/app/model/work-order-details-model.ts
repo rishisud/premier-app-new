@@ -2,12 +2,12 @@ export class WorkOrderDetails {
     id: number;
     description:string;
     device:string;
-    engineer:Engineer;
+    engineer:string;
     requestDate:Date;
-    serviceDate: string;
+    serviceDate: Date;
 }
 
-interface Engineer {
+export interface Engineer {
     name: string;
     id: string;
   }

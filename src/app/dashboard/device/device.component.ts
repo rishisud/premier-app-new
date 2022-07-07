@@ -57,7 +57,3 @@ export class DeviceComponent implements OnInit {
 
 }
 
-interface Device {
-  value: string;
-  viewValue: string;
-}
