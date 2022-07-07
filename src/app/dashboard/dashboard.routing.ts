@@ -12,6 +12,8 @@ import { UserListComponent } from './user-list/user-list.component';
 import { RoleGuard } from '../authguard/role.guard';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { WorkOrderDetailsComponent } from './work-order-details/work-order-details.component';
+import { WorkOrderListComponent } from './work-order-list/work-order-list.component';
 
 const routes: Routes = [
 
@@ -44,6 +46,14 @@ const routes: Routes = [
       {
         path: 'change-password',
         component: ChangePasswordComponent, canActivate: [AuthGuard]
+      },
+      {
+        path: 'work-order-details',
+        component: WorkOrderDetailsComponent, canActivate: [AuthGuard,RoleGuard]
+      },
+      {
+        path: 'work-order-list',
+        component: WorkOrderListComponent, canActivate: [AuthGuard,RoleGuard]
       },
       {
         path: 'device-interrogation/:device/:requestid',
