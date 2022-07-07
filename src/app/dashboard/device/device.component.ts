@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Device } from 'src/app/model/device.model';
 @Component({
   selector: 'app-device',
   templateUrl: './device.component.html',

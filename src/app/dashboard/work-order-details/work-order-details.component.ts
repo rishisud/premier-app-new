@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Engineer } from 'src/app/model/work-order-details-model';
+import { Device } from 'src/app/model/device.model';
+import { Engineer, WorkOrderDetails } from 'src/app/model/work-order-details-model';
 
 @Component({
   selector: 'app-work-order-details',
@@ -11,7 +12,8 @@ export class WorkOrderDetailsComponent implements OnInit {
   requestId!: string;
   devices: Device[];
   selectedValue!: string;
-  user: Engineer[];
+  engineers: Engineer[];
+  workOrder= new WorkOrderDetails;
   constructor() { }
 
   ngOnInit(): void {
