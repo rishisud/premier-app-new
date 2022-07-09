@@ -1,0 +1,413 @@
+{
+	"deviceName": "ATOM – Syringe pump 1235N",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["SYRATO123N"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 38
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident / Damage and Missing Report",
+		"step": 4,
+		"next": {
+			"step": 38
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/checking the wall outlet voltage.mp4",
+			"videoName": "CHECKING THE WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the wall outlet is provided with AC Voltage of 230",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/checking the power cord.mp4",
+			"videoName": "checking the power cord"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether the voltage of 230 AC is available",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N002.mp4",
+			"videoName": "Video for checking voltage 230AC"
+		}]
+	}, {
+		"question": "check and confirm whether there is any breakage or carbon formation of power pin connector.",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 37
+		}
+	}, {
+		"question": "replace the power pin connector with a new one",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N003.mp4",
+			"videoName": "Video for replacing connector"
+		}]
+	}, {
+		"question": "check and confirm whether the fuses are blown out",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N004.mp4",
+			"videoName": "Video for checking continuity of fuses"
+		}]
+	}, {
+		"question": "replace the fuses with a new one",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the transformer output voltage is available",
+		"step": 15,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N006.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace the Transformer with a new one",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYRATO123NI001"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N007.mp4",
+			"videoName": "Video for replacing the transformer"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the fuse on control board is blown out",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N008.mp4",
+			"videoName": "Video for checking the fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the output voltage is available at the power supply board",
+		"step": 19,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N009.mp4",
+			"videoName": "Video for checking output voltage"
+		}]
+	}, {
+		"question": "replace the power supply board",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYRATO123NI002"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N010.mp4",
+			"videoName": "Video for replacing the power supply"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYRATO123NI003", "SYRATO123NI003_1"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N011.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the ml of the syringe is not being detected",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "open the equipment as shown in the video, cross check the sensor with other equipment and confirm whether the sensor is defective",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N001.mp4",
+			"videoName": "Video required for opening"
+		}]
+	}, {
+		"question": "replace the sensor with a new one",
+		"step": 24,
+		"next": {
+			"step": 22
+		},
+		"image": ["SYRATO123NI004"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N012.mp4",
+			"videoName": "Video for replacing the sensor"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 25,
+		"next": {
+			"step": 22
+		},
+		"image": ["SYRATO123NI003", "SYRATO123NI003_1"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N011.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the occlusion LED indicates with alarm beep",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 29
+		}
+	}, {
+		"question": "open the equipment as shown in the video, clean the load cell as shown in the video and confirm whether the problem still persist.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"next": {
+			"step": 38
+		},
+		"image": ["SYRATO123NI005"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N013.mp4",
+			"videoName": "Video for cleaning load cell"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the load cell with a new one",
+		"step": 28,
+		"next": {
+			"step": 26
+		},
+		"image": ["SYRATO123NI005"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N014.mp4",
+			"videoName": "Video for replacing the load cell"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "set the flow rate and confirm whether there is no / no free movement of piston at all.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 35
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any obstruction / dust in the piston path",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the dust",
+		"step": 31,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "check and confirm whether there is any damage / dust in the gears",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 34
+		}
+	}, {
+		"question": "replace or clean the gears accordingly",
+		"step": 33,
+		"next": {
+			"step": 29
+		},
+		"image": ["SYRATO123NI006"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N015.mp4",
+			"videoName": "Video for cleaning the gears"
+		}, {
+			"src": "assets/videos/SYRATO123N/SYRATO123N005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the motor drive with a new one replace the motor drive with a new one",
+		"step": 34,
+		"next": {
+			"step": 29
+		},
+		"image": ["SYRATO123NI007"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N016.mp4",
+			"videoName": "Video for replacing the motor"
+		}]
+	}, {
+		"question": "check and confirm whether some of the buttons or all the buttons do not respond while pressing",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		}
+	}, {
+		"question": "repair / replace the keypad accordingly.",
+		"step": 36,
+		"next": {
+			"step": 38
+		},
+		"image": ["SYRATO123NI08"],
+		"videos": [{
+			"src": "assets/videos/SYRATO123N/SYRATO123N017.mp4",
+			"videoName": "Video for replacing the keypad"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 37,
+		"next": {
+			"step": 38
+		}
+	}, {
+		"question": "Thanks",
+		"step": 38,
+		"submit": true
+	}]
+}

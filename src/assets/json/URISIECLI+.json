@@ -1,0 +1,349 @@
+{
+	"deviceName": "SIEMENS - CLINITEK STATUS+",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["URISIECLI+"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident / Damage and Missing report",
+		"step": 4,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "connect the equipment to the mains and check whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check whether the wall outlet is provided with AC Voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/checking the wall outlet voltage.mp4",
+			"videoName": "checking the wall outlet voltage"
+		}]
+	}, {
+		"question": "shift the equipment to another place where wall outlet is provided with 230 AC Voltage",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether DC voltage is available at the power cord adapter",
+		"step": 8,
+		"yes": {
+			"step": 10
+		},
+		"no": {
+			"step": 9
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+001.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace the power cord adapter with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether any carbon formation or breakage at the input connector pin",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		}
+	}, {
+		"question": "clean the connector pin accordingly",
+		"step": 11,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as show in the video, check whether the voltage is available at the control board.",
+		"step": 12,
+		"no": {
+			"step": 13
+		},
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+002.mp4",
+			"videoName": "Video for checking voltage"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["URISIECLI+I001"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+003.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the display is getting ON but it is plain / blank",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 18
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of the cable between display and control board",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 16,
+		"next": {
+			"step": 14
+		}
+	}, {
+		"question": "replace the display with a new one",
+		"step": 17,
+		"next": {
+			"step": 14
+		},
+		"image": ["URISIECLI+I002"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+004.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the measured result of sample is incorrect or improper",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 24
+		}
+	}, {
+		"question": "open the equipment as shown in the video, clean the optical lens and sensor and confirm whether the problem still persist",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable from optical sensor to control board.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 21,
+		"next": {
+			"step": 18
+		}
+	}, {
+		"question": "repair / replace the optical sensor accordingly and confirm whether the problem still persist",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"next": {
+			"step": 35
+		},
+		"image": ["URISIECLI+I003"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+005.mp4",
+			"videoName": "Video for replacing optical sensor"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 23,
+		"next": {
+			"step": 18
+		},
+		"image": ["URISIECLI+I001"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+003.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the print is available when the result is taken",
+		"step": 24,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "check whether the paper roll is inserted",
+		"step": 25,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "insert the paper roll properly",
+		"step": 26,
+		"next": {
+			"step": 24
+		}
+	}, {
+		"question": "check the connection between the printer and control board for any loose connection / breakage of cable",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 28,
+		"next": {
+			"step": 24
+		}
+	}, {
+		"question": "replace the printer with a new one",
+		"step": 29,
+		"next": {
+			"step": 24
+		},
+		"image": ["URISIECLI+I004"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+006.mp4",
+			"videoName": "Video for replacing the printer"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether there is a difficulty in inserting the sample tray",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 34
+		}
+	}, {
+		"question": "reinsert once again properly and confirm whether the problem still persist",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "open the equipment as shown in the video, clean or clear any obstruction or dust in the sample tray path and confirm whether the problem still persist",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "replace motor drive unit with a new one",
+		"step": 33,
+		"next": {
+			"step": 30
+		},
+		"image": ["URISIECLI+I005"],
+		"videos": [{
+			"src": "assets/videos/URISIECLI+/URISIECLI+007.mp4",
+			"videoName": "Video for replacing motor"
+		}, {
+			"src": "assets/videos/URISIECLI+/URISIECLI+009.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 34,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "Thanks",
+		"step": 35,
+		"submit": true
+	}]
+}

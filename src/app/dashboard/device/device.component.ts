@@ -41,7 +41,17 @@ export class DeviceComponent implements OnInit {
     {value: 'DIGULTRAMED', viewValue: 'MEDITEK ELECTRONICS'},
     {value: 'ECGBPL6208', viewValue: 'BPL – CARDIDART 6208'},
     {value: 'ECGMACM', viewValue: 'ECGMAC EM – 301'},
-    {value: 'TENSBIOMUL', viewValue: 'BIO MED INC – MULTIFUNCTION 4 CH TENS'}
+    {value: 'TENSBIOMUL', viewValue: 'BIO MED INC – MULTIFUNCTION 4 CH TENS'},
+    {value: 'LABCENMICRO', viewValue: 'MICROPROCESSOR BASED'},
+    {value: 'SYRPLEION+', viewValue: 'PLENUMTEK - Z ION+'},
+    {value: 'SUCBIOPLUELEC', viewValue: 'BIO PLUS ELECTRIC SUCTION'},
+    {value: 'MSIMAMS10', viewValue: 'IMAGE – MS-10'},
+    {value: 'TRAININCSS', viewValue: 'SS TECHNOMED'},
+    {value: 'SYREMCO850', viewValue: 'EMCO – INFUSOR 850'},
+    {value: 'SYRATO123N', viewValue: 'ATOM – Syringe pump 1235N'},
+    {value: 'SYEMCIN860', viewValue: 'EMCO – INFUSOR 860'},
+    {value: 'URISIECLI+', viewValue: 'SIEMENS - CLINITEK STATUS+'},
+    {value: 'ULTRSONOA5', viewValue: 'SONOSCAPE – A5'}
   ];
   constructor(private _router: Router) { }
 

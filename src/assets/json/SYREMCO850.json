@@ -1,0 +1,448 @@
+{
+	"deviceName": "EMCO – INFUSOR 850",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["SYREMCO850"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "check and confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare the Incident / Damage and missing report",
+		"step": 4,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230",
+		"step": 6,
+		"next": {
+			"step": 44
+		},
+		"videos": [{
+			"src": "assets/videos/checking the wall outlet voltage.mp4",
+			"videoName": "checking the wall outlet voltage"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the wall outlet is provided with AC Voltage of 230",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/checking the power cord.mp4",
+			"videoName": "checking the power cord"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the AC fuses are blown out",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850001.mp4",
+			"videoName": "Video for checking the fuses"
+		}]
+	}, {
+		"question": "replace the fuses with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYREMCO850I001"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850002.mp4",
+			"videoName": "Video for replacing"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input voltage of 230 AC is available",
+		"step": 12,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850018.mp4",
+			"videoName": "Video for checking input volt"
+		}]
+	}, {
+		"question": "check and confirm is there any carbon formation / breakage of power input module",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "clean / replace the power input module accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYREMCO850I002"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850004.mp4",
+			"videoName": "Video for replacing power I/P Module"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the fuses on power supply board is blown out",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 17
+		},
+		"image": ["SYREMCO850I003"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850007.mp4",
+			"videoName": "Video for checking fuse continuity"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 16,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the input voltage to power supply is available",
+		"step": 17,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850008.mp4",
+			"videoName": "Video for checking volt"
+		}]
+	}, {
+		"question": "check for any loose connection / breakage of cables from power input module to power supply board",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 43
+		}
+	}, {
+		"question": "reseat / replace the cables accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the transformer output voltage is available",
+		"step": 20,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850009.mp4",
+			"videoName": "Video for checking O/P volt"
+		}]
+	}, {
+		"question": "replace the transformer with a new one",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYREMCO850I004"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850010.mp4",
+			"videoName": "Video for replacing the transformer"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the power supply board output is available",
+		"step": 22,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850011.mp4",
+			"videoName": "Video for checking O/P"
+		}]
+	}, {
+		"question": "replace / repair the power supply board accordingly",
+		"step": 23,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYREMCO850I005"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850012.mp4",
+			"videoName": "Video for replacing power supply board"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is any loose connection / breakage of cable from power supply to control board",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "reseat / replace the cables accordingly",
+		"step": 25,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 26,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYREMCO850I006"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850013.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the ml of syringe is detected when the syringe is placed.",
+		"step": 27,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 28
+		}
+	}, {
+		"question": "open the equipment as shown in the video, repair / replace the sensor accordingly",
+		"step": 28,
+		"next": {
+			"step": 27
+		},
+		"image": ["SYREMCO850I007"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850014.mp4",
+			"videoName": "Video for replacing the sensor"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons do not respond while pressing upon",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 33
+		}
+	}, {
+		"question": ", open the equipment as shown in the video, check the cable from keypad to control board for any loose connections / breakage of cable",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 31,
+		"next": {
+			"step": 29
+		}
+	}, {
+		"question": "replace / repair the keypad accordingly",
+		"step": 32,
+		"next": {
+			"step": 29
+		},
+		"image": ["SYREMCO850I008"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850015.mp4",
+			"videoName": "Video for replacing the keypad assemble"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON, but the display is blank / plan.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		}
+	}, {
+		"question": "open the equipment as shown in the video, repair/ replace the display accordingly",
+		"step": 34,
+		"next": {
+			"step": 33
+		},
+		"image": ["SYREMCO850I009"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850003.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850016.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the syringe spindle is moving freely.",
+		"step": 35,
+		"yes": {
+			"step": 43
+		},
+		"no": {
+			"step": 36
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm for any dust, dirt / obstructions in the drive",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850003.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the dirt, dust /obstructions accordingly",
+		"step": 37,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "check and confirm for any loose connection or breakage of cable from motor to control board.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 40
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 39,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "check and confirm whether the motor is not functional",
+		"step": 40,
+		"yes": {
+			"step": 41
+		},
+		"no": {
+			"step": 41
+		}
+	}, {
+		"question": "repair / replace the motor accordingly",
+		"step": 41,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "repair / replace the drive accordingly",
+		"step": 42,
+		"next": {
+			"step": 35
+		},
+		"image": ["SYREMCO850I010"],
+		"videos": [{
+			"src": "assets/videos/SYREMCO850/SYREMCO850017.mp4",
+			"videoName": "Video for replacing drive"
+		}, {
+			"src": "assets/videos/SYREMCO850/SYREMCO850006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 43,
+		"next": {
+			"step": 44
+		}
+	}, {
+		"question": "Thanks",
+		"step": 44,
+		"submit": true
+	}]
+}

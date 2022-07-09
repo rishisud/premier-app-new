@@ -1,0 +1,385 @@
+{
+	"deviceName": "EMCO – INFUSOR 860",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["SYEMCIN860"]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "Check and confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare a Damage / Incident and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "Switch on the Equipment and confirm the Equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230V",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/checking the wall outlet voltage.mp4",
+			"videoName": "checking the wall outlet voltage"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC Voltage 230V is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the power cord cable for continuity as shown in the video and confirm whether it is defective or not",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/checking the power cord.mp4",
+			"videoName": "checking the power cord"
+		}]
+	}, {
+		"question": "the power cord cable is defective replace it with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check whether the AC fuse is blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860001.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether the 230v AC is available at the Input connector.",
+		"step": 12,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860002.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "check for any carbon formation or breakage of the Input pin connector",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "replace the power input pin connector",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYEMCIN860I001"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860003.mp4",
+			"videoName": "Video for replacing the input pin connector"
+		}]
+	}, {
+		"question": "check and confirm whether the input voltage to transformer is available.",
+		"step": 15,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860005.mp4",
+			"videoName": "Video for checking I/P to transformer"
+		}]
+	}, {
+		"question": "check whether the fuse on DC Board is blown.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860006.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 17,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check and confirm whether the output of transformer is available.",
+		"step": 18,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860007.mp4",
+			"videoName": "Video for checking O/P of transformer"
+		}]
+	}, {
+		"question": "replace the transformer with a new one",
+		"step": 19,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYEMCIN860I002"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860008.mp4",
+			"videoName": "Video for replacing transformer"
+		}, {
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the output of DC board is available.",
+		"step": 20,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860010.mp4",
+			"videoName": "Video required for checking DC Board O/P"
+		}]
+	}, {
+		"question": "repair / replace the board accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYEMCIN860I003"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860011.mp4",
+			"videoName": "Video for replacing the DC Board"
+		}, {
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable between the DC Board and control board.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		}
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 23,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 24,
+		"next": {
+			"step": 5
+		},
+		"image": ["SYEMCIN860I004"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860012.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether some of the buttons or buttons do not respond while pressing.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 29
+		}
+	}, {
+		"question": "check the connection between the keypad and control board for any loose connection or breakage of cable.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"image": ["SYEMCIN860I005"]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 27,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "replace / repair the keypad accordingly",
+		"step": 28,
+		"next": {
+			"step": 25
+		}
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 31
+		}
+	}, {
+		"question": "repair / replace the display with a new one",
+		"step": 30,
+		"next": {
+			"step": 25
+		},
+		"image": ["SYEMCIN860I006"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860013.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "confirm whether the ml of syringe is detected and displayed.",
+		"step": 31,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 32
+		}
+	}, {
+		"question": "kindly replace the sensor near the drive board",
+		"step": 32,
+		"next": {
+			"step": 31
+		},
+		"image": ["SYEMCIN860I007"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the syringe spindle is moving freely.",
+		"step": 33,
+		"yes": {
+			"step": 38
+		},
+		"no": {
+			"step": 34
+		}
+	}, {
+		"question": "open the equipment as shown in the video, check whether any blockage in the path of motor drive.",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 36
+		},
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the path",
+		"step": 35,
+		"next": {
+			"step": 33
+		}
+	}, {
+		"question": "replace the motor with a new one and confirm whether the problem still persist",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"image": ["SYEMCIN860I008"]
+	}, {
+		"question": "replace the motor assembly drive with a new one",
+		"step": 37,
+		"next": {
+			"step": 33
+		},
+		"image": ["SYEMCIN860I009"],
+		"videos": [{
+			"src": "assets/videos/SYEMCIN860/SYEMCIN860009.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through the video call",
+		"step": 38,
+		"next": {
+			"step": 39
+		}
+	}, {
+		"question": "Thanks",
+		"step": 39,
+		"submit": true
+	}]
+}

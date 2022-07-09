@@ -1,0 +1,394 @@
+{
+	"deviceName": "MICROPROCESSOR BASED",
+	"questions": [{
+		"question": "Confirm the Equipment with the below provided video",
+		"step": 1,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 3
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO.mp4",
+			"videoName": "VIDEO OF THE EQUIPMENT"
+		}]
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "confirm is there any physical Damage of the Equipment",
+		"step": 3,
+		"yes": {
+			"step": 5
+		},
+		"no": {
+			"step": 5
+		}
+	}, {
+		"question": "prepare Incident / Damage and Missing Report",
+		"step": 4,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON\r\nAttention: Close the Lid to start the machine",
+		"step": 5,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 6
+		}
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/checking the wall outlet voltage.mp4",
+			"videoName": "checking the wall outlet voltage"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/checking the power cord.mp4",
+			"videoName": "checking the power cord"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		}
+	}, {
+		"question": "check the inlet AC fuses for continuity and confirm whether the fuses are burnt",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"image": ["LABCENMICROI001"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO001.mp4",
+			"videoName": "Videos for checking"
+		}]
+	}, {
+		"question": "replace the fuse with new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO002.mp4",
+			"videoName": "Video for replacing fuses"
+		}]
+	}, {
+		"question": "open the Front panel as shown in the video and confirm for any loose connections or transformer burnt.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"image": ["LABCENMICROI002"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO003.mp4",
+			"videoName": "Video for opening the Equipment"
+		}]
+	}, {
+		"question": "connect the cables properly or replace the transformer with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO004.mp4",
+			"videoName": "Video for Replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "Check the input and output voltage of transformer and confirm for any variations in the voltage.",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 16
+		},
+		"image": ["LABCENMICROI003"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO003.mp4",
+			"videoName": "Video for opening the Equipment"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO014.mp4",
+			"videoName": "Video for checking the I/P & O/P Voltages"
+		}]
+	}, {
+		"question": "Replace the transformer with a new one",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO006.mp4",
+			"videoName": "Video for Replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["LABCENMICROI004"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO007.mp4",
+			"videoName": "Video for replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "confirm whether there is change in RPM",
+		"step": 17,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 18
+		}
+	}, {
+		"question": "open the front panel and confirm whether the micro switches on the control board are defective.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO008.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the micro switch with a new one",
+		"step": 19,
+		"next": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO009.mp4",
+			"videoName": "Video required for replacing switch"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 20,
+		"next": {
+			"step": 17
+		},
+		"image": ["LABCENMICROI004"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO007.mp4",
+			"videoName": "Video for replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "Kindly Check the Carbon Brushes near the Motor and confirm whether the carbon brushes are worn out.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"image": ["LBCENMICROI005"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO003.mp4",
+			"videoName": "Video for opening the Equipment"
+		}]
+	}, {
+		"question": "kindly replace the Carbon Brushes with the new one",
+		"step": 22,
+		"next": {
+			"step": 21
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO008.mp4",
+			"videoName": "Video for Replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "confirm whether there is any vibration motion during the motor rotation.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		}
+	}, {
+		"question": "replace the motor with the new one and close the Equipment",
+		"step": 24,
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO009.mp4",
+			"videoName": "Video for Replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "confirm whether the Lid is getting interlocked properly",
+		"step": 25,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 26
+		}
+	}, {
+		"question": "kindly open the equipment then change the Door lock sensor and close the Equipment.",
+		"step": 26,
+		"next": {
+			"step": 35
+		},
+		"image": ["LABCENMICROI006"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO003.mp4",
+			"videoName": "Video for opening the Equipment"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO010.mp4",
+			"videoName": "Video for replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the display is blank when the equipment is ON.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 30
+		}
+	}, {
+		"question": "open the equipment replace the display and check whether the problem still persist.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"next": {
+			"step": 35
+		},
+		"image": ["LABCENMICROI007"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO011.mp4",
+			"videoName": "Video for replacing display"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 29,
+		"next": {
+			"step": 35
+		},
+		"image": ["LABCENMICROI004"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO007.mp4",
+			"videoName": "Video for replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "check the buttons respond while pressing the keypad",
+		"step": 30,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 31
+		}
+	}, {
+		"question": "open the front panel and confirm whether the micro switches on the control board are defective.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO012.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the micro switch with a new one",
+		"step": 32,
+		"next": {
+			"step": 35
+		},
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO013.mp4",
+			"videoName": "Video required for replacing switch"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly.",
+		"step": 33,
+		"next": {
+			"step": 35
+		},
+		"image": ["LABCENMICROI004"],
+		"videos": [{
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO007.mp4",
+			"videoName": "Video for replacement"
+		}, {
+			"src": "assets/videos/LABCENMICRO/LABCENMICRO005.mp4",
+			"videoName": "Video for Closing the Equipment"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 34,
+		"next": {
+			"step": 35
+		}
+	}, {
+		"question": "Thanks",
+		"step": 35,
+		"submit": true
+	}]
+}
