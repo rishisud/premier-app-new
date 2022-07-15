@@ -61,11 +61,11 @@ export class LoginComponent implements OnInit {
               .subscribe(resp => {
 				console.log(resp.response);
                 localStorage.setItem('userdetails' , JSON.stringify(resp.response));
-                if (resp.response.role === 'engineer') {
+               // if (resp.response.role === 'engineer') {
                   this.router.navigate(['/dashboard']);
-                } else if (resp.response.role === 'supervisor') {
-                  this.router.navigate(['/supervisor']);
-                }  
+                //} else if (resp.response.role === 'admin') {
+                //  this.router.navigate(['/user-list']);
+               // }  
                this.titleService.setTitle('Premier App');
             });
           }
