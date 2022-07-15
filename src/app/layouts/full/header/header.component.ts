@@ -9,9 +9,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class AppHeaderComponent {
 	user: any;
+  role ='admin';
 	constructor(private router: Router, private authenticationService: AuthenticationService, private _route: ActivatedRoute) {}
 	
-	ngOnInit() {}
+	ngOnInit() {
+    this.role = sessionStorage.getItem('currentUser');
+  }
 	
   redirectToChangePassword() {
     this.router.navigate(['/change-password']);
