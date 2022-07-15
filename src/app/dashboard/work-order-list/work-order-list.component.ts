@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { Router } from '@angular/router';
 import { WorkOrder, WorkOrderDetails } from 'src/app/model/work-order-details-model';
 
 @Component({
@@ -9,12 +10,12 @@ import { WorkOrder, WorkOrderDetails } from 'src/app/model/work-order-details-mo
 })
 export class WorkOrderListComponent implements OnInit {
 
-  public displayedColumns = ['id', 'device', 'engineer', 'details', 'update'];
+  public displayedColumns = ['id', 'device', 'engineer', 'details'];
 
 
   public dataSource = new MatTableDataSource<WorkOrder>();
 
-  constructor() { }
+  constructor(private router: Router) { }
   ngOnInit() {
     this.getAllWorkOrders();
   }
@@ -25,6 +26,7 @@ export class WorkOrderListComponent implements OnInit {
 
   }
   public redirectToDetails = (id: string) => {
+    this.router.navigate(['/work-order-details']);
     
   }
   public redirectToUpdate = (id: string) => {
