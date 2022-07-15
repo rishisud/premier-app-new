@@ -28,6 +28,6 @@ const LOGINMENUITEMS = [
 @Injectable()
 export class MenuItems {
   getMenuitem(login:boolean,role:string): Menu[] {
-    return login ? adminMENUITEMS :LOGINMENUITEMS;
+    return login ? (role==='admin'? adminMENUITEMS:engineerMENUITEMS) :LOGINMENUITEMS;
   }
 }

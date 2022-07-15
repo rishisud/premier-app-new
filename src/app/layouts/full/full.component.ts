@@ -15,16 +15,13 @@ export class FullComponent implements OnDestroy, AfterViewInit {
   mobileQuery: MediaQueryList;
   routerPath:string='';
   loggedInSuccess = false;
-  role ='';
+  role ='admin';
   private _mobileQueryListener: () => void;
 
   ngOnInit() { 
     this.authenticationService.IsLoggedIn().subscribe(() => { 
       this.loggedInSuccess = true;
     });
-    this.authenticationService.getCurrentUserRole().subscribe((res) => { 
-      this.role = res;
-    }); 
   } 
 
   constructor(
@@ -44,6 +41,7 @@ export class FullComponent implements OnDestroy, AfterViewInit {
   ngAfterViewInit() {}
 
   routerlinkCheck():boolean{
+    this.role = sessionStorage.getItem('currentUser');
     return this.loggedInSuccess ? this.loggedInSuccess : this.routerPath !=='/login' && this.routerPath !=='/' ;
   }
 }
