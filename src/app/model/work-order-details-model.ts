@@ -14,6 +14,7 @@ export interface Engineer {
 
   export class WorkOrder {
     id: number;
+    workorder_id:string;
     device:string;
     engineer:string;
 }
