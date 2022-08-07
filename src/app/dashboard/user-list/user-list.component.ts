@@ -27,7 +27,7 @@ export class UserListComponent implements OnInit {
     })
   }
   public redirectToDetails = (id: string) => {
-    this.router.navigate(['/user-details']);
+    this.router.navigate(['/user-details'], { queryParams: { id: id }} );
   }
   public redirectToUpdate = (id: string) => {
     

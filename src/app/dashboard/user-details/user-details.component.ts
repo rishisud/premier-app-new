@@ -1,5 +1,9 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { User } from 'src/app/model/model';
 import { Userdetails } from 'src/app/model/user-details';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-user-details',
@@ -7,15 +11,24 @@ import { Userdetails } from 'src/app/model/user-details';
   styleUrls: ['./user-details.component.css']
 })
 export class UserDetailsComponent implements OnInit {
+  BASE_URL = environment.API_BASE_URL;
   selectedValue!: string;
   user= new Userdetails;
+  header = 'Add';
   roles: Role[] = [
     {value: 'Admin', code: 'admin'},
     {value: 'Engineer', code: 'engineer'}
   ]
-  constructor() { }
+  constructor(private httpClient: HttpClient, private route :ActivatedRoute) { }
 
   ngOnInit(): void {
+    let id = this.route.snapshot.queryParamMap.get('id');
+  if(id !== undefined || id !== null){
+    this.header='Edit';
+  }
+    this.httpClient.get<any>(this.BASE_URL+'/engineer/details?userid='+id).subscribe(data =>{
+      this.user=data[0];
+    })
   }
 
   

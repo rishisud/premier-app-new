@@ -1,10 +1,12 @@
-export class Userdetails {
-    id: number;
-    firstName:string;
-    lastName:string;
+export class    Userdetails {
+    id: string;
+    UserId:string;
+    empid:string;
+    name:string;
+    lastname:string;
     userName:string;
     password:string;
     email: string;
     role: string;
-    phoneNumber: string;
+    mobile: string;
 }
