@@ -27,8 +27,7 @@ export class WorkOrderListComponent implements OnInit {
     })
   }
   public redirectToDetails = (id: string) => {
-    this.router.navigate(['/work-order-details']);
-    
+    this.router.navigate(['/work-order-details'], { queryParams: { id: id }} );
   }
   public redirectToUpdate = (id: string) => {
     

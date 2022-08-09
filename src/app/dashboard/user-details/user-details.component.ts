@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { first, map } from 'rxjs/operators';
 import { User } from 'src/app/model/model';
 import { Userdetails } from 'src/app/model/user-details';
 import { environment } from 'src/environments/environment';
@@ -33,6 +34,12 @@ export class UserDetailsComponent implements OnInit {
 
   
   post():void{
+
+    this.httpClient.post<Userdetails>(this.BASE_URL+'/engineer/save', this.user)
+    .pipe(map(res => {
+      console.log('Successfully Submitted');
+      return res;
+    }));
   }
 
 }
