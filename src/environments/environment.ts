@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  //API_BASE_URL: 'https://www.logy.co.in/api'
-  API_BASE_URL: 'http://65.0.29.91:3000/api'
+  API_BASE_URL: 'https://www.techbuck.in/api'
+  //API_BASE_URL: 'http://65.0.29.91:3000/api'
 };
