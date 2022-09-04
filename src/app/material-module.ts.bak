@@ -44,7 +44,22 @@ import { PortalModule } from '@angular/cdk/portal';
 
 @NgModule({
     exports: [
-        MatOptionModule,    
+        
+        
+        
+        
+        
+        
+        MatDialogModule,
+        MatTooltipModule,
+        MatBadgeModule,
+        MatGridListModule,
+        MatSelectModule,
+        MatOptionModule,
+        MatProgressSpinnerModule,
+        MatSliderModule,
+        MatSidenavModule,
+        MatSnackBarModule,
         MatAutocompleteModule,
         MatButtonModule,
         MatBottomSheetModule,

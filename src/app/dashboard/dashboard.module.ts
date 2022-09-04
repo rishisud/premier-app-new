@@ -21,6 +21,7 @@ import { WorkOrderListComponent } from './work-order-list/work-order-list.compon
 import { WorkOrderDetailsComponent } from './work-order-details/work-order-details.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { OnlineModule } from '../online/online.module';
 @NgModule({
   imports: [
     CommonModule,
@@ -32,7 +33,8 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,
+    OnlineModule
   ],
   declarations: [LoginComponent, DashboardComponent, ScannerComponent, VideoCallComponent, DeviceInterrogationComponent, DeviceComponent, UserListComponent, WorkOrderListComponent, WorkOrderDetailsComponent, UserDetailsComponent, ChangePasswordComponent]
 })

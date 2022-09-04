@@ -1,5 +1,5 @@
 <button mat-icon-button class="m-r-15"> <img src="assets/images/header/scanner.png" class="profile-pic" [routerLink]="['/scanner']" *ngIf="role !== 'admin'"> </button>
-<button mat-icon-button class="m-r-15"> <img src="assets/images//header/video.png" class="profile-pic"[routerLink]="['/video-call']" *ngIf="role !== 'admin'"> </button>
+<button mat-icon-button class="m-r-15"> <img src="assets/images//header/video.png" class="profile-pic"[routerLink]="['/home']" *ngIf="role !== 'admin'"> </button>
 <button [matMenuTriggerFor]="profile" mat-icon-button class="m-r-15"> <img src="assets/images/header/user.png" alt="user" class="profile-pic"> </button>
 <mat-menu #profile="matMenu" class="mymegamenu">
     <button mat-menu-item (click)="redirectToChangePassword()">

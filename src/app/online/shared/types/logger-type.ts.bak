@@ -1,0 +1,9 @@
+export interface ILogger {
+	d(...args: any[]): any;
+	w(...args: any[]): any;
+	e(...args: any[]): any;
+}
+
+export interface ILogService {
+	get(name: string): ILogger;
+}
