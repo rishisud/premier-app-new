@@ -106,8 +106,8 @@ import { MaterialModule } from '../material-module';
 	MaterialModule,
 	HttpClientModule,
 	FlexLayoutModule,
-	NgxLinkifyjsModule.forRoot()
-    //OnlineRoutingModule
+	NgxLinkifyjsModule.forRoot(),
+	OnlineRoutingModule
   ],
   providers: [
     NetworkService,

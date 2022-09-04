@@ -4,8 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { VideoRoomComponent } from './video-room/video-room.component';
 
 const routes: Routes = [
-	{ path: 'home', component: HomeComponent },
-	{ path: ':roomName', component: VideoRoomComponent }
+	{ path: 'home', component: HomeComponent }
 	];
 
 @NgModule({

@@ -29,7 +29,25 @@
       (leaveSessionButtonClicked)="leaveSession()"
     ></app-toolbar>
 
-      <div class="sidenav-main">
+    <mat-sidenav-container class="sidenav-container" id="room-container" [class.boundsLight]="lightTheme" fullscreen>
+      <mat-sidenav
+        #sidenav
+        mode="{{sidenavMode}}"
+        position="end"
+        class="sidenav-chat"
+        [class.boundsLight]="lightTheme"
+        fixedInViewport="true"
+        fixedTopGap="40"
+        fixedBottomGap="0"
+        *ngIf="ovSettings | hasChat"
+      >
+        <chat-component
+          #chatComponent
+          [lightTheme]="lightTheme"
+        ></chat-component>
+      </mat-sidenav>
+
+      <mat-sidenav-content class="sidenav-main">
         <div id="layout" class="bounds" [class.boundsLight]="lightTheme">
           <div
             class="OT_root OT_publisher custom-class"
@@ -60,6 +78,8 @@
             ></stream-component>
           </div>
         </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
 
     <app-footer
       [lightTheme]="lightTheme"

@@ -57,8 +57,8 @@ const routes: Routes = [
         path: 'work-order-list',
         component: WorkOrderListComponent, canActivate: [AuthGuard,RoleGuard]
       },
-      { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
-      { path: 'online', component: VideoRoomComponent, canActivate: [AuthGuard] },
+     // { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+      //{ path: 'online', component: VideoRoomComponent, canActivate: [AuthGuard] },
       {
         path: 'device-interrogation/:device/:requestid',
         component: DeviceInterrogationComponent, canActivate: [AuthGuard]
