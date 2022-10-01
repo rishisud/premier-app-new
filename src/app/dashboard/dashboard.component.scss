@@ -7,3 +7,18 @@
     right: 17px;
     top: 57px;
 }
+
+table {
+    margin-top: 25px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+}
+
+th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+    background-color: rgb(38, 198, 218);
+    font-size: 15px;
+}

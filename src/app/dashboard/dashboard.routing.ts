@@ -25,10 +25,10 @@ const routes: Routes = [
         path: 'dashboard',
         component: DashboardComponent, canActivate: [AuthGuard]
       },
-      {
+      /*{
         path: 'device',
         component: DeviceComponent, canActivate: [AuthGuard]
-      },
+      },*/
       {
         path: 'scanner',
         component: ScannerComponent, canActivate: [AuthGuard]
@@ -53,10 +53,10 @@ const routes: Routes = [
         path: 'work-order-details',
         component: WorkOrderDetailsComponent, canActivate: [AuthGuard,RoleGuard]
       },
-      {
+      /*{
         path: 'work-order-list',
         component: WorkOrderListComponent, canActivate: [AuthGuard,RoleGuard]
-      },
+      },*/
      // { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
       //{ path: 'online', component: VideoRoomComponent, canActivate: [AuthGuard] },
       {
