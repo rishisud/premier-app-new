@@ -3,7 +3,7 @@
       <mat-card-title>Work Order</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-        <mat-tab-group mat-align-tabs="left">
+        <mat-tab-group mat-align-tabs="left" (selectedTabChange)="tabClick($event)">
             <mat-tab label="Assigned">
                 
                     <table mat-table [dataSource]="dataSource">

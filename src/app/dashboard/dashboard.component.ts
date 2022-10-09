@@ -11,6 +11,7 @@ import { environment } from 'src/environments/environment';
 })
 export class DashboardComponent implements AfterViewInit {
 	role ='admin';
+	workOrderStatus=0;
 	BASE_URL = environment.API_BASE_URL;
 	public displayedColumns = ['workorder_id', 'workorder_no', 'equipmentName', 'meNumber', 'action'];
 	public completedTabColumns = ['workorder_id', 'workorder_no', 'equipmentName', 'meNumber'];
@@ -20,14 +21,19 @@ export class DashboardComponent implements AfterViewInit {
 
 	ngOnInit() {
 		this.role = sessionStorage.getItem('currentUser');
-		this.getAllWorkOrders();
+		this.getAllWorkOrders(this.workOrderStatus);
 	}
 	
-	public getAllWorkOrders = () => {
-	  this.httpClient.get<any>(this.BASE_URL + '/workorder/details').subscribe(data =>{
+	public getAllWorkOrders(workOrderStatus:Number) {
+	  let url = this.role =='admin'?this.BASE_URL + '/workorder/details':this.BASE_URL + '/workorder/details/';
+	  this.httpClient.get<any>(url).subscribe(data =>{
 		this.dataSource.data = data;
 	  })
 	}
+
+	tabClick(tab) {
+		this.getAllWorkOrders(tab.index);
+	  }
 
 	ngAfterViewInit() { }
 
