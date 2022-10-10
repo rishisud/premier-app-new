@@ -28,7 +28,7 @@ export class DashboardComponent implements AfterViewInit {
 	}
 	
 	public getAllWorkOrders(workOrderStatus:Number) {
-	  let eId = this.role =='admin'? 'all':this.engineerId;
+	  let eId = this.role =='admin'? this.role :this.engineerId;
 	  this.httpClient.get<any>(this.BASE_URL + '/getwodetails?engineerId='+eId+'&status='+workOrderStatus).subscribe(data =>{
 		this.dataSource.data = data;
 	  })
