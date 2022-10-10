@@ -7,24 +7,24 @@
             <mat-tab label="Assigned">
                 
                     <table mat-table [dataSource]="dataSource">
-                        <ng-container matColumnDef="workorder_id">
+                        <ng-container matColumnDef="woid">
                             <th mat-header-cell *matHeaderCellDef> Work Order Id </th>
-                            <td mat-cell *matCellDef="let element"> {{element.workorder_id }} </td>
+                            <td mat-cell *matCellDef="let element"> {{element.woid }} </td>
                         </ng-container>
 
-                        <ng-container matColumnDef="workorder_no">
+                        <ng-container matColumnDef="wono">
                             <th mat-header-cell *matHeaderCellDef> Work Order No. </th>
-                            <td mat-cell *matCellDef="let element"> {{element.workorder_no }} </td>
+                            <td mat-cell *matCellDef="let element"> {{element.wono }} </td>
                         </ng-container>
 
-                        <ng-container matColumnDef="equipmentName">
+                        <ng-container matColumnDef="equipment_name">
                             <th mat-header-cell *matHeaderCellDef> Equipment Name </th>
-                            <td mat-cell *matCellDef="let element"> {{element.equipmentName}} </td>
+                            <td mat-cell *matCellDef="let element"> {{element.equipment_name}} </td>
                         </ng-container>
 
-                        <ng-container matColumnDef="meNumber">
+                        <ng-container matColumnDef="menumber">
                             <th mat-header-cell *matHeaderCellDef> ME Number </th>
-                            <td mat-cell *matCellDef="let element"> {{element.meNumber}} </td>
+                            <td mat-cell *matCellDef="let element"> {{element.menumber}} </td>
                         </ng-container>
                    
                         <ng-container matColumnDef="action">
@@ -45,24 +45,24 @@
             <mat-tab label="Completed">
                 
                 <table mat-table [dataSource]="dataSource">
-                    <ng-container matColumnDef="workorder_id">
+                    <ng-container matColumnDef="woid">
                         <th mat-header-cell *matHeaderCellDef> Work Order Id </th>
-                        <td mat-cell *matCellDef="let element"> {{element.workorder_id }} </td>
+                        <td mat-cell *matCellDef="let element"> {{element.woid }} </td>
                     </ng-container>
 
-                    <ng-container matColumnDef="workorder_no">
+                    <ng-container matColumnDef="wono">
                         <th mat-header-cell *matHeaderCellDef> Work Order No. </th>
-                        <td mat-cell *matCellDef="let element"> {{element.workorder_no }} </td>
+                        <td mat-cell *matCellDef="let element"> {{element.wono }} </td>
                     </ng-container>
 
-                    <ng-container matColumnDef="equipmentName">
+                    <ng-container matColumnDef="equipment_name">
                         <th mat-header-cell *matHeaderCellDef> Equipment Name </th>
-                        <td mat-cell *matCellDef="let element"> {{element.equipmentName}} </td>
+                        <td mat-cell *matCellDef="let element"> {{element.equipment_name}} </td>
                     </ng-container>
 
-                    <ng-container matColumnDef="meNumber">
+                    <ng-container matColumnDef="menumber">
                         <th mat-header-cell *matHeaderCellDef> ME Number </th>
-                        <td mat-cell *matCellDef="let element"> {{element.meNumber}} </td>
+                        <td mat-cell *matCellDef="let element"> {{element.menumber}} </td>
                     </ng-container>
                                
                     <tr mat-header-row *matHeaderRowDef="completedTabColumns"></tr>

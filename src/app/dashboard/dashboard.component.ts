@@ -11,22 +11,25 @@ import { environment } from 'src/environments/environment';
 })
 export class DashboardComponent implements AfterViewInit {
 	role ='admin';
+	engineerId:string;
 	workOrderStatus=0;
 	BASE_URL = environment.API_BASE_URL;
-	public displayedColumns = ['workorder_id', 'workorder_no', 'equipmentName', 'meNumber', 'action'];
-	public completedTabColumns = ['workorder_id', 'workorder_no', 'equipmentName', 'meNumber'];
+	public displayedColumns = ['woid', 'wono', 'equipment_name', 'menumber', 'action'];
+	public completedTabColumns = ['woid', 'wono', 'equipment_name', 'menumber'];
 
 	public dataSource = new MatTableDataSource<any>();
 	constructor(private httpClient: HttpClient,private _router: Router) { }
 
 	ngOnInit() {
 		this.role = sessionStorage.getItem('currentUser');
+		let jsonObj = JSON.parse(localStorage.userdetails);
+		this.engineerId = jsonObj.user_details[0]?.engineerid;
 		this.getAllWorkOrders(this.workOrderStatus);
 	}
 	
 	public getAllWorkOrders(workOrderStatus:Number) {
-	  let url = this.role =='admin'?this.BASE_URL + '/workorder/details':this.BASE_URL + '/workorder/details/';
-	  this.httpClient.get<any>(url).subscribe(data =>{
+	  let eId = this.role =='admin'? 'all':this.engineerId;
+	  this.httpClient.get<any>(this.BASE_URL + '/getwodetails?engineerId='+eId+'&status='+workOrderStatus).subscribe(data =>{
 		this.dataSource.data = data;
 	  })
 	}
@@ -38,7 +41,7 @@ export class DashboardComponent implements AfterViewInit {
 	ngAfterViewInit() { }
 
 	redirectToDetails(element:any){
-		this._router.navigate(['/device-interrogation',element.meNumber,element.workorder_id]);
+		this._router.navigate(['/device-interrogation',element.menumber,element.woid]);
 	  }
 
 }
