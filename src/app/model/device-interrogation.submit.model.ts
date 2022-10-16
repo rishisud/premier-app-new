@@ -2,13 +2,17 @@ export class DeviceInterrogationSubmit {
 	userId: string;
     requestId: string;
     device: string;
+    company: string;
+    date: string;
     answers: Answer[];
 
-    constructor(userid: string, requestid: string, device:string, answer:Answer[]) {
+    constructor(userid: string, requestid: string, device:string,company:string,date:string, answer:Answer[]) {
         this.userId = userid;
 		this.requestId = requestid;
         this.device = device;
         this.answers = answer;
+        this.company=company;
+        this.date=date;
       }
 }
 

@@ -41,7 +41,7 @@ export class DashboardComponent implements AfterViewInit {
 	ngAfterViewInit() { }
 
 	redirectToDetails(element:any){
-		this._router.navigate(['/device-interrogation',element.menumber,element.woid]);
+		this._router.navigate(['/device-interrogation',element.menumber,element.woid,element.company,element.service_date]);
 	  }
 
 }

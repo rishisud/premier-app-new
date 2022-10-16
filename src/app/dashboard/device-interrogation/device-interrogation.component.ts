@@ -25,6 +25,8 @@ export class DeviceInterrogationComponent implements OnInit {
   submit =false;
   next =false;
   requestId: any;
+  company: any;
+  date: any;
   userdetails: any;
   UserID: any;
 
@@ -60,6 +62,8 @@ export class DeviceInterrogationComponent implements OnInit {
      this._router.paramMap.subscribe(params=>{
           this.device=params.get('device');
           this.requestId=params.get('requestid')
+          this.company=params.get('company')
+          this.date=params.get('date')
 		  this.userdetails = JSON.parse(localStorage.getItem('userdetails'));
 		  this.UserID = this.userdetails.user_details[0].id;
     })
@@ -73,7 +77,7 @@ export class DeviceInterrogationComponent implements OnInit {
   }
 
   post():void{
-    const postData = new DeviceInterrogationSubmit(this.UserID, this.requestId,this.device,this.answers);
+    const postData = new DeviceInterrogationSubmit(this.UserID, this.requestId,this.device,this.company,this.date,this.answers);
     this.deviceInterrogationService.postData("username", postData)
       .pipe(first())
       .subscribe(

@@ -60,7 +60,7 @@ const routes: Routes = [
      // { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
       //{ path: 'online', component: VideoRoomComponent, canActivate: [AuthGuard] },
       {
-        path: 'device-interrogation/:device/:requestid',
+        path: 'device-interrogation/:device/:requestid/:company/:date',
         component: DeviceInterrogationComponent, canActivate: [AuthGuard]
   }];
 
