@@ -22,6 +22,9 @@ export class DashboardComponent implements AfterViewInit {
 
 	ngOnInit() {
 		this.role = sessionStorage.getItem('currentUser');
+		if(this.role==='admin') {
+			this.displayedColumns = this.completedTabColumns;
+		}
 		let jsonObj = JSON.parse(localStorage.userdetails);
 		this.engineerId = jsonObj.user_details[0]?.engineerid;
 		this.getAllWorkOrders(this.workOrderStatus);
