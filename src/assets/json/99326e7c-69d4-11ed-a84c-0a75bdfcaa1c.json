@@ -1,0 +1,330 @@
+{
+	"deviceName": "RIRANSA - PO10",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["SEMAAMEURA"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing report",
+		"step": 4,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the fuse is burnt",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10001.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1002.mp4",
+			"videoName": "Video for replacing fuse"
+		}]
+	}, {
+		"question": "check for any carbon formation or damage of the Input module",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"videos": []
+	}, {
+		"question": "clean or replace the Input module accordingly",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["PULRIRPO10I001"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10003.mp4",
+			"videoName": "Video for cleaning"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10004.mp4",
+			"videoName": "Video for replacing the module"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1011.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the Input voltage is available at the power supply board",
+		"step": 14,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10005.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10006.mp4",
+			"videoName": "Video for checking the Input voltage"
+		}]
+	}, {
+		"question": "check the cable between Input module and power supply board for any damage / broken / loose connection",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable / reseat the cable properly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the output voltage of 15 VDC is available at the power supply board.",
+		"step": 17,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO10007.mp4",
+			"videoName": "Video for checking O/P Voltage"
+		}]
+	}, {
+		"question": "repair / replace the power supply board accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["PULRIRPO10I002"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1008.mp4",
+			"videoName": "Video for replacing the power supply"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1011.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check the connection between power supply and control board for any loose connection / breakage of the cable",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["PULRIRPO10I003"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1009.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1011.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is unstable SPO2 or no SPO2 detected.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "reconnect the probe properly to the patient and confirm whether the problem still persist.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any carbon formation, loose connection or breakage at the connecting pin of the probe",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "reconnect / replace the probe accordingly",
+		"step": 25,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "replace / repair the control board accordingly",
+		"step": 26,
+		"next": {
+			"step": 22
+		},
+		"image": ["PULRIRPO10I003", "PULRIRPO10I003_1"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1009.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1011.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the display is not getting ON / blank.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check whether the cable between display and control board is damaged / loose connection",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "reconnect / replace the cable accordingly",
+		"step": 29,
+		"next": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 30,
+		"next": {
+			"step": 27
+		},
+		"image": ["PULRIRPO10I004", "PULRIRPO10I004_1"],
+		"videos": [{
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1010.mp4",
+			"videoName": "Video for replacing the Display"
+		}, {
+			"src": "assets/videos/SEMAAMEURA_RIRANSA/PULRIRPO1011.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 31,
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 32,
+		"submit": true
+	}]
+}
