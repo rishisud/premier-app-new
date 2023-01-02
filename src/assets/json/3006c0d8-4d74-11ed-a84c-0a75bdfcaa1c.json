@@ -202,7 +202,7 @@
 			"step": 22
 		}
 	}, {
-		"question": "reconnect the properly",
+		"question": "reconnect properly",
 		"step": 21,
 		"next": {
 			"step": 19
@@ -358,7 +358,7 @@
 			"videoName": "Video for closing"
 		}]
 	}, {
-		"question": "check and confirm whether unable change the frequency or time.",
+		"question": "check and confirm whether unable to change the frequency or time.",
 		"step": 37,
 		"yes": {
 			"step": 38

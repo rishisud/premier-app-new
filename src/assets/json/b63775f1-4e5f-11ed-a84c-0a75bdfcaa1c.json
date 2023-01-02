@@ -40,7 +40,7 @@
 			"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
 			"step": 5,
 			"yes": {
-				"step": 12
+				"step": 13
 			},
 			"no": {
 				"step": 6
