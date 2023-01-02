@@ -4,10 +4,10 @@
 		"question": "Confirm the Equipment with the below provided video",
 		"step": 1,
 		"yes": {
-			"step": 4
+			"step": 3
 		},
 		"no": {
-			"step": 3
+			"step": 2
 		},
 		"videos": [{
 			"src": "assets/videos/LABCENMICRO/LABCENMICRO.mp4",
@@ -23,7 +23,7 @@
 		"question": "confirm is there any physical Damage of the Equipment",
 		"step": 3,
 		"yes": {
-			"step": 5
+			"step": 4
 		},
 		"no": {
 			"step": 5

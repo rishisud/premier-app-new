@@ -107,8 +107,11 @@
 				"src":"assets/videos/STERLIUNI/STERLIUNI002.mp4",
 				"videoName":"Checking the coil"
 			}],
-			"next": {
-				"step": 14
+			"yes": {
+				"step": 12
+			},
+			"no": {
+				"step": 13
 			}
 		},
 		{

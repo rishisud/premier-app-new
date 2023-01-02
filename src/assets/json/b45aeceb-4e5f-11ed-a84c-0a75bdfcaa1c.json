@@ -186,7 +186,7 @@
 			}
 		},
 		{
-			"question": "confirm whether a battery and power cord symbol appears when power cable is plugged in and unit / equipment does not switch ON.confirm whether a battery and power cord symbol appears when power cable is plugged in and unit / equipment does not switch ON.",
+			"question": "confirm whether a battery and power cord symbol appears when power cable is plugged in and unit / equipment does not switch ON.",
 			"step": 17,
 			"image": ["SYRBBAPERI005"],
 			"yes": {
@@ -208,7 +208,7 @@
 			}
 		},
 		{
-			"question": "kindly set the flow rate and confirm whether the piston is moving.",
+			"question": "set the flow rate and confirm whether the piston is moving.",
 			"step": 19,
 			"yes": {
 				"step": 23
@@ -266,7 +266,7 @@
 			}
 		},
 		{
-			"question": "kindly replace the senser near the drive board",
+			"question": "replace the senser near the drive board",
 			"step": 24,
 			"image": ["SYRBBAPERI009"],
 			"videos": [{

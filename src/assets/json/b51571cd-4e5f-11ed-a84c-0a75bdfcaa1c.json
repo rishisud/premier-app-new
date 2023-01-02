@@ -43,8 +43,11 @@
 	}, {
 		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230",
 		"step": 6,
-		"next": {
-			"step": 44
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
 		},
 		"videos": [{
 			"src": "assets/videos/checking the wall outlet voltage.mp4",

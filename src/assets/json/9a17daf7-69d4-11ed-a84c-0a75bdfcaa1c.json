@@ -109,7 +109,7 @@
 		"question": "check for any carbon formation or breakage of power input pin connector.",
 		"step": 12,
 		"yes": {
-			"step": 130
+			"step": 13
 		},
 		"no": {
 			"step": 14
