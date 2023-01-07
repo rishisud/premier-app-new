@@ -9,15 +9,13 @@
 		"no": {
 			"step": 2
 		},
-		"image": ["POCOP240ST"],
-		"videos": []
+		"image": ["POCOP240ST"]
 	}, {
 		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
 		"step": 2,
 		"next": {
 			"step": 39
-		},
-		"videos": []
+		}
 	}, {
 		"question": "confirm is there any physical damage of the equipment",
 		"step": 3,
@@ -26,15 +24,13 @@
 		},
 		"no": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "prepare the Incident/Damage or Missing Report",
 		"step": 4,
 		"next": {
 			"step": 39
-		},
-		"videos": []
+		}
 	}, {
 		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
 		"step": 5,
@@ -43,8 +39,7 @@
 		},
 		"no": {
 			"step": 6
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230",
 		"step": 6,
@@ -63,8 +58,7 @@
 		"step": 7,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check the continuity of power cord and confirm whether the power cord is defective",
 		"step": 8,
@@ -83,8 +77,7 @@
 		"step": 9,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm whether the AC fuses are blown out",
 		"step": 10,
@@ -103,8 +96,7 @@
 		"step": 11,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm is there any breakage / damage to the power input pin connector",
 		"step": 12,
@@ -113,8 +105,7 @@
 		},
 		"no": {
 			"step": 14
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the power input pin connector with a new one",
 		"step": 13,
@@ -177,15 +168,13 @@
 		},
 		"no": {
 			"step": 19
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reseat the cables properly",
 		"step": 18,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "repair / replace the power supply board accordingly",
 		"step": 19,
@@ -208,15 +197,13 @@
 		},
 		"no": {
 			"step": 22
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reseat or replace the cables accordingly",
 		"step": 21,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "repair / replace the control board accordingly",
 		"step": 22,
@@ -239,8 +226,7 @@
 		},
 		"no": {
 			"step": 30
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check for any loose connection or damage of probe.",
 		"step": 24,
@@ -249,15 +235,13 @@
 		},
 		"no": {
 			"step": 26
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the probe properly or replace the probe with a new one",
 		"step": 25,
 		"next": {
 			"step": 23
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check for breakage or damage of probe pin connector.",
 		"step": 26,
@@ -266,8 +250,7 @@
 		},
 		"no": {
 			"step": 28
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the probe pin connector accordingly",
 		"step": 27,
@@ -320,8 +303,7 @@
 		},
 		"no": {
 			"step": 34
-		},
-		"videos": []
+		}
 	}, {
 		"question": "open the equipment as shown in the video, check for loose connection of cable from display to control board",
 		"step": 31,
@@ -330,15 +312,13 @@
 		},
 		"no": {
 			"step": 33
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reseat the cables properly",
 		"step": 32,
 		"next": {
 			"step": 30
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the display with a new one",
 		"step": 33,
@@ -361,8 +341,7 @@
 		},
 		"no": {
 			"step": 38
-		},
-		"videos": []
+		}
 	}, {
 		"question": "open the equipment as shown in the video, check the continuity of switches and confirm whether the switches are defective",
 		"step": 35,
@@ -408,8 +387,7 @@
 		}]
 	}, {
 		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
-		"step": 38,
-		"videos": []
+		"step": 38
 	}, {
 		"question": "Thanks",
 		"step": 39,
