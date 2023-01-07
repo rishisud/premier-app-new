@@ -123,7 +123,7 @@
 		},
 		"videos": []
 	}, {
-		"question": "open the equipment as shown in the video, check and confirm whether the voltage is available the ON / OFF switch",
+		"question": "open the equipment as shown in the video, check and confirm whether the voltage is available at the ON / OFF switch",
 		"step": 14,
 		"yes": {
 			"step": 16
