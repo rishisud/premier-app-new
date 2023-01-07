@@ -134,10 +134,10 @@
 		"question": "check and confirm whether the input voltage to transformer is available.",
 		"step": 15,
 		"yes": {
-			"step": 15
+			"step": 16
 		},
 		"no": {
-			"step": 16
+			"step": 38
 		},
 		"videos": [{
 			"src": "assets/videos/SYEMCIN860/SYEMCIN860004.mp4",
@@ -292,7 +292,7 @@
 		"question": "repair / replace the display with a new one",
 		"step": 30,
 		"next": {
-			"step": 25
+			"step": 29
 		},
 		"image": ["SYEMCIN860I006"],
 		"videos": [{
