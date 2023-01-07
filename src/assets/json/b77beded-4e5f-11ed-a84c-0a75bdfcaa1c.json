@@ -16,7 +16,7 @@
 			"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
 			"step": 2,
 			"next": {
-				"step": 35
+				"step": 36
 			}
 		},
 		{
@@ -33,7 +33,7 @@
 			"question": "prepare the Incident / Damage and Missing Report.",
 			"step": 4,
 			"next": {
-				"step": 35
+				"step": 36
 			}
 		},
 		{
@@ -130,10 +130,10 @@
 				"videoName": "checking O/P"
 			}],
 			"yes": {
-				"step": 13
+				"step": 14
 			},
 			"no": {
-				"step": 34
+				"step": 13
 			}
 		},
 		{
@@ -154,18 +154,35 @@
 			}
 		},
 		{
-			"question": "check and confirm whether battery is getting charged.",
+			"question": "repair or replace the control board accordingly",
 			"step": 14,
+			"videos": [{
+					"src": "assets/videos/PULNEL560/PULNEL560010.mp4",
+					"videoName": "replacing"
+				},
+				{
+					"src": "assets/videos/PULNEL560/PULNEL560003.mp4",
+					"videoName": "closing"
+
+				}
+			],
+			"next": {
+				"step": 5
+			}
+		},
+		{
+			"question": "check and confirm whether battery is getting charged.",
+			"step": 15,
 			"yes": {
-				"step": 16
+				"step": 17
 			},
 			"no": {
-				"step": 15
+				"step": 16
 			}
 		},
 		{
 			"question": "replace the battery with a new one",
-			"step": 15,
+			"step": 16,
 			"videos": [{
 					"src": "assets/videos/PULNEL560/PULNEL560006.mp4",
 					"videoName": "replacing battery"
@@ -181,48 +198,48 @@
 				}
 			],
 			"next": {
-				"step": 14
+				"step": 15
 			}
 		},
 		{
 			"question": "check and confirm whether the buttons respond when switched ON.",
-			"step": 16,
+			"step": 17,
 			"yes": {
-				"step": 20
+				"step": 21
 			},
 			"no": {
-				"step": 17
+				"step": 18
 			}
 		},
 		{
 			"question": "check the connection between the Main PCB and Front Panel PCB for any loose connection.",
-			"step": 17,
+			"step": 18,
 			"image": ["PULNEL560I003"],
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560001.mp4",
 				"videoName": "opening"
 			}],
 			"yes": {
-				"step": 18
+				"step": 19
 			},
 			"no": {
-				"step": 19
+				"step": 20
 			}
 		},
 		{
 			"question": "reconnect the connections properly",
-			"step": 18,
+			"step": 19,
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560003.mp4",
 				"videoName": "closing"
 			}],
 			"next": {
-				"step": 16
+				"step": 17
 			}
 		},
 		{
 			"question": "replace the Front Panel PCB with a new one",
-			"step": 19,
+			"step": 20,
 			"image": ["PULNEL560I004"],
 			"videos": [{
 					"src": "assets/videos/PULNEL560/PULNEL560007.mp4",
@@ -235,22 +252,22 @@
 				}
 			],
 			"next": {
-				"step": 16
+				"step": 17
 			}
 		},
 		{
 			"question": "check and confirm whether the LED indicators do not light in the Front Panel.",
-			"step": 20,
+			"step": 21,
 			"yes": {
-				"step": 21
+				"step": 22
 			},
 			"no": {
-				"step": 24
+				"step": 25
 			}
 		},
 		{
 			"question": "check the connection between the Main PCB and Front Panel PCB for any loose connection.",
-			"step": 21,
+			"step": 22,
 			"image": ["PULNEL560I005"],
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560001.mp4",
@@ -258,27 +275,27 @@
 
 			}],
 			"yes": {
-				"step": 22
+				"step": 23
 			},
 			"no": {
-				"step": 23
+				"step": 24
 			}
 		},
 		{
 			"question": "reconnect the connections properly",
-			"step": 22,
+			"step": 23,
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560003.mp4",
 				"videoName": "closing"
 
 			}],
 			"next": {
-				"step": 20
+				"step": 19
 			}
 		},
 		{
 			"question": "replace the Front Panel PCB with a new one",
-			"step": 23,
+			"step": 24,
 			"videos": [{
 					"src": "assets/videos/PULNEL560/PULNEL560007.mp4",
 					"videoName": "replacing the Front Panel"
@@ -290,39 +307,39 @@
 				}
 			],
 			"next": {
-				"step": 20
+				"step": 19
 			}
 		},
 		{
 			"question": "check and confirm whether alarm sound is heard during any alarm conditions.",
-			"step": 24,
+			"step": 25,
 			"yes": {
-				"step": 30
+				"step": 31
 			},
 			"no": {
-				"step": 25
+				"step": 26
 			}
 		},
 		{
 			"question": "check whether the alarm silence is activated.",
-			"step": 25,
+			"step": 26,
 			"yes": {
-				"step": 26
+				"step": 27
 			},
 			"no": {
-				"step": 27
+				"step": 28
 			}
 		},
 		{
 			"question": "remove the alarm from silence",
-			"step": 26,
+			"step": 27,
 			"next": {
-				"step": 24
+				"step": 25
 			}
 		},
 		{
 			"question": "check the connection of speaker to front panel PCB for any loose connections / Disconnections.",
-			"step": 27,
+			"step": 28,
 			"image": ["PULNEL560I006"],
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560001.mp4",
@@ -330,27 +347,27 @@
 
 			}],
 			"yes": {
-				"step": 28
+				"step": 29
 			},
 			"no": {
-				"step": 29
+				"step": 30
 			}
 		},
 		{
 			"question": "reconnect the connection between speaker and Front Panel PCB properly",
-			"step": 28,
+			"step": 29,
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560003.mp4",
 				"videoName": "closing"
 
 			}],
 			"next": {
-				"step": 24
+				"step": 25
 			}
 		},
 		{
 			"question": "replace the speaker",
-			"step": 29,
+			"step": 30,
 			"image": ["PULNEL560I007"],
 			"videos": [{
 					"src": "assets/videos/PULNEL560/PULNEL560001.mp4",
@@ -367,49 +384,49 @@
 				}
 			],
 			"next": {
-				"step": 24
+				"step": 25
 			}
 		},
 		{
 			"question": "check and confirm whether the SPO2 value is present when connected to the patient.",
-			"step": 30,
+			"step": 31,
 			"yes": {
-				"step": 34
+				"step": 35
 			},
 			"no": {
-				"step": 31
+				"step": 32
 			}
 		},
 		{
 			"question": "check the SPO2 cable for any loose connections or defective.",
-			"step": 31,
+			"step": 32,
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560001.mp4",
 				"videoName": "opening"
 
 			}],
 			"yes": {
-				"step": 32
+				"step": 33
 			},
 			"no": {
-				"step": 33
+				"step": 34
 			}
 		},
 		{
 			"question": "connect it properly or if defective replace with a new one",
-			"step": 32,
+			"step": 33,
 			"videos": [{
 				"src": "assets/videos/PULNEL560/PULNEL560003.mp4",
 				"videoName": "closing"
 
 			}],
 			"next": {
-				"step": 30
+				"step": 31
 			}
 		},
 		{
 			"question": "Replace the NELL -3PCB with a new one",
-			"step": 33,
+			"step": 34,
 			"image": ["PULNEL560I008"],
 			"videos": [{
 					"src": "assets/videos/PULNEL560/PILNEL560009.mp4",
@@ -426,17 +443,17 @@
 				}
 			],
 			"next": {
-				"step": 30
+				"step": 31
 			}
 		},{
 			"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
-			"step": 34,
+			"step": 35,
 			"next": {
-				"step": 35
+				"step": 36
 			}
 		}, {
 			"question": "Thanks",
-			"step": 35,
+			"step": 36,
 			"submit": true
 		}
 	]
