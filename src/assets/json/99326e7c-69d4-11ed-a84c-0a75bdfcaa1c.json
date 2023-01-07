@@ -9,15 +9,13 @@
 		"no": {
 			"step": 2
 		},
-		"image": ["SEMAAMEURA"],
-		"videos": []
+		"image": ["PULRIRPO10"]
 	}, {
 		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
 		"step": 2,
 		"next": {
 			"step": 32
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm is there any physical damage of the equipment",
 		"step": 3,
@@ -26,15 +24,13 @@
 		},
 		"no": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "prepare the Incident / Damage and Missing report",
 		"step": 4,
 		"next": {
 			"step": 32
-		},
-		"videos": []
+		}
 	}, {
 		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
 		"step": 5,
@@ -43,8 +39,7 @@
 		},
 		"no": {
 			"step": 6
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm whether the wall outlet is provided with AC Voltage 230",
 		"step": 6,
@@ -63,8 +58,7 @@
 		"step": 7,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
 		"step": 8,
@@ -83,8 +77,7 @@
 		"step": 9,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm whether the fuse is burnt",
 		"step": 10,
@@ -116,8 +109,7 @@
 		},
 		"no": {
 			"step": 14
-		},
-		"videos": []
+		}
 	}, {
 		"question": "clean or replace the Input module accordingly",
 		"step": 13,
@@ -159,15 +151,13 @@
 		},
 		"no": {
 			"step": 31
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the cable / reseat the cable properly",
 		"step": 16,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm whether the output voltage of 15 VDC is available at the power supply board.",
 		"step": 17,
@@ -203,15 +193,13 @@
 		},
 		"no": {
 			"step": 21
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reseat / replace the cable accordingly",
 		"step": 20,
 		"next": {
 			"step": 5
-		},
-		"videos": []
+		}
 	}, {
 		"question": "repair / replace the control board accordingly",
 		"step": 21,
@@ -234,8 +222,7 @@
 		},
 		"no": {
 			"step": 27
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reconnect the probe properly to the patient and confirm whether the problem still persist.",
 		"step": 23,
@@ -244,8 +231,7 @@
 		},
 		"next": {
 			"step": 32
-		},
-		"videos": []
+		}
 	}, {
 		"question": "check and confirm for any carbon formation, loose connection or breakage at the connecting pin of the probe",
 		"step": 24,
@@ -254,15 +240,13 @@
 		},
 		"no": {
 			"step": 26
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reconnect / replace the probe accordingly",
 		"step": 25,
 		"next": {
 			"step": 22
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace / repair the control board accordingly",
 		"step": 26,
@@ -285,8 +269,7 @@
 		},
 		"no": {
 			"step": 31
-		},
-		"videos": []
+		}
 	}, {
 		"question": "open the equipment as shown in the video, check whether the cable between display and control board is damaged / loose connection",
 		"step": 28,
@@ -295,15 +278,13 @@
 		},
 		"no": {
 			"step": 30
-		},
-		"videos": []
+		}
 	}, {
 		"question": "reconnect / replace the cable accordingly",
 		"step": 29,
 		"next": {
 			"step": 27
-		},
-		"videos": []
+		}
 	}, {
 		"question": "replace the display with a new one",
 		"step": 30,
@@ -320,8 +301,7 @@
 		}]
 	}, {
 		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
-		"step": 31,
-		"videos": []
+		"step": 31
 	}, {
 		"question": "Thanks",
 		"step": 32,
