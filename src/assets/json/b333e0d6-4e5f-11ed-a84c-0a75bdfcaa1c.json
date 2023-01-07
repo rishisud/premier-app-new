@@ -176,7 +176,7 @@
 			"videoName": "Video for closing"
 		}]
 	}, {
-		"question": "check and confirm whether the equipment is getting ON but the display blank/plane",
+		"question": "check and confirm whether the equipment is getting ON but the display blank/plain",
 		"step": 19,
 		"yes": {
 			"step": 20
