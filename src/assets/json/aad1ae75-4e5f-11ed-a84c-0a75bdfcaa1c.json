@@ -81,8 +81,11 @@
 	}, {
 		"question": "check the AC Fuses continuity and confirm whether the fuses are defective.",
 		"step": 10,
-		"next": {
-			"step": 39
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
 		},
 		"videos": [{
 			"src": "assets/videos/DEFBPLDF2/DEFBPLDF2001.mp4",
