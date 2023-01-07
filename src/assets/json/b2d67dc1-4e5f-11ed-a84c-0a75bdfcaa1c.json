@@ -86,7 +86,11 @@
 		},
 		"no": {
 			"step": 11
-		}
+		},
+		"videos": [{
+			"src": "assets/videos/TRAININCSS/TRAININCSS000.mp4",
+			"videoName": "Video for checking voltage"
+		}]
 	}, {
 		"question": "check whether there is any carbon formation or breakage of input pin connector",
 		"step": 11,
@@ -191,8 +195,8 @@
 		"no": {
 			"step": 20
 		},
-		"next": {
-			"step": 32
+		"yes": {
+			"step": 33
 		},
 		"videos": [{
 			"src": "assets/videos/TRAININCSS/TRAININCSS008.mp4",
@@ -219,8 +223,8 @@
 		"yes": {
 			"step": 23
 		},
-		"next": {
-			"step": 32
+		"no": {
+			"step": 33
 		},
 		"image": ["TRAININCSSI003"],
 		"videos": [{
@@ -288,7 +292,7 @@
 			"step": 29
 		},
 		"no": {
-			"step": 30
+			"step": 32
 		},
 		"videos": [{
 			"src": "assets/videos/TRAININCSS/TRAININCSS012.mp4",
