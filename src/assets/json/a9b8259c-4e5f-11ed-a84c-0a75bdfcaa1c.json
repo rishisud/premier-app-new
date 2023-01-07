@@ -160,15 +160,7 @@
 		"step": 17,
 		"next": {
 			"step": 5
-		},
-		"image": ["CTGBPLFM985I007"],
-		"videos": [{
-			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985012.mp4",
-			"videoName": "Video for replacing the control board"
-		}, {
-			"src": "assets/videos/CTGBPLFM985/CTGBPLFM985003.mp4",
-			"videoName": "Video for closing"
-		}]
+		}
 	}, {
 		"question": "repair/replace the Control board with a new one",
 		"step": 18,
