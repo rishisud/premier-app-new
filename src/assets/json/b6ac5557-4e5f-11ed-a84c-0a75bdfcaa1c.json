@@ -61,14 +61,14 @@
 			}
 		},
 		{
-			"question": "kindly shift the Equipment to another place where the AC voltage of 230 is provided",
+			"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
 			"step": 7,
 			"next": {
 				"step": 5
 			}
 		},
 		{
-			"question": "check and confirm whether the Input (230 VAC) and Output (12 VDC) are available at the adapter.",
+			"question": "check and confirm whether Output (12 VDC) is available at the adapter.",
 			"step": 8,
 			"videos": [{
 				"src": "assets/videos/CPAPHIREM/CPAPHIREM001.mp4",
@@ -123,7 +123,12 @@
 			},
 			"no": {
 				"step": 14
-			}
+			},
+			"videos": [{
+				"src": "assets/videos/CPAPHIREM/CPAPHIREM006.mp4",
+				"videoName": "opening"
+				}
+			]
 		},
 		{
 			"question": "clean the Blower assemble accordingly",
