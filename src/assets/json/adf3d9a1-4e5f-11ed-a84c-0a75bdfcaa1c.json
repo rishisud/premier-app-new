@@ -226,7 +226,6 @@
 			"next": {
 				"step": 17
 			}
-
 		},
 		{
 			"question": "check the cautery pencil for continuity and confirm whether it is defective",
@@ -251,7 +250,7 @@
 			}
 		},
 		{
-			"question": "replace the RF Board",
+			"question": "replace the Foot switch control Board",
 			"step": 22,
 			"next": {
 				"step": 17
@@ -278,14 +277,34 @@
 				"step": 24
 			},
 			"no": {
-				"step": 25
+				"step": 28
 			}
 		},
 		{
-			"question": "replace the display board with a new one",
+			"question": "check and confirm for any loose connection or breakage of cable from display to control board",
 			"step": 24,
+			"yes": {
+				"step": 25
+			},
+			"no": {
+				"step": 26
+			}
+		},
+		{
+			"question": "replace or reseat the cable accordingly",
+			"step": 25,
 			"next": {
 				"step": 23
+			}
+		},
+		{
+			"question": "replace the display board with a new one and confirm whether the problem still persist",
+			"step": 26,
+			"yes": {
+				"step": 27
+			},
+			"no": {
+				"step": 37
 			},
 			"videos": [{
 					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
@@ -303,37 +322,10 @@
 			"image": ["ESUVALFXCI008", "ESUVALFXCI008_1"]
 		},
 		{
-			"question": "check and confirm whether the earth pad alarm / Beep appears when connected",
-			"step": 25,
-			"yes": {
-				"step": 26
-			},
-			"no": {
-				"step": 29
-			}
-		},
-		{
-			"question": "check the connecting points for any carbon / debris formation",
-			"step": 26,
-			"yes": {
-				"step": 27
-			},
-			"no": {
-				"step": 28
-			}
-		},
-		{
-			"question": "clean the connecting point and connect the earth pad back",
+			"question": "repair or replace the control board accordingly",
 			"step": 27,
 			"next": {
-				"step": 37
-			}
-		},
-		{
-			"question": "replace the control board with a new one",
-			"step": 28,
-			"next": {
-				"step": 25
+				"step": 23
 			},
 			"videos": [{
 					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
@@ -351,75 +343,66 @@
 			"image": ["ESUVALFXCI009"]
 		},
 		{
-			"question": "confirm whether the alarm tones do not sound",
-			"step": 29,
+			"question": "check and confirm whether the earth pad alarm / Beep appears when connected",
+			"step": 28,
 			"yes": {
-				"step": 30
+				"step": 29
 			},
 			"no": {
 				"step": 34
 			}
 		},
 		{
-			"question": "check the continuity of speaker and confirm whether it is defective",
-			"step": 30,
+			"question": "check the connecting points for any carbon / debris formation",
+			"step": 29,
 			"yes": {
-				"step": 31
+				"step": 30
 			},
 			"no": {
-				"step": 32
-			},
-			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
-					"videoName": "opening"
-				},
-				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC014.mp4",
-					"videoName": "checking the continuity"
-				},
-				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
-					"videoName": "closing the equipment"
-				}
-			],
-			"image": ["ESUVALFXCI010"]
+				"step": 31
+			}
 		},
 		{
-			"question": "replace the speaker with a new one ",
-			"step": 31,
+			"question": "clean the connecting point and connect the earth pad back",
+			"step": 30,
 			"next": {
-				"step": 29
-			},
-			"videos": [{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC004.mp4",
-					"videoName": "opening"
-				},
-				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC015.mp4",
-					"videoName": "replacing the Speaker"
-				},
-				{
-					"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
-					"videoName": "closing the equipment"
-				}
-			]
+				"step": 28
+			}
 		},
 		{
-			"question": "check and confirm whether the Input power to SMPS and Control Board are present",
-			"step": 32,
+			"question": "cross check the earth pad with another and confirm whether it is defective",
+			"step": 31,
 			"yes": {
-				"step": 36
+				"step": 32
 			},
 			"no": {
 				"step": 33
 			}
 		},
 		{
-			"question": "replace the board accordingly",
+			"question": "replace the earth pad with a new one",
+			"step": 32,
+			"next": {
+				"step": 28
+			}
+		},
+		{
+			"question": "replace the power board or RF Board with a new one",
 			"step": 33,
 			"next": {
-				"step": 29
-			}
+				"step": 28
+			},
+			"videos": [
+					{
+						"src": "assets/videos/ESUVALFXC/ESUVALFXC008.mp4",
+						"videoName": "replacing the RF or Power Board"
+					},
+					{
+						"src": "assets/videos/ESUVALFXC/ESUVALFXC007.mp4",
+						"videoName": "closing the equipment"
+					}
+				],
+			"image": ["ESUVALFXCI004"]
 		},
 		{
 			"question": "check and confirm whether the buttons do not respond while setting the appropriate value in Cut or Coagulation Mode",
