@@ -99,8 +99,8 @@
 		"no": {
 			"step": 13
 		},
-		"next": {
-			"step": 35
+		"yes": {
+			"step": 34
 		},
 		"videos": [{
 			"src": "assets/videos/URISIECLI+/URISIECLI+008.mp4",
@@ -180,7 +180,7 @@
 		"yes": {
 			"step": 20
 		},
-		"next": {
+		"no": {
 			"step": 35
 		},
 		"videos": [{
@@ -208,7 +208,7 @@
 		"yes": {
 			"step": 23
 		},
-		"next": {
+		"no": {
 			"step": 35
 		},
 		"image": ["URISIECLI+I003"],
@@ -305,7 +305,7 @@
 		"yes": {
 			"step": 32
 		},
-		"next": {
+		"no": {
 			"step": 35
 		}
 	}, {
@@ -314,7 +314,7 @@
 		"yes": {
 			"step": 33
 		},
-		"next": {
+		"no": {
 			"step": 35
 		},
 		"videos": [{
