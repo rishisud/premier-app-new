@@ -188,10 +188,6 @@
 			"question": "replace the jars / canister with a new one",
 			"step": 19,
 			"image": ["SUCINSPREI003"],
-			"videos": [{
-				"src":"assets/videos/SUCINSPRE/SUNINSPRE004.mp4",
-				"videoName":"replacing"
-			}],
 			"next": {
 				"step": 15
 			}
@@ -230,10 +226,10 @@
 				"videoName":"closing"
 			}],
 			"yes": {
-				"step": 22
+				"step": 23
 			},
 			"no": {
-				"step": 27
+				"step": 26
 			}
 		},
 		{
