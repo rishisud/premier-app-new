@@ -210,7 +210,11 @@
 		},
 		"next": {
 			"step": 43
-		}
+		},
+		"videos": [{
+			"src": "assets/videos/ECGBIOCAR2/ECGBIOCAR2013.mp4",
+			"videoName": "Video for replacing the display"
+		}]
 	}, {
 		"question": "repair / replace the control board accordingly",
 		"step": 22,
