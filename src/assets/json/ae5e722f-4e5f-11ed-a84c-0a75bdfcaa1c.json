@@ -185,7 +185,7 @@
 			"step": 20
 		},
 		"videos": [{
-			"src": "assets/videos/FMCONCMSG1/– FMCONCMSG1004.mp4",
+			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1004.mp4",
 			"videoName": "Video for opening"
 		}, {
 			"src": "assets/videos/FMCONCMSG1/FMCONCMSG1008.mp4",
@@ -224,8 +224,8 @@
 		"yes": {
 			"step": 23
 		},
-		"next": {
-			"step": 66
+		"no": {
+			"step": 65
 		}
 	}, {
 		"question": "reseat / replace the cable accordingly",
