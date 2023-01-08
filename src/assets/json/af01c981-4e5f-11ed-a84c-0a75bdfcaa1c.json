@@ -115,7 +115,7 @@
 			"videoName": "replacing"
 		}]
 	}, {
-		"question": "open the equipment as shown in the video and check the Input and output voltages of the transformer and confirm whether the input / output voltages are available.",
+		"question": "open the equipment as shown in the video and check the Input and output voltages of the transformer and confirm whether the input/output voltages are available.",
 		"step": 12,
 		"yes": {
 			"step": 14
