@@ -82,7 +82,7 @@
 		"question": "check and confirm whether the power input and output voltages are available at the control board.",
 		"step": 10,
 		"yes": {
-			"step": 23
+			"step": 34
 		},
 		"no": {
 			"step": 11
@@ -242,7 +242,7 @@
 			"step": 23
 		},
 		"videos": [{
-			"src": "assets/videos/ECGBPL6208/CHECKING AC LINE FOR EARTHING.mp4",
+			"src": "assets/videos/ECGBPL6208/ECGBPL6208012.mp4",
 			"videoName": "CHECKING AC LINE FOR EARTHING."
 		}]
 	}, {
