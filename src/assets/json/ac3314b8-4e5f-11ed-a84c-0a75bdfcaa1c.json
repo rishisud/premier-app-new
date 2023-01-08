@@ -182,12 +182,16 @@
 		},
 		{
 
-			"question": "Contact the technical team to repair the Board",
+			"question": "repair / replace the Board accordingly",
 			"step": 15,
 			"next": {
 				"step": 5
-			}
-
+			},
+			"videos": [{
+				"src":"assets/videos/ECGPHITR1/ECGPHITR1014.mp4",
+				"videoName":"replacing the board"
+				}
+			]
 		},
 		{
 
