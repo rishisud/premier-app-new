@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"question": "kindly prepare the Incident / Damage and Missing Report.",
+			"question": "prepare the Incident / Damage and Missing Report.",
 			"step": 4,
 			"next": {
 				"step": 26
@@ -278,7 +278,7 @@
 				"step": 22
 			},
 			"no": {
-				"step": 26
+				"step": 25
 			}
 		},		{
 			"question": "replace the lamp with a new one ",
