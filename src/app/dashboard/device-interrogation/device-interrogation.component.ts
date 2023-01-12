@@ -117,6 +117,7 @@ export class DeviceInterrogationComponent implements OnInit {
     this.submit =this.question.submit;
 
     if (this.question.videos !== null && this.question.videos !== undefined)
+    if (this.question.videos !== null && this.question.videos !== undefined && this.question.videos.length > 0)
     {
         this.activeIndex =0;
         this.videoItems  = this.question.videos;
