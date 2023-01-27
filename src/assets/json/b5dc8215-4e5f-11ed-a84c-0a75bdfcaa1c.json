@@ -1,0 +1,379 @@
+{
+	"deviceName": "URIT – URITEST 50",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["URANURUR50"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and check whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check whether the wall outlet is provided with AC Voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Uritest 50/VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where wall outlet is provided with 230 AC Voltage",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether DC voltage is available at the power cord adapter.",
+		"step": 8,
+		"yes": {
+			"step": 10
+		},
+		"no": {
+			"step": 9
+		},
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50001.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace the power cord adapter with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check whether any carbon formation or breakage at the input connector pin.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": []
+	}, {
+		"question": "clean the connector pin accordingly",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as show in the video, check whether the voltage is available at the control board.",
+		"step": 12,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 13
+		},
+		"image": ["URANURUR50000"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["URANURUR50I001"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50004.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the measured result of sample is incorrect or improper.",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean the optical sensor, LED Bulb and confirm whether the problem still persist",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable from optical sensor to control board.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the optical sensor accordingly and confirm whether the problem still persist.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 37
+		},
+		"image": ["URANURUR50I002"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50006.mp4",
+			"videoName": "Video for replacing optical sensor"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		},
+		"image": ["URANURUR50I001"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50004.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the print is available.",
+		"step": 20,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "check whether the paper roll is inserted.",
+		"step": 21,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "insert the paper roll properly",
+		"step": 22,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "check the connection between the Thermal head and printer board for any loose connection / breakage of cable",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50002.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 24,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "clean the thermal head and confirm whether the problem still persist",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "cross check the thermal head with another and confirm whether it is defective",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 27,
+		"next": {
+			"step": 20
+		},
+		"image": ["URANURUR50I003"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50007.mp4",
+			"videoName": "Video for replacing thermal head"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair or replace the printer board accordingly",
+		"step": 28,
+		"next": {
+			"step": 20
+		},
+		"image": ["URANURUR50I004"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50008.mp4",
+			"videoName": "Video for replacing printer"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is a difficulty in inserting the sample tray",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "reinsert once again properly and confirm whether the problem still persist",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean or clear any obstruction or dust in the sample tray path and gears",
+		"step": 31,
+		"next": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but display is blank / plain.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is any loose connection or breakage of cable from display to control board",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 34,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 35,
+		"next": {
+			"step": 32
+		},
+		"image": ["URANURUR50I005 ", "URANURUR50I005_1"],
+		"videos": [{
+			"src": "assets/videos/Uritest 50/URANURUR50009.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/Uritest 50/URANURUR50005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 36,
+		"next": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 37,
+		"submit": true
+	}]
+}
