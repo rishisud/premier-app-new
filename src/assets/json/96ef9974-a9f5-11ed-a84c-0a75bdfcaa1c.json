@@ -1,0 +1,670 @@
+{
+	"deviceName": "ASPEN ECG -3+",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ASPENECG3+"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again.",
+		"step": 2,
+		"next": {
+			"step": 66
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 66
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of fuse and confirm whether the fuses are blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+014.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+015.mp4",
+			"videoName": "Video for replacing"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC voltage of 230 is available.",
+		"step": 12,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+002.mp4",
+			"videoName": "Video for checking Input"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation / breakage of input pin connector.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "clean / replace the input pin connector accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from pin connector to power supply board.",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 65
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the power supply output voltage is available.",
+		"step": 17,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+003.mp4",
+			"videoName": "Video for checking output"
+		}]
+	}, {
+		"question": "repair / replace the power supply accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["ASPENECG3+I001"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+004.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from power supply to control board.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["ASPENECG3+I002"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "Check and confirm is there any muscle interference in the ECG.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cables and confirm whether the cables are defective.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "replace the cables with a new one",
+		"step": 24,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "check the cable pin connector for any damage / breakage of pins.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable pin connector with a new one",
+		"step": 26,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the battery voltage is low.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/VIDEO REQUIRED FOR CHECKING THE BATTERY VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE BATTERY VOLTAGEVIDEO REQUIRED FOR CHECKING THE BATTERY VOLTAGE"
+		}]
+	}, {
+		"question": "replace the battery with a new one",
+		"step": 28,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is a proper grounding at the socket.",
+		"step": 29,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+016.mp4",
+			"videoName": "Video for checking grounding"
+		}]
+	}, {
+		"question": "shift the equipment to another where proper grounding is available.",
+		"step": 30,
+		"next": {
+			"step": 66
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is any loose connection / breakage of cable from battery to control board.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 32,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 33,
+		"next": {
+			"step": 22
+		},
+		"image": ["ASPENECG3+I002"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is a straight in the ECG print.",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cables and confirm whether the cables are defective",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "replace the cables with a new one",
+		"step": 36,
+		"next": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "check the cable pin connector for any damage / breakage of pins.",
+		"step": 37,
+		"yes": {
+			"step": 38
+		},
+		"no": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable pin connector with a new one",
+		"step": 38,
+		"next": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the ECG module accordingly",
+		"step": 39,
+		"next": {
+			"step": 34
+		},
+		"image": ["ASPENECG3+I003 ", "ASPENECG3+I003_1"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+007.mp4",
+			"videoName": "Video for replacing ECG Module"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the paper is rolling during ECG is taken.",
+		"step": 40,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the paper roll is placed properly.",
+		"step": 41,
+		"yes": {
+			"step": 43
+		},
+		"no": {
+			"step": 42
+		},
+		"videos": []
+	}, {
+		"question": "place the paper roll properly",
+		"step": 42,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any dust / any obstructions in the gears.",
+		"step": 43,
+		"yes": {
+			"step": 44
+		},
+		"no": {
+			"step": 45
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the gears carefully",
+		"step": 44,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "check for any breakage or damage of gears.",
+		"step": 45,
+		"yes": {
+			"step": 46
+		},
+		"no": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "replace the printer drive with a new one",
+		"step": 46,
+		"next": {
+			"step": 40
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+008.mp4",
+			"videoName": "Video for replacing printer drive"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "motor is defective, so replace the printer drive with a new one",
+		"step": 47,
+		"next": {
+			"step": 40
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+008.mp4",
+			"videoName": "Video for replacing printer drive"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is partial print or dull ECG print.",
+		"step": 48,
+		"yes": {
+			"step": 49
+		},
+		"no": {
+			"step": 51
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean the thermal head with a soft cloth and confirm whether the problem still persist.",
+		"step": 49,
+		"yes": {
+			"step": 50
+		},
+		"no": {
+			"step": 66
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": ", replace the thermal head with a new one",
+		"step": 50,
+		"next": {
+			"step": 48
+		},
+		"image": ["ASPENECG3+I004"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+009.mp4",
+			"videoName": "Video for replacing thermal head"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no print out during the ECG is taken.",
+		"step": 51,
+		"yes": {
+			"step": 52
+		},
+		"no": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "check whether the paper is placed properly",
+		"step": 52,
+		"yes": {
+			"step": 53
+		},
+		"no": {
+			"step": 54
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the printer board accordingly",
+		"step": 53,
+		"next": {
+			"step": 51
+		},
+		"image": ["ASPENECG3+I007"],
+		"videos": []
+	}, {
+		"question": "place the paper roll properly",
+		"step": 54,
+		"next": {
+			"step": 51
+		},
+		"videos": []
+	}, {
+		"question": "Check and confirm whether some of the buttons / buttons don’t respond while pressing.",
+		"step": 55,
+		"yes": {
+			"step": 56
+		},
+		"no": {
+			"step": 61
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check the continuity of micro switches and confirm whether they are defective",
+		"step": 56,
+		"yes": {
+			"step": 57
+		},
+		"no": {
+			"step": 58
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+011.mp4",
+			"videoName": "Video for checking switches"
+		}]
+	}, {
+		"question": "replace the switches accordingly",
+		"step": 57,
+		"next": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from switch control board to control board.",
+		"step": 58,
+		"yes": {
+			"step": 59
+		},
+		"no": {
+			"step": 60
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 59,
+		"next": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the switch control board accordingly",
+		"step": 60,
+		"next": {
+			"step": 55
+		},
+		"image": ["ASPENECG3+I005"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+012.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank or not getting ON.",
+		"step": 61,
+		"yes": {
+			"step": 62
+		},
+		"no": {
+			"step": 65
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connections / breakage of cable from display to control board.",
+		"step": 62,
+		"yes": {
+			"step": 63
+		},
+		"no": {
+			"step": 65
+		},
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 63,
+		"next": {
+			"step": 61
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 64,
+		"next": {
+			"step": 61
+		},
+		"image": ["ASPENECG3+I006"],
+		"videos": [{
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+013.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/Aspen ECG 3 Plus/ASPENECG3+005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 65,
+		"next": {
+			"step": 66
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 66,
+		"submit": true
+	}]
+}

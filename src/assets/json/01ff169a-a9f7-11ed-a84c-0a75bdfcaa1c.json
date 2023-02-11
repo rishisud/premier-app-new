@@ -1,0 +1,302 @@
+{
+	"deviceName": "BPL – US9701",
+	"questions": [{
+		"question": "Confirm the Equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ULBPUS9701"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical Damage of the Equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any cracks or Breakage in the Input power pin connector.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": []
+	}, {
+		"question": "replace the input power pin connector with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether 230 VAC is available as Input voltage.",
+		"step": 12,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/BPL US 9701/ULBPUS9701002.mp4",
+			"videoName": "Video for checking I/P Voltage"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable to the ON / OFF Switch.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "replace the switch with a new one",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/VIDEO REQUIRED FOR REPLACING SWITCH.mp4",
+			"videoName": "VIDEO REQUIRED FOR REPLACING SWITCH"
+		}]
+	}, {
+		"question": "check and confirm whether SMPS output voltage is available.",
+		"step": 16,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701003.mp4",
+			"videoName": "Video for checking Output voltage"
+		}]
+	}, {
+		"question": "repair OR replace the SMPS board accordingly",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["ULBPUS9701I001"],
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701004.mp4",
+			"videoName": "Video for replacing SMPS"
+		}, {
+			"src": "assets/videos/BPL US 9701/ULBPUS9701005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair or replace the Control Board accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["ULBPUS9701I002", "ULBPUS9701I002_1"],
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701006.mp4",
+			"videoName": "Video for replacing Control Board"
+		}, {
+			"src": "assets/videos/BPL US 9701/ULBPUS9701005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether any message as port 1 and port 2 probes are not connected appears on the screen or Display.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether probes are connected properly.",
+		"step": 20,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reconnect the probes properly",
+		"step": 21,
+		"next": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "switch off the unit, connect the probes and turn ON the machine and confirm whether the message still appears.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, repair or replace the control board accordingly",
+		"step": 23,
+		"next": {
+			"step": 19
+		},
+		"image": ["ULBPUS9701I002", "ULBPUS9701I002_1"],
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701001.mp4",
+			"videoName": "Video for opening the equipment"
+		}, {
+			"src": "assets/videos/BPL US 9701/ULBPUS9701006.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/BPL US 9701/ULBPUS9701005.mp4",
+			"videoName": "Video for replacing the control board – ULBPUS9701006"
+		}]
+	}, {
+		"question": "check and confirm whether the cursor appears on the screen but there is no movement of cursor on the screen.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "open the cursor ball lock, remove the ball clean the sensor control area and replace it back",
+		"step": 25,
+		"next": {
+			"step": 24
+		},
+		"videos": [{
+			"src": "assets/videos/BPL US 9701/ULBPUS9701007.mp4",
+			"videoName": "Video for removing cursor"
+		}]
+	}, {
+		"question": "Check and confirm whether the display appears blank or plain.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "turn off the machine and turn it ON again. Confirm whether the issue still occurs.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "replace the TV Board with a new one",
+		"step": 28,
+		"next": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for further assistance through video call.",
+		"step": 29,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 30,
+		"submit": true
+	}]
+}

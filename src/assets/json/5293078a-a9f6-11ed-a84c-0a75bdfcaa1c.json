@@ -1,0 +1,621 @@
+{
+	"deviceName": "CONTEC CMS8000",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["PACOCM8000"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of fuse and confirm whether the fuses are blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000001.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one.",
+		"step": 11,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC voltage of 230 is available",
+		"step": 12,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000002.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000003.mp4",
+			"videoName": "Video for checking Input"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation / breakage of input pin connector",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "clean / replace the input pin connector accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from pin connector to power supply board.",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 62
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the power supply output voltage is available.",
+		"step": 17,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000004.mp4",
+			"videoName": "Video for checking output"
+		}]
+	}, {
+		"question": "repair / replace the power supply accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["PACOCM8000I001"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000005.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from power supply to DC – DC Board.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly.",
+		"step": 20,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the output voltage of DC – DC convertor board is available.",
+		"step": 21,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000007.mp4",
+			"videoName": "Video for checking O/P voltage"
+		}]
+	}, {
+		"question": "repair/ replace the DC – DC board accordingly.",
+		"step": 22,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I002"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000008.mp4",
+			"videoName": "Video for replacing DC-DC Board"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from DC – DC Board to control board.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly.",
+		"step": 24,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly.",
+		"step": 25,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I003 ", "PACOCM8000I003_1"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000009.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the BP CUFF deflates immediately / improper deflation after the inflammation",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "cross check the NIBP Cuff and confirm for any damage and breakage in the tubing.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP cuff with a new one.",
+		"step": 28,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connections or breakage of tubing from NIBP connector pin to solenoid and motor.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the tubings accordingly",
+		"step": 30,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether 500 – 700 ohms is available at the solenoid.",
+		"step": 31,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 32
+		},
+		"image": ["PACOCM8000I004"],
+		"videos": []
+	}, {
+		"question": "replace the solenoid with a new one.",
+		"step": 32,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace module accordingly.",
+		"step": 33,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I005"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000010.mp4",
+			"videoName": "Video for replacing module"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no inflammation of cuff during NIBP is measured.",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cuff and confirm for any damage or breakage of the cuff.",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "replace the cuff with a new one.",
+		"step": 36,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP pump with a new one.",
+		"step": 37,
+		"image": ["PACOCM8000I006"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the leads off message appears on the screen.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 46
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any loose connections or breakage of cable pin connector.",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "reconnect or replace the cable pin connector with a new one.",
+		"step": 40,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "cross check the lead cable with another and confirm whether the cable is defective.",
+		"step": 41,
+		"yes": {
+			"step": 42
+		},
+		"no": {
+			"step": 43
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable with a new one",
+		"step": 42,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any loose connection or damage of cable from pin connector to module.",
+		"step": 43,
+		"yes": {
+			"step": 44
+		},
+		"no": {
+			"step": 45
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cables accordingly.",
+		"step": 44,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the parameter module accordingly.",
+		"step": 45,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I005"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000010.mp4",
+			"videoName": "Video for replacing module"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether Sensor off / SPO2 off message appears on the display.",
+		"step": 46,
+		"yes": {
+			"step": 47
+		},
+		"no": {
+			"step": 52
+		},
+		"videos": []
+	}, {
+		"question": "check the pulse Oxi probe connector for any damage / improper connection.",
+		"step": 47,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 49
+		},
+		"videos": []
+	}, {
+		"question": "replace the connector with the new one / reconnect properly.",
+		"step": 48,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any loose connection or damage of cable from pin connector to module.",
+		"step": 49,
+		"yes": {
+			"step": 50
+		},
+		"no": {
+			"step": 51
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cables accordingly.",
+		"step": 50,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the parameter module accordingly.",
+		"step": 51,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank.",
+		"step": 52,
+		"yes": {
+			"step": 53
+		},
+		"no": {
+			"step": 58
+		},
+		"videos": []
+	}, {
+		"question": ", open the equipment as shown in the video, check for any loose connection or breakage of cable from control board and DC board to display.",
+		"step": 53,
+		"yes": {
+			"step": 54
+		},
+		"no": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 54,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether 12vdc is available at DC-DC board to display.",
+		"step": 55,
+		"yes": {
+			"step": 57
+		},
+		"no": {
+			"step": 56
+		},
+		"image": ["PACOCM8000I007"],
+		"videos": []
+	}, {
+		"question": "repair / replace the DC -DC Board accordingly.",
+		"step": 56,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I002"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000008.mp4",
+			"videoName": "Video for replacing DC-DC Board"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the display with a new one.",
+		"step": 57,
+		"next": {
+			"step": 63
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000011.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons does not while pressing.",
+		"step": 58,
+		"yes": {
+			"step": 59
+		},
+		"no": {
+			"step": 62
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of switches and confirm they are defective.",
+		"step": 59,
+		"yes": {
+			"step": 60
+		},
+		"no": {
+			"step": 61
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000012.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the switch accordingly.",
+		"step": 60,
+		"next": {
+			"step": 63
+		},
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000013.mp4",
+			"videoName": "Video for replacing switches"
+		}]
+	}, {
+		"question": "repair / replace the switch control board accordingly.",
+		"step": 61,
+		"next": {
+			"step": 63
+		},
+		"image": ["PACOCM8000I009"],
+		"videos": [{
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000014.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/CONTEC CMS8000/PACOCM8000006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 62,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 63,
+		"submit": true
+	}]
+}

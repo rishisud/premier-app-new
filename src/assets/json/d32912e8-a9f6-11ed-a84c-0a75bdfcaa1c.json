@@ -1,0 +1,400 @@
+{
+	"deviceName": "EMCO – OXISAT 2060",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["POEMOX2060"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident/Damage or Missing Report",
+		"step": 4,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/VIDEO REQUIRED FOR CHECKING WALL OUTLET VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING WALL OUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where the wall outlet is provided with AC voltage of 230",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of power cord and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/VIDEO REQUIRED FOR CHECKING POWER CORD.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING POWER CORD"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the fuses are blown out",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060001.mp4",
+			"videoName": "Video for checking continuity"
+		}]
+	}, {
+		"question": "replace the fuses with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm is there any breakage / damage to the power input pin connector.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"videos": []
+	}, {
+		"question": "replace the power input pin connector with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"image": ["POEMOX2060I001"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060002.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060003.mp4",
+			"videoName": "Video for replacing the pin connector"
+		}]
+	}, {
+		"question": "check and confirm whether there is any loose connection or breakage of cable from input pin connector to transformer.",
+		"step": 14,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the output voltage of transformer is available.",
+		"step": 16,
+		"next": {
+			"step": 40
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060004.mp4",
+			"videoName": "Video for checking O/P Volt"
+		}]
+	}, {
+		"question": "replace the transformer with a new one",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["POEMOX2060I002"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060005.mp4",
+			"videoName": "Video for replacing transformer"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the power supply output is available.",
+		"step": 18,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060007.mp4",
+			"videoName": "Video for checking O/P Voltage"
+		}]
+	}, {
+		"question": "repair / replace the power supply board",
+		"step": 19,
+		"next": {
+			"step": 5
+		},
+		"image": ["POEMOX2060I003"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060008.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check for any loose connections or breakage of cables from power supply board to control board.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 22,
+		"next": {
+			"step": 5
+		},
+		"image": ["POEMOX2060I004", "POEMOX2060I004_1"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060009.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the SPO2 measurement fails.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection or damage of probe.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "replace the probe properly or replace the probe with a new one",
+		"step": 25,
+		"next": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "check for breakage or damage of probe pin connector",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "replace the probe pin connector accordingly",
+		"step": 27,
+		"next": {
+			"step": 23
+		},
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060010.mp4",
+			"videoName": "Video for pin connector"
+		}]
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from probe pin connector to control board.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 29,
+		"next": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 30,
+		"next": {
+			"step": 23
+		},
+		"image": ["POEMOX2060I004", "POEMOX2060I004_1"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060009.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connection of cable from display to control board.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "reseat the cables properly",
+		"step": 33,
+		"next": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 34,
+		"next": {
+			"step": 31
+		},
+		"image": ["POEMOX2060I005", "POEMOX2060I005_1"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060011.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether some of the button / buttons do not respond until hard press.",
+		"step": 35,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from keypad to control board.",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 37,
+		"next": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the keypad control accordingly",
+		"step": 38,
+		"next": {
+			"step": 35
+		},
+		"image": ["POEMOX2060I006"],
+		"videos": [{
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060012.mp4",
+			"videoName": "Video for replacing the Keypad control"
+		}, {
+			"src": "assets/videos/Emco oxisat 2060/POEMOX2060006.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 39,
+		"next": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 40,
+		"submit": true
+	}]
+}

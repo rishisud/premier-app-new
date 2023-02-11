@@ -1,0 +1,625 @@
+{
+	"deviceName": "BPL – CLEAR SIGN C8 NEO",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["PBPCLC8NEO"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC voltage of 230 is available",
+		"step": 10,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 11
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO002.mp4",
+			"videoName": "Video for checking Input"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation / breakage of input pin connector.",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "clean / replace the input pin connector accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from pin connector to power supply board.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 62
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the power supply output voltage is available.",
+		"step": 15,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO003.mp4",
+			"videoName": "Video for checking output"
+		}]
+	}, {
+		"question": "repair / replace the power supply accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["PBPCLC8NEOI001"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO004.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from power supply to DC – DC Board.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the output voltage of DC – DC convertor board is available.",
+		"step": 19,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO006.mp4",
+			"videoName": "Video for checking O/P voltage"
+		}]
+	}, {
+		"question": "repair/ replace the DC – DC board accordingly.",
+		"step": 20,
+		"next": {
+			"step": 63
+		},
+		"image": ["PBPCLC8NEOI002"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO007.mp4",
+			"videoName": "Video for replacing DC-DC Board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from DC – DC Board to control board.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 22,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 23,
+		"next": {
+			"step": 5
+		},
+		"image": ["PBPCLC8NEOI003"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO008.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the BP Cuff deflates immediately / improper deflation after the inflammation",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "cross check the NIBP Cuff and confirm for any damage and breakage in the tubing.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP cuff with a new one",
+		"step": 26,
+		"next": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connections or breakage of tubing from NIBP connector pin to solenoid and motor.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the tubings accordingly",
+		"step": 28,
+		"next": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of solenoid and confirm whether the solenoids are defective.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO009.mp4",
+			"videoName": "Video for checking solenoids continuity"
+		}]
+	}, {
+		"question": "replace the solenoid with a new one",
+		"step": 30,
+		"next": {
+			"step": 24
+		},
+		"image": ["PBPCLC8NEOI004"],
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 31,
+		"next": {
+			"step": 24
+		},
+		"image": ["PBPCLC8NEOI003"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO008.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no inflammation of cuff during NIBP is measured.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cuff and confirm for any damage or breakage of the cuff",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "replace the cuff with a new one",
+		"step": 34,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP pump with a new one",
+		"step": 35,
+		"next": {
+			"step": 32
+		},
+		"image": ["PBPCLC8NEOI005"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the leads off message appears on the screen",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 44
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any loose connections or breakage of cable pin connector",
+		"step": 37,
+		"yes": {
+			"step": 38
+		},
+		"no": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "reconnect or replace the cable pin connector with a new one",
+		"step": 38,
+		"next": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "cross check the lead cable with another and confirm whether the cable is defective",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable with a new one",
+		"step": 40,
+		"next": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any loose connection or damage of cable from pin connector to control board.",
+		"step": 41,
+		"yes": {
+			"step": 42
+		},
+		"no": {
+			"step": 43
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cables accordingly",
+		"step": 42,
+		"next": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 43,
+		"next": {
+			"step": 36
+		},
+		"image": ["PBPCLC8NEOI003"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO008.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether Sensor off / SPO2 off message appears on the display",
+		"step": 44,
+		"yes": {
+			"step": 45
+		},
+		"no": {
+			"step": 50
+		},
+		"videos": []
+	}, {
+		"question": "check the pulse Oxi probe connector for any damage / improper connection.",
+		"step": 45,
+		"yes": {
+			"step": 46
+		},
+		"no": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "replace the connector with the new one / reconnect properly",
+		"step": 46,
+		"next": {
+			"step": 44
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any loose connection or damage of cable from pin connector to control board",
+		"step": 47,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 49
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cables accordingly",
+		"step": 48,
+		"next": {
+			"step": 44
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the Control board accordingly",
+		"step": 49,
+		"next": {
+			"step": 44
+		},
+		"image": ["PBPCLC8NEOI003"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO008.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display appears black / plain.",
+		"step": 50,
+		"yes": {
+			"step": 51
+		},
+		"no": {
+			"step": 54
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from backlight board to control board",
+		"step": 51,
+		"yes": {
+			"step": 52
+		},
+		"no": {
+			"step": 53
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 52,
+		"next": {
+			"step": 50
+		},
+		"videos": []
+	}, {
+		"question": "replace the backlight board with a new one",
+		"step": 53,
+		"next": {
+			"step": 50
+		},
+		"image": ["PBPCLC8NEOI006"],
+		"videos": []
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display appears as white screen.",
+		"step": 54,
+		"yes": {
+			"step": 55
+		},
+		"no": {
+			"step": 58
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection or breakage of cable from display to backlight board.",
+		"step": 55,
+		"yes": {
+			"step": 56
+		},
+		"no": {
+			"step": 57
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 56,
+		"next": {
+			"step": 54
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 57,
+		"next": {
+			"step": 54
+		},
+		"image": ["PBPCLC8NEOI007"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO010.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons does not while pressing",
+		"step": 58,
+		"yes": {
+			"step": 59
+		},
+		"no": {
+			"step": 62
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of switches and confirm they are defective",
+		"step": 59,
+		"yes": {
+			"step": 60
+		},
+		"no": {
+			"step": 61
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO011.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the switch accordingly",
+		"step": 60,
+		"next": {
+			"step": 58
+		},
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO012.mp4",
+			"videoName": "Video for replacing switches"
+		}]
+	}, {
+		"question": "repair / replace the switch control board accordingly",
+		"step": 61,
+		"next": {
+			"step": 58
+		},
+		"image": ["PBPCLC8NEOI008"],
+		"videos": [{
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO013.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/BPL clear sign c8 Neo/PBPCLC8NEO005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 62,
+		"next": {
+			"step": 63
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 63,
+		"submit": true
+	}]
+}

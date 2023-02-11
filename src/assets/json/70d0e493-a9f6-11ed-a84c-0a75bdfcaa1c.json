@@ -1,0 +1,471 @@
+{
+	"deviceName": "EDAN – ELITE V8",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["PAMOEDELV8"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC voltage of 230 is available",
+		"step": 10,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 11
+		},
+		"image": ["PAMOEDELV8I01"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation or breakage of input pin connector.",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "clean or replace the input pin connector accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection or breakage of cable from pin connector to power supply board.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 46
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": ", check and confirm whether the power supply output voltage of 12vDC is available.",
+		"step": 15,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 16
+		},
+		"image": ["PAMOEDELV8I02"],
+		"videos": []
+	}, {
+		"question": "repair or replace the power supply accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["PAMOEDELV8I03 ", "PAMOEDELV8I03_1"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8002.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the output voltage of 5VDC is available at DC -DC Board.",
+		"step": 17,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 18
+		},
+		"image": ["PAMOEDELV8I04"],
+		"videos": []
+	}, {
+		"question": "repair or replace the DC -DC Board accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"image": ["PAMOEDELV8I05"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8004.mp4",
+			"videoName": "Video for replacing the DC Board"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection or breakage of cable from DC -DC Board to control board.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 20,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 21,
+		"next": {
+			"step": 5
+		},
+		"image": ["PAMOEDELV8I06 ", "PAMOEDELV8I06_1"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8005.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the BP Cuff deflates immediately or improper deflation after the inflammation",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "cross check the NIBP Cuff and confirm for any damage and breakage in the tubing.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP cuff with a new one",
+		"step": 24,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the MPM module accordingly",
+		"step": 25,
+		"next": {
+			"step": 22
+		},
+		"image": ["PAMOEDELV8I07"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8006.mp4",
+			"videoName": "Video for replacing MPM Module"
+		}]
+	}, {
+		"question": "check and confirm whether there is no inflammation of cuff during NIBP is measured.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cuff and confirm for any damage or breakage of the cuff.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "replace the cuff with a new one",
+		"step": 28,
+		"next": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the MPM Module",
+		"step": 29,
+		"next": {
+			"step": 26
+		},
+		"image": ["PAMOEDELV8I07"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8006.mp4",
+			"videoName": "Video for replacing MPM Module"
+		}]
+	}, {
+		"question": "check and confirm whether Sensor off or SPO2 off message appears on the display.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "check the pulse Oxi probe connector for any damage or improper connection.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "replace the connector with the new one or reconnect properly",
+		"step": 32,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the Module accordingly",
+		"step": 33,
+		"next": {
+			"step": 30
+		},
+		"image": ["PAMOEDELV8I08"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8007.mp4",
+			"videoName": "Video for replacing Module"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is black or plain.",
+		"step": 34,
+		"yes": {
+			"step": 35
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from control board to display.",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 36,
+		"next": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the backlight accordingly",
+		"step": 37,
+		"next": {
+			"step": 34
+		},
+		"image": ["PAMOEDELV8I09"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8008.mp4",
+			"videoName": "Video for replacing backlight board"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display appears as white screen.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 42
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from backlight to display.",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 40,
+		"next": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 41,
+		"next": {
+			"step": 38
+		},
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8I09.mp4",
+			"videoName": "Video for replacing the display"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons does not respond while pressing.",
+		"step": 42,
+		"yes": {
+			"step": 43
+		},
+		"no": {
+			"step": 46
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of switches and confirm they are defective.",
+		"step": 43,
+		"yes": {
+			"step": 44
+		},
+		"no": {
+			"step": 45
+		},
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8010.mp4",
+			"videoName": "Video for checking switch"
+		}]
+	}, {
+		"question": "replace the switch accordingly",
+		"step": 44,
+		"next": {
+			"step": 42
+		},
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8011.mp4",
+			"videoName": "Video for replacing switches"
+		}]
+	}, {
+		"question": "repair or replace the switch control board accordingly",
+		"step": 45,
+		"next": {
+			"step": 42
+		},
+		"image": ["PAMOEDELV8I11 ", "PAMOEDELV8I11_1"],
+		"videos": [{
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8012.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/Edan Elite V8/PAMOEDELV8003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call",
+		"step": 46,
+		"next": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 47,
+		"submit": true
+	}]
+}

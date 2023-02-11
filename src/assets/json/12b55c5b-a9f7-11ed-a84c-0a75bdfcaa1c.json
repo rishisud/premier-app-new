@@ -1,0 +1,427 @@
+{
+	"deviceName": "HUMAN – COMBILYZER 13",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["URANHUCO13"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+		"step": 2,
+		"next": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and check whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where wall outlet is provided with 230 AC Voltage",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC voltage of 230 is available.",
+		"step": 10,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 11
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13002.mp4",
+			"videoName": "Video for checking I/P voltage"
+		}]
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from input pin connector to power supply.",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any carbon formation or breakage of input pin connector.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 40
+		},
+		"videos": []
+	}, {
+		"question": "clean or replace the input pin connector accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the power supply output voltage is available.",
+		"step": 15,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13003.mp4",
+			"videoName": "Video for checking O/P "
+		}]
+	}, {
+		"question": "repair / replace the power supply accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["URANHUCO13I001"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13004.mp4",
+			"videoName": "Video for replacing power supply"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm is there any loose connection or breakage of cable from power supply to control board.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cables accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		},
+		"image": ["URANHUCO13I002"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether there is a difficulty in inserting the sample tray.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "reinsert once again properly and confirm whether the problem still persist.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean or clear any obstruction or dust in the sample tray path and gears",
+		"step": 22,
+		"next": {
+			"step": 20
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the measured result of sample is incorrect or improper.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean the optical sensor, LED and confirm whether the problem still persist.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable from optical sensor to control board.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 26,
+		"next": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the optical sensor accordingly and confirm whether the problem still persist.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 41
+		},
+		"image": ["URANHUCO13I003"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13007.mp4",
+			"videoName": "Video for replacing optical sensor"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 28,
+		"next": {
+			"step": 23
+		},
+		"image": ["URANHUCO13I002"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is plain / blank.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of the cable between display and control board.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 31,
+		"next": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 32,
+		"next": {
+			"step": 29
+		},
+		"image": ["URANHUCO13004"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13008.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the print is available.",
+		"step": 33,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "check whether the paper roll is inserted.",
+		"step": 34,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "insert the paper roll properly",
+		"step": 35,
+		"next": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "check the connection between the printer and control board for any loose connection / breakage of cable.",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 37,
+		"next": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "clean the thermal head and confirm whether the problem still persist.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 39,
+		"next": {
+			"step": 33
+		},
+		"image": ["URANHUCO13005"],
+		"videos": [{
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13009.mp4",
+			"videoName": "Video for replacing the thermal head"
+		}, {
+			"src": "assets/videos/Human Combilyzer 13/URANHUCO13005.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 40,
+		"next": {
+			"step": 41
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 41,
+		"submit": true
+	}]
+}

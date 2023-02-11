@@ -1,0 +1,330 @@
+{
+	"deviceName": "URIT – URIT 180",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image of the equipment.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["URAURUR180"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing report.",
+		"step": 4,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and check whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check whether the wall outlet is provided with AC Voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Urit 180 /VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALLOUTLET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where wall outlet is provided with 230 AC Voltage",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether DC voltage is available at the power cord adapter.",
+		"step": 8,
+		"yes": {
+			"step": 10
+		},
+		"no": {
+			"step": 9
+		},
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180001.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace the power cord adapter with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check whether any carbon formation or breakage at the input connector pin.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": []
+	}, {
+		"question": "clean the connector pin accordingly",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"image": ["URAURUR180I001"],
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180002.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180003.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the measured result of sample is incorrect or improper.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean the optical sensor, LED Bulb and confirm whether the problem still persist.",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "check for any loose connection or breakage of cable from optical sensor to control board.",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 16,
+		"next": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the optical sensor accordingly and confirm whether the problem still persist.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 32
+		},
+		"image": ["URAURUR180I002"],
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180005.mp4",
+			"videoName": "Video for replacing optical sensor"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180003.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 18,
+		"next": {
+			"step": 13
+		},
+		"image": ["URAURUR180I001"],
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180002.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180003.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the print is available.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "check whether the paper roll is inserted.",
+		"step": 20,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "insert the paper roll properly",
+		"step": 21,
+		"next": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "check the connection between the Thermal head and Printer board for any loose connection / breakage of cable.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 23,
+		"next": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "clean the thermal head and confirm whether the problem still persist.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "cross check the thermal head with another and confirm whether it is defective.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 26,
+		"next": {
+			"step": 19
+		},
+		"image": ["URAURUR180I003"],
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180006.mp4",
+			"videoName": "Video for replacing thermal head"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair or replace the printer board accordingly",
+		"step": 27,
+		"next": {
+			"step": 19
+		},
+		"image": ["URAURUR180I004"],
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180007.mp4",
+			"videoName": "Video for replacing printer"
+		}, {
+			"src": "assets/videos/Urit 180 /URAURUR180003.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is a difficulty in inserting the sample tray.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "reinsert once again properly and confirm whether the problem still persist.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean or clear any obstruction or dust in the sample tray path and gears",
+		"step": 30,
+		"next": {
+			"step": 28
+		},
+		"videos": [{
+			"src": "assets/videos/Urit 180 /URAURUR180004.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 31,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 32,
+		"submit": true
+	}]
+}
