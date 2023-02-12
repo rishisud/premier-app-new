@@ -1,0 +1,425 @@
+{
+	"deviceName": "BPL - ULTRA PRIME",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["PMBPLULPRI"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 43
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report",
+		"step": 4,
+		"next": {
+			"step": 43
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/VIDEO FOR CHECKING POWER CORD CONTINUITY.mp4",
+			"videoName": "VIDEO FOR CHECKING POWER CORD CONTINUITY"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input AC nvoltage of 230 is available.",
+		"step": 10,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 11
+		},
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI001.mp4",
+			"videoName": "opening"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI002.mp4",
+			"videoName": "checking Input"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation / breakage of input pin connector.",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "clean / replace the input pin connector accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from pin connector to power supply board.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 42
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the power supply output voltage is available.",
+		"step": 15,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI003.mp4",
+			"videoName": "checking output"
+		}]
+	}, {
+		"question": "repair / replace the power supply accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["PMBPLULPRII001"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI004.mp4",
+			"videoName": "replacing power supply"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "check and confirm for any loose connection / breakage of cable from Power supply Board to control board.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 18,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 19,
+		"next": {
+			"step": 5
+		},
+		"image": ["PMBPLULPRII002 ","PMBPLULPRII002_1"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI006.mp4",
+			"videoName": "replacing control board"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "check and confirm whether the BP Cuff deflates immediately / improper deflation after the inflammation.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "cross check the NIBP Cuff and confirm for any damage and breakage in the tubing.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP cuff with a new one",
+		"step": 22,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for loose connections or breakage of tubing from NIBP connector pin to solenoid and motor.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the tubings accordingly",
+		"step": 24,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether 500 – 700 ohms is available at the solenoid.",
+		"step": 25,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 26
+		},
+		"image": ["PMBPLULPRII003"],
+		"videos": []
+	}, {
+		"question": "replace the solenoid with a new one",
+		"step": 26,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace NIBP module accordingly",
+		"step": 27,
+		"next": {
+			"step": 20
+		},
+		"image": ["PMBPLULPRII004"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI007.mp4",
+			"videoName": "replacing module"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no inflammation of cuff during NIBP is measured.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cuff and confirm for any damage or breakage of the cuff.",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "replace the cuff with a new one",
+		"step": 30,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "replace the NIBP pump with a new one",
+		"step": 31,
+		"next": {
+			"step": 20
+		},
+		"image": ["PMBPLULPRII005"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "check and confirm whether Sensor off / SPO2 off message appears on the display.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "check the pulse Oxi probe connector for any damage / improper connection.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "replace the connector with the new one / reconnect properly",
+		"step": 34,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any loose connection or damage of cable from pin connector to SPO2 Module.",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cables accordingly",
+		"step": 36,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the Control board accordingly",
+		"step": 37,
+		"next": {
+			"step": 32
+		},
+		"image": ["PMBPLULPRII006"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI000.mp4",
+			"videoName": "replacing SPO2 board"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons does not while pressing.",
+		"step": 38,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 42
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of switches and confirm they are defective.",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI009.mp4",
+			"videoName": "checking switch"
+		}]
+	}, {
+		"question": "replace the switch accordingly",
+		"step": 40,
+		"next": {
+			"step": 38
+		},
+		"image": ["PMBPLULPRI009"],
+		"videos": []
+	}, {
+		"question": "repair / replace the switch control board accordingly",
+		"step": 41,
+		"next": {
+			"step": 38
+		},
+		"image": ["PMBPLULPRII007"],
+		"videos": [{
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI010.mp4",
+			"videoName": "replacing switch control board"
+		}, {
+			"src": "assets/videos/BPL ULTRA PRIME/PMBPLULPRI005.mp4",
+			"videoName": "closing"
+		}]
+	}, {
+		"question": "I If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 42,
+		"next": {
+			"step": 43
+		},
+		"videos": []
+	},{
+		"question": "Thanks",
+		"step": 43,
+		"submit": true
+	}]
+}
