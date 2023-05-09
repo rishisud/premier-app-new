@@ -1,0 +1,571 @@
+{
+	"deviceName": "ALLENGERS -PIESCES A 103",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ECALPIA103"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again.",
+		"step": 2,
+		"next": {
+			"step": 56
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 56
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA1030.mp4",
+			"videoName": "Video for checking power cord"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the continuity of fuse and confirm whether the fuses are blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103014.mp4",
+			"videoName": "Video for checking fuse"
+		}]
+	}, {
+		"question": "replace the fuse with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103015.mp4",
+			"videoName": "Video for replacing fuse"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether the input DC voltage of 15V is available",
+		"step": 12,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103002.mp4",
+			"videoName": "Video for checking Input"
+		}]
+	}, {
+		"question": "check whether there is any carbon formation / breakage of input pin connector",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "clean / replace the input pin connector accordingly",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check for any loose connection / breakage of cable from pin connector to Control board.",
+		"step": 15,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 17,
+		"next": {
+			"step": 5
+		},
+		"image": ["ECALPIA103I002"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "Check and confirm is there any muscle interference in the ECG.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cables and confirm whether the cables are defective.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "replace the cables with a new one",
+		"step": 20,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check the cable pin connector for any damage / breakage of pins.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable pin connector with a new one",
+		"step": 22,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the battery voltage is low.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103000.mp4",
+			"videoName": "Video for checking Battery volt"
+		}]
+	}, {
+		"question": "replace the battery with a new one",
+		"step": 24,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is a proper grounding at the socket.",
+		"step": 25,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103016.mp4",
+			"videoName": "Video for checking grounding"
+		}]
+	}, {
+		"question": "shift the equipment to another where proper grounding is available",
+		"step": 26,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is any loose connection / breakage of cable from battery to control board",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 28,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 29,
+		"next": {
+			"step": 18
+		},
+		"image": ["ECALPIA103I002"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103006.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is a straight in the ECG print.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cables and confirm whether the cables are defective.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "replace the cables with a new one",
+		"step": 32,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "check the cable pin connector for any damage / breakage of pins.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "replace the cable pin connector with a new one",
+		"step": 34,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 35,
+		"next": {
+			"step": 30
+		},
+		"image": ["ECALPIA103I002"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103006.mp4",
+			"videoName": "Video for replacing Control board"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the paper is rolling during ECG is taken.",
+		"step": 36,
+		"yes": {
+			"step": 44
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the paper roll is placed properly.",
+		"step": 37,
+		"yes": {
+			"step": 39
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "place the paper roll properly",
+		"step": 38,
+		"next": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is any dust / any obstructions in the gears",
+		"step": 39,
+		"yes": {
+			"step": 40
+		},
+		"no": {
+			"step": 41
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "clean the gears carefully",
+		"step": 40,
+		"next": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "check for any breakage or damage of gears.",
+		"step": 41,
+		"yes": {
+			"step": 42
+		},
+		"no": {
+			"step": 43
+		},
+		"videos": []
+	}, {
+		"question": "replace the printer drive with a new one",
+		"step": 42,
+		"next": {
+			"step": 36
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103008.mp4",
+			"videoName": "Video for replacing printer drive"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "motor is defective, so replace the printer drive with a new one",
+		"step": 43,
+		"next": {
+			"step": 36
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103008.mp4",
+			"videoName": "Video for replacing printer drive"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is partial print or dull ECG print.",
+		"step": 44,
+		"yes": {
+			"step": 45
+		},
+		"no": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, clean the thermal head with a soft cloth and confirm whether the problem still persist",
+		"step": 45,
+		"yes": {
+			"step": 46
+		},
+		"next": {
+			"step": 56
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "replace the thermal head with a new one",
+		"step": 46,
+		"next": {
+			"step": 44
+		},
+		"image": ["ECALPIA103I004"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103008.mp4",
+			"videoName": "Video for replacing thermal head"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether there is no printout during the ECG is taken.",
+		"step": 47,
+		"yes": {
+			"step": 48
+		},
+		"no": {
+			"step": 51
+		},
+		"videos": []
+	}, {
+		"question": "check whether the paper is placed properly",
+		"step": 48,
+		"yes": {
+			"step": 49
+		},
+		"no": {
+			"step": 50
+		},
+		"videos": []
+	}, {
+		"question": "repair / replace the control board accordingly",
+		"step": 49,
+		"next": {
+			"step": 47
+		},
+		"image": ["ECALPIA103I002"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103006.mp4",
+			"videoName": "Video for replacing Control board"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "place the paper roll properly",
+		"step": 50,
+		"next": {
+			"step": 47
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank or not getting ON.",
+		"step": 51,
+		"yes": {
+			"step": 52
+		},
+		"no": {
+			"step": 55
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connections / breakage of cable from display to control board.",
+		"step": 52,
+		"yes": {
+			"step": 53
+		},
+		"no": {
+			"step": 54
+		},
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103001.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat / replace the cable accordingly",
+		"step": 53,
+		"next": {
+			"step": 51
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 54,
+		"next": {
+			"step": 51
+		},
+		"image": ["ECALPIA103I006", "ECALPIA103I006_1"],
+		"videos": [{
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103013.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/Allengers piesces A 103/ECALPIA103005.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for any other assistance through video call.",
+		"step": 55,
+		"next": {
+			"step": 56
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 56,
+		"submit": true
+	}]
+}

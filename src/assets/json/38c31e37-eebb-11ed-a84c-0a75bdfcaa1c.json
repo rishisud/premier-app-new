@@ -1,0 +1,327 @@
+{
+	"deviceName": "EKF DIAGNOSTIC – QUO TEST",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["HBEKFQUOTE"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord adapter and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE00.mp4",
+			"videoName": "Video for checking power cord"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any breakage or damage of input pin connector.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"videos": []
+	}, {
+		"question": "replace or repair the input pin connector accordingly",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the Control board accordingly",
+		"step": 12,
+		"next": {
+			"step": 5
+		},
+		"image": ["HBEKFQUOTEI01"],
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE03.mp4",
+			"videoName": "Video for replacing Control board"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm screen shows message as “Insert the new cartridge and close the door” even after closing the door.",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there is any barcode damage of cartridge and check door is closed properly",
+		"step": 14,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "replace the cartridge with a new one and close the door",
+		"step": 15,
+		"next": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the results displayed are out of range.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the cartridge is placed properly.",
+		"step": 17,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "replace the cartridge in its slot",
+		"step": 18,
+		"next": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 19,
+		"next": {
+			"step": 16
+		},
+		"image": ["HBEKFQUOTEI01"],
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE03.mp4",
+			"videoName": "Video for replacing Control board"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the screens displays “ Too little blood” message.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "replace the cartridge with a new one and make sure the sample is properly collected into the blood collector",
+		"step": 21,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the screen displays “Too high blood” message",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "the blood is overfilled in the blood collector, so replace the cartridge with a new one",
+		"step": 23,
+		"next": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the display is blank even after switching ON the equipment.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown and check for any loose connection or breakage of cable from display to control board",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 26,
+		"next": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the display accordingly",
+		"step": 27,
+		"next": {
+			"step": 24
+		},
+		"image": ["HBEKFQUOTEI02", "HBEKFQUOTEI02_1"],
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE05.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons do not respond while pressing.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown, check for any loose connections or breakage of cable from switch control board to keypad",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 30,
+		"next": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the switch control board accordingly",
+		"step": 31,
+		"next": {
+			"step": 28
+		},
+		"image": ["HBEKFQUOTEI03"],
+		"videos": [{
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE06.mp4",
+			"videoName": "Video for replacing switch control board"
+		}, {
+			"src": "assets/videos/EKF DIAGNOSTIC – QUO TEST/HBEKFQUOTE04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "IF THE PRONLEM IS NOT YET SOLVED, CONTACT THE TECHNICAL TEAM FOR ANY OTHER ASSISTANCE THROUGH VIDEO CALL",
+		"step": 32,
+		"next": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 33,
+		"submit": true
+	}]
+}

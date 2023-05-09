@@ -1,0 +1,249 @@
+{
+	"deviceName": "HEMOCUE – HB 201+",
+	"questions": [{
+		"question": "Confirm the equipment with below provided image",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["HBHEHB201+"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar cod again",
+		"step": 2,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical damage of the equipment.",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Damage / Incident and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/HEMOCUE – HB 201+/VIDEO FOR CHECKING WALL OULET VOLTAGE.mp4",
+			"videoName": "VIDEO FOR CHECKING WALL OULET VOLTAGE"
+		}]
+	}, {
+		"question": "shift the equipment to another place where AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord adapter and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+00.mp4",
+			"videoName": "Video for checking power cord"
+		}]
+	}, {
+		"question": "replace the power cord with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the main board accordingly",
+		"step": 10,
+		"next": {
+			"step": 5
+		},
+		"image": ["HBHEHB201+I01"],
+		"videos": [{
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+03.mp4",
+			"videoName": "Video for replacing main board"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the results are out of range",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "clean the cuvette or place a new cuvette and perform the test. Confirm whether the problem still persist.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether there are any air bubbles in the cuvette",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "change the cuvette and perform the test",
+		"step": 14,
+		"next": {
+			"step": 11
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the main board",
+		"step": 15,
+		"next": {
+			"step": 11
+		},
+		"image": ["HBHEHB201+I01"],
+		"videos": [{
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+03.mp4",
+			"videoName": "Video for replacing main board"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the low battery symbol appears on display.",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "change the batteries with a new one",
+		"step": 17,
+		"next": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the error E01 – E05 appears on display.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "clean the optronic unit carefully",
+		"step": 19,
+		"next": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the display is blank after switching ON the equipment.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the batteries are dead",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": []
+	}, {
+		"question": "replace the batteries with a new one",
+		"step": 22,
+		"next": {
+			"step": 20
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the display accordingly",
+		"step": 23,
+		"next": {
+			"step": 20
+		},
+		"image": ["HBHEHB201+I01"],
+		"videos": [{
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+02.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+03.mp4",
+			"videoName": "Video for replacing main board"
+		}, {
+			"src": "assets/videos/HEMOCUE – HB 201+/HBHEHB201+04.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "IF THE PROBLEM IS NOT YET SOLVED, CONTACT THE TECHNICAL TEAM FOR ANY OTHER ASSISTANCE THROUGH VIDEO CALL.",
+		"step": 24,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 25,
+		"submit": true
+	}]
+}

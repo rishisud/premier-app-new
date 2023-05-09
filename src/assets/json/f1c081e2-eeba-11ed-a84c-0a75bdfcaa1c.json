@@ -1,0 +1,428 @@
+{
+	"deviceName": "XCELIANCE MEDICAL TECHNOLOGY – Shalya mx",
+	"questions": [{
+		"question": "Confirm the Equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ESUXMTSHMX"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical Damage of the Equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective.",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the AC fuses are burnt / Blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"image": ["ESUXMTSHMXI001"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX001.mp4",
+			"videoName": "Video for checking"
+		}]
+	}, {
+		"question": "replace the AC fuses with the new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX002.mp4",
+			"videoName": "Video for replacing the fuses"
+		}]
+	}, {
+		"question": "check and confirm whether the ON/OFF switch is defective.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"videos": []
+	}, {
+		"question": "replace the ON or OFF switch with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX003.mp4",
+			"videoName": "Video for replacing the switch"
+		}]
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is a SMPS output voltage",
+		"step": 14,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX005.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace the SMPS Board with a new one",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"image": ["ESUXMTSHMXI003"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX006.mp4",
+			"videoName": "Video for replacing the SMPS"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "replace the control with a new one",
+		"step": 16,
+		"next": {
+			"step": 5
+		},
+		"image": ["ESUXMTSHMXI004"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX008.mp4",
+			"videoName": "Video for replacing the control Board"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "confirm whether there is a RF Output in Cut or Coagulation mode.",
+		"step": 17,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": []
+	}, {
+		"question": "check the foot switch cable continuity and confirm whether it is defective.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"no": {
+			"step": 20
+		},
+		"image": ["ESUXMTSHMXI005"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX009.mp4",
+			"videoName": "Video for checking the continuity"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX009_1.mp4",
+			"videoName": "Video for checking the continuity"
+		}]
+	}, {
+		"question": "replace the foot switch Cable with a new one",
+		"step": 19,
+		"next": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the foot switch is defective.",
+		"step": 20,
+		"yes": {
+			"step": 21
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX010.mp4",
+			"videoName": "Video for checking foot switch continuity"
+		}]
+	}, {
+		"question": "replace the foot switch with a new one",
+		"step": 21,
+		"next": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cautery pencil with another and confirm whether it is defective.",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 24
+		},
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX011.mp4",
+			"videoName": "Video for checking continuity"
+		}]
+	}, {
+		"question": "replace the cautery pencil with new one",
+		"step": 23,
+		"next": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the Foot switch control Board",
+		"step": 24,
+		"next": {
+			"step": 17
+		},
+		"image": ["ESUXMTSHMXI007", "ESUXMTSHMXI007_1"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX012.mp4",
+			"videoName": "Video for replacing Foot switch control Board"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "confirm whether the display is blank when the equipment is Power ON.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any loose connection or breakage of cable from display to control board.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "replace or reseat the cable accordingly",
+		"step": 27,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the display board with a new one and confirm whether the problem still persist.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"next": {
+			"step": 39
+		},
+		"image": ["ESUXMTSHMXI008", "ESUXMTSHMXI008_1"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX013.mp4",
+			"videoName": "Video for replacing the Display Board"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 29,
+		"next": {
+			"step": 25
+		},
+		"image": ["ESUXMTSHMXI004"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX008.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the earth pad alarm / Beep appears when connected.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 36
+		},
+		"videos": []
+	}, {
+		"question": "check the connecting points for any carbon / debris formation or loose connection.",
+		"step": 31,
+		"yes": {
+			"step": 32
+		},
+		"no": {
+			"step": 33
+		},
+		"videos": []
+	}, {
+		"question": "clean the connecting point and connect the earth pad back",
+		"step": 32,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "cross check the earth pad with another and confirm whether it is defective.",
+		"step": 33,
+		"yes": {
+			"step": 34
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "replace the earth pad with a new one",
+		"step": 34,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control Board with a new one",
+		"step": 35,
+		"next": {
+			"step": 30
+		},
+		"image": ["ESUXMTSHMXI004"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX008.mp4",
+			"videoName": "Video for replacing the Control Board"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons do not respond while setting the appropriate value in Cut or Coagulation Mode",
+		"step": 36,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video and replace the key pad assemble",
+		"step": 37,
+		"next": {
+			"step": 36
+		},
+		"image": ["ESUXMTSHMXI010"],
+		"videos": [{
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX015.mp4",
+			"videoName": "Video for replacing the Keypad Video for closing the equipment"
+		}, {
+			"src": "assets/videos/XCELIANCE MEDICAL TECHNOLOGY – Shalya mx/ESUXMTSHMX007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 38,
+		"next": {
+			"step": 39
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 39,
+		"submit": true
+	}]
+}

@@ -1,0 +1,417 @@
+{
+	"deviceName": "ALAN – ELSY 360D+",
+	"questions": [{
+		"question": "Confirm the Equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ESAEL360D+"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical Damage of the Equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE"
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the AC fuses are burnt / Blown.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"image": ["ESAEL360D+I001"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+001.mp4",
+			"videoName": "Video for checking"
+		}]
+	}, {
+		"question": "replace the AC fuses with the new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+002.mp4",
+			"videoName": "Video for replacing the fuses"
+		}]
+	}, {
+		"question": "check and confirm whether the ON/OFF switch is defective.",
+		"step": 12,
+		"yes": {
+			"step": 13
+		},
+		"no": {
+			"step": 14
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+003.mp4",
+			"videoName": "Video for checking the switch"
+		}]
+	}, {
+		"question": "replace the ON or OFF switch with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check and confirm whether there is a output voltage.",
+		"step": 14,
+		"yes": {
+			"step": 37
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+005.mp4",
+			"videoName": "Video for checking the voltage"
+		}]
+	}, {
+		"question": "replace or repair the Control Board with a new one",
+		"step": 15,
+		"next": {
+			"step": 5
+		},
+		"image": ["ESAEL360D+I003"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+006.mp4",
+			"videoName": "Video for replacing the Control board"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "confirm whether there is a RF Output in Cut or Coagulation mode.",
+		"step": 16,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "check the foot switch cable continuity and confirm whether it is defective.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 19
+		},
+		"image": ["ESAEL360D+I005"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+009.mp4",
+			"videoName": "Video for checking the continuity"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+009_1.mp4",
+			"videoName": "Video for checking the continuity"
+		}]
+	}, {
+		"question": "replace the foot switch Cable with a new one",
+		"step": 18,
+		"next": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the foot switch is defective.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+010.mp4",
+			"videoName": "Video for checking foot switch continuity"
+		}]
+	}, {
+		"question": "replace the foot switch with a new one",
+		"step": 20,
+		"next": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "cross check the cautery pencil with another and confirm whether it is defective.",
+		"step": 21,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 23
+		},
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+011.mp4",
+			"videoName": "Video for checking continuity"
+		}]
+	}, {
+		"question": "replace the cautery pencil with new one",
+		"step": 22,
+		"next": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control Board",
+		"step": 23,
+		"next": {
+			"step": 16
+		},
+		"image": ["ESAEL360D+I003"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+006.mp4",
+			"videoName": "Video for replacing the Control board"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "confirm whether the display is blank when the equipment is Power ON.",
+		"step": 24,
+		"yes": {
+			"step": 25
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm for any loose connection or breakage of cable from display to control board.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 27
+		},
+		"videos": []
+	}, {
+		"question": "replace or reseat the cable accordingly",
+		"step": 26,
+		"next": {
+			"step": 24
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the display board with a new one and confirm whether the problem still persist.",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"next": {
+			"step": 38
+		},
+		"image": ["ESAEL360D+I008", "ESAEL360D+I008_1"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+013.mp4",
+			"videoName": "Video for replacing the Display Board"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 28,
+		"next": {
+			"step": 24
+		},
+		"image": ["ESAEL360D+I003"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+006.mp4",
+			"videoName": "Video for replacing the Control board"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the earth pad alarm / Beep appears when connected",
+		"step": 29,
+		"yes": {
+			"step": 30
+		},
+		"no": {
+			"step": 35
+		},
+		"videos": []
+	}, {
+		"question": "check the connecting points for any carbon / debris formation or loose connection.",
+		"step": 30,
+		"yes": {
+			"step": 31
+		},
+		"no": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "clean the connecting point and connect the earth pad back",
+		"step": 31,
+		"next": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "cross check the earth pad with another and confirm whether it is defective.",
+		"step": 32,
+		"yes": {
+			"step": 33
+		},
+		"no": {
+			"step": 34
+		},
+		"videos": []
+	}, {
+		"question": "replace the earth pad with a new one",
+		"step": 33,
+		"next": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control Board with a new one",
+		"step": 34,
+		"next": {
+			"step": 29
+		},
+		"image": ["ESAEL360D+I003"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+006.mp4",
+			"videoName": "Video for replacing the Control board"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "check and confirm whether the buttons do not respond while setting the appropriate value in Cut or Coagulation Mode.",
+		"step": 35,
+		"yes": {
+			"step": 36
+		},
+		"no": {
+			"step": 37
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video and replace the key pad assemble",
+		"step": 36,
+		"next": {
+			"step": 35
+		},
+		"image": ["ESAEL360D+I010"],
+		"videos": [{
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+004.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+015.mp4",
+			"videoName": "Video for replacing the Keypad"
+		}, {
+			"src": "assets/videos/ALAN – ELSY 360D+/ESAEL360D+007.mp4",
+			"videoName": "Video for closing the equipment"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call.",
+		"step": 37,
+		"next": {
+			"step": 38
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 38,
+		"submit": true
+	}]
+}

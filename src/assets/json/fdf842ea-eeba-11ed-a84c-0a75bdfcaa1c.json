@@ -1,0 +1,303 @@
+{
+	"deviceName": "Abott – I Stat 1",
+	"questions": [{
+		"question": "Confirm the Equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["BGAABISTA1"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again.",
+		"step": 2,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "confirm is there any physical Damage of the Equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "prepare the Incident / Damage and Missing Report",
+		"step": 4,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON",
+		"step": 5,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power Adaptor and confirm whether it is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA101.mp4",
+			"videoName": "Video for checking power adaptor"
+		}]
+	}, {
+		"question": "replace the power adaptor with a new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 10,
+		"next": {
+			"step": 5
+		},
+		"image": ["BGAABISTA1I01"],
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA102.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA103.mp4",
+			"videoName": "Video for replacing Control Board"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA104.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether “Battery low” message appears on display",
+		"step": 11,
+		"yes": {
+			"step": 12
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "change the batteries with a new one",
+		"step": 12,
+		"next": {
+			"step": 11
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether “ analyzer interrupted, use another cartridge” error appears on display",
+		"step": 13,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the battery pack is inserted properly",
+		"step": 14,
+		"yes": {
+			"step": 16
+		},
+		"no": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "insert the battery pack properly",
+		"step": 15,
+		"next": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "replace or recharge the battery accordingly",
+		"step": 16,
+		"next": {
+			"step": 13
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the “Cartridge not inserted” error appears even after placing the cartridge.",
+		"step": 17,
+		"yes": {
+			"step": 18
+		},
+		"no": {
+			"step": 22
+		},
+		"videos": []
+	}, {
+		"question": "place another cartridge carefully and confirm whether the error still appears",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from sample reader to control board",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 20,
+		"next": {
+			"step": 17
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the sample reader accordingly",
+		"step": 21,
+		"next": {
+			"step": 17
+		},
+		"image": ["BGAABISTA1I02"],
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA102.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA105.mp4",
+			"videoName": "Video for replacing sample reader"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA104.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the result are not displayed after reading the sample",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "place another cartridge and confirm whether the error still appears.",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the control board accordingly",
+		"step": 24,
+		"next": {
+			"step": 22
+		},
+		"image": ["BGAABISTA1I01", "BGAABISTA1I01_1"],
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA102.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA103.mp4",
+			"videoName": "Video for replacing control board"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA104.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the equipment is getting ON but the display is blank.",
+		"step": 25,
+		"yes": {
+			"step": 26
+		},
+		"no": {
+			"step": 29
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video, check for any loose connection or breakage of cable from display to control board.",
+		"step": 26,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 28
+		},
+		"videos": []
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 27,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "repair or replace the display accordingly",
+		"step": 28,
+		"next": {
+			"step": 25
+		},
+		"image": ["BGAABISTA1I03", "BGAABISTA1I03_1"],
+		"videos": [{
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA102.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA106.mp4",
+			"videoName": "Video for replacing Display"
+		}, {
+			"src": "assets/videos/Abott I Stat 1/BGAABISTA104.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the technical team for further assistance through video call.",
+		"step": 29,
+		"next": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 30,
+		"submit": true
+	}]
+}

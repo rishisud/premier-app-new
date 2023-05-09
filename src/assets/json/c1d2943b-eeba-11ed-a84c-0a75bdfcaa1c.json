@@ -1,0 +1,357 @@
+{
+	"deviceName": "HUMAN -HUMAN READER HS",
+	"questions": [{
+		"question": "Confirm the Equipment with below provided image.",
+		"step": 1,
+		"yes": {
+			"step": 3
+		},
+		"no": {
+			"step": 2
+		},
+		"image": ["ERHUHUREHS"],
+		"videos": []
+	}, {
+		"question": "upload the image of the equipment, contact the technical team for recorrections and scan the bar code again",
+		"step": 2,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "confirm for any physical Damage of the Equipment",
+		"step": 3,
+		"yes": {
+			"step": 4
+		},
+		"no": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "kindly prepare the Incident / Damage and Missing Report.",
+		"step": 4,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "connect the equipment to the mains and confirm whether the equipment is getting ON.",
+		"step": 5,
+		"yes": {
+			"step": 15
+		},
+		"no": {
+			"step": 6
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the wall outlet is provided with AC voltage of 230.",
+		"step": 6,
+		"yes": {
+			"step": 8
+		},
+		"no": {
+			"step": 7
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/VIDEO REQUIRED FOR CHECKING THE WALL OUTLET.mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE WALL OUTLET"
+		}]
+	}, {
+		"question": "shift the Equipment to another place where the AC voltage of 230 is provided",
+		"step": 7,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the power cord continuity as shown in the video and confirm whether the power cord is defective",
+		"step": 8,
+		"yes": {
+			"step": 9
+		},
+		"no": {
+			"step": 10
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE..mp4",
+			"videoName": "VIDEO REQUIRED FOR CHECKING THE POWER CORD CABLE."
+		}]
+	}, {
+		"question": "then replace the power cord with the new one",
+		"step": 9,
+		"next": {
+			"step": 5
+		},
+		"videos": []
+	}, {
+		"question": "check the fuses for continuity and confirm whether they are defective.",
+		"step": 10,
+		"yes": {
+			"step": 11
+		},
+		"no": {
+			"step": 12
+		},
+		"image": ["ERHUHUREHSI001"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS01.mp4",
+			"videoName": "Video required for checking the fuses"
+		}]
+	}, {
+		"question": "replace the fuses with a new one",
+		"step": 11,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/VIDEO FOR REPLACING THE FUSES..mp4",
+			"videoName": "VIDEO FOR REPLACING THE FUSES."
+		}]
+	}, {
+		"question": "open the equipment as shown in the video. Check and confirm whether output voltages are available at SMPS.",
+		"step": 12,
+		"yes": {
+			"step": 14
+		},
+		"no": {
+			"step": 13
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS03.mp4",
+			"videoName": "Video for opening of equipment"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS04.mp4",
+			"videoName": "Video for checking the equipment"
+		}]
+	}, {
+		"question": "replace / repair the SMPS with a new one",
+		"step": 13,
+		"next": {
+			"step": 5
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS05.mp4",
+			"videoName": "Video for replacing"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace / repair the control Board",
+		"step": 14,
+		"next": {
+			"step": 5
+		},
+		"image": ["ERHUHUREHSI03"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS07.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the display is getting ON.",
+		"step": 15,
+		"yes": {
+			"step": 22
+		},
+		"no": {
+			"step": 16
+		},
+		"videos": []
+	}, {
+		"question": "open the equipment as shown in the video. Check and confirm for any loose connections or breakage of cables from display to display control board and from control board to display control board",
+		"step": 16,
+		"yes": {
+			"step": 17
+		},
+		"no": {
+			"step": 18
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS03.mp4",
+			"videoName": "Video for opening"
+		}]
+	}, {
+		"question": "reseat or replace the cable accordingly",
+		"step": 17,
+		"next": {
+			"step": 15
+		},
+		"videos": []
+	}, {
+		"question": "replace the display control board with a new one. Check and confirm whether the problem still persist.",
+		"step": 18,
+		"yes": {
+			"step": 19
+		},
+		"next": {
+			"step": 32
+		},
+		"image": ["ERHUHUREHSI04"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS08.mp4",
+			"videoName": "Video for replacing Display control board"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "cross check the display and confirm whether the display is defective.",
+		"step": 19,
+		"yes": {
+			"step": 20
+		},
+		"no": {
+			"step": 21
+		},
+		"videos": []
+	}, {
+		"question": "replace the display with a new one",
+		"step": 20,
+		"next": {
+			"step": 15
+		},
+		"image": ["ERHUHUREHSI05"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS03.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS09.mp4",
+			"videoName": "Video for replacing display"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "replace the Control Board with a new one",
+		"step": 21,
+		"next": {
+			"step": 15
+		},
+		"image": ["ERHUHUREHSI03"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS07.mp4",
+			"videoName": "Video for replacing the control board"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "check and confirm whether the lamp in the optical module is glowing",
+		"step": 22,
+		"yes": {
+			"step": 23
+		},
+		"no": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "open the cover of optical assembly. Check the continuity of the lamp and confirm whether it is defective",
+		"step": 23,
+		"yes": {
+			"step": 24
+		},
+		"no": {
+			"step": 31
+		},
+		"image": ["ERHUHUREHSI06"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS10.mp4",
+			"videoName": "Video for checking the lamp"
+		}]
+	}, {
+		"question": "replace the lamp with a new one",
+		"step": 24,
+		"next": {
+			"step": 22
+		},
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS11.mp4",
+			"videoName": "Video for replacing the lamp"
+		}]
+	}, {
+		"question": "check and confirm whether the keys on keypad are functional / working.",
+		"step": 25,
+		"yes": {
+			"step": 27
+		},
+		"no": {
+			"step": 26
+		},
+		"videos": []
+	}, {
+		"question": "open the top cover, remove the soft keypad assemble and replace it with a new one",
+		"step": 26,
+		"next": {
+			"step": 25
+		},
+		"videos": []
+	}, {
+		"question": "check and confirm whether the plate does not move properly",
+		"step": 27,
+		"yes": {
+			"step": 28
+		},
+		"no": {
+			"step": 31
+		},
+		"videos": []
+	}, {
+		"question": "check whether the motor is defective.",
+		"step": 28,
+		"yes": {
+			"step": 29
+		},
+		"no": {
+			"step": 30
+		},
+		"videos": []
+	}, {
+		"question": "replace the motor with a new one",
+		"step": 29,
+		"next": {
+			"step": 27
+		},
+		"image": ["ERHUHUREHSI07"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS12.mp4",
+			"videoName": "Video for replacing motor"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "repair / replace the driver motor board accordingly",
+		"step": 30,
+		"next": {
+			"step": 27
+		},
+		"image": ["ERHUHUREHSI08"],
+		"videos": [{
+			"src": "assets/videos/ELISA READER/ERHUHUREHS03.mp4",
+			"videoName": "Video for opening"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS13.mp4",
+			"videoName": "Video for replacing driver motor board"
+		}, {
+			"src": "assets/videos/ELISA READER/ERHUHUREHS06.mp4",
+			"videoName": "Video for closing"
+		}]
+	}, {
+		"question": "If the problem is not yet solved, contact the Technical Team for any other assistance through video call",
+		"step": 31,
+		"next": {
+			"step": 32
+		},
+		"videos": []
+	}, {
+		"question": "Thanks",
+		"step": 32,
+		"submit": true
+	}]
+}
