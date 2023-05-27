@@ -2,6 +2,15 @@
       <mat-card-header style="background-color: #26c6da;">
         <mat-card-title *ngIf="questions.length === question?.step">{{deviceName}}</mat-card-title>
         <mat-card-title *ngIf="questions.length !== question?.step">{{deviceName}} - Question {{question?.step}}?</mat-card-title>
+        <span fxFlex>
+				<button mat-icon-button *ngIf="!play"
+				(click)="playSound(question?.step)">
+					<mat-icon>play_circle_outline</mat-icon>
+				</button>
+        <button mat-icon-button *ngIf="play"
+				(click)="stopAudio()">
+					<mat-icon>stop_circle_outline</mat-icon>
+				</button></span>
       </mat-card-header>
       <mat-card-content>
         <p>

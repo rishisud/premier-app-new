@@ -34,6 +34,24 @@ export class DeviceInterrogationComponent implements OnInit {
   activeIndex = 0;
   currentVideo:any;
   data: any;
+  audio:any;
+  play=false;
+
+  playSound(step:any) {
+    this.audio = new Audio();
+    this.audio.src = 'assets/audio/'+this.device+'/'+step+'.mp3';
+    this.audio.load();
+    this.audio.play();
+    this.play=true;
+  }
+
+  stopAudio() {
+    if(this.play){
+      this.play=false;
+      this.audio.pause();
+      this.audio.currentTime = 0;
+    }
+  }
 
   videoPlayerInit(data: any) {
     this.data = data;
@@ -93,18 +111,21 @@ export class DeviceInterrogationComponent implements OnInit {
       
   }
   yesClicked():void{
+    this.stopAudio();
     this.createAnswers( this.question, 'yes');
     this.question =this.questions[this.question.yes.step-1];
     this.buttonConfig();
   }
 
   noClicked():void{
+    this.stopAudio();
     this.createAnswers( this.question, 'no')
     this.question =this.questions[this.question.no.step-1];
     this.buttonConfig();
   }
 
   nextClicked():void{
+    this.stopAudio();
     this.createAnswers( this.question, '');
     this.question =this.questions[this.question.next.step-1];
     this.buttonConfig();
@@ -116,7 +137,6 @@ export class DeviceInterrogationComponent implements OnInit {
     this.no = this.question.no !== undefined && this.question.no !== null;
     this.submit =this.question.submit;
 
-    if (this.question.videos !== null && this.question.videos !== undefined)
     if (this.question.videos !== null && this.question.videos !== undefined && this.question.videos.length > 0)
     {
         this.activeIndex =0;
@@ -128,6 +148,7 @@ export class DeviceInterrogationComponent implements OnInit {
   }
 
   backClicked():void{
+    this.stopAudio();
     this.question =this.questions.find(q=>q.step === this.answers[this.answers.length - 1].step);
     this.answers.pop();
     this.buttonConfig()
